@@ -95,7 +95,7 @@ Important:
 
 ---
 
-# WFGY 1.0 (Legacy) · Civilization Starter
+# WFGY 1.0 (Legacy) · Early Engine Sketch
 
 ![W3](https://github.com/user-attachments/assets/88043204-054c-429c-ac32-f62cdf18f27e)
 
