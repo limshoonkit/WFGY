@@ -1,246 +1,195 @@
 # Open Experiments Board
 
-This page tracks the current MVP experiment state for the Tension Universe experiment layer.
+This page is a lightweight coordination board for the Tension Universe MVP experiment layer.
 
-Its purpose is simple:
+Its purpose is practical:
 
-- show which experiment pages already exist
-- show which ones are in progress
-- show which ones are open for contribution
-- make the 131-problem field easier to expand one page at a time
+- show which Tension Universe experiment pages already exist
+- show where the current published MVP work can be reviewed
+- clarify how contributors should choose the next experiment target
+- help the 131-problem field expand one page at a time without duplicate work
 
-This board is intentionally lightweight.
+This board is intentionally operational.
 
-It is not a full formal index of all Tension Universe theory.
-It is a working board for MVP experiment pages under `TensionUniverse/Experiments/`.
+It is not a full theory index.
+It is not a fake placeholder registry.
+It is a working contribution board for real MVP pages under `TensionUniverse/Experiments/`.
 
-## How to use this board
+## What this page means
 
-If you want to contribute, the simplest workflow is:
+The Tension Universe field points toward 131 problems in total.
 
-1. find an experiment marked `Open`
-2. confirm that it maps to a valid Tension Universe problem
-3. create one structured MVP page under `TensionUniverse/Experiments/`
-4. submit a focused issue or PR
+However, this board does **not** list all 131 items up front with placeholder entries.
 
-If you want formatting rules, read:
+Instead, it does something simpler and more useful:
 
+- it shows which MVP experiments are already published
+- it points contributors to the current experiment collection
+- it makes it clear that the next clean contribution is to choose a **valid unbuilt problem** that is not already covered
+
+So the contribution logic is:
+
+- if a problem already has a published MVP page, do not duplicate it unless you are proposing a scoped extension
+- if a problem is valid and does not yet have a published MVP page, it is a candidate for the next contribution
+- if sequencing matters, the maintainer may explicitly reserve certain items later
+
+## Current published MVP set
+
+At the moment, **10 Tension Universe MVP experiments are already published**.
+
+These are the currently visible completed experiment pages:
+
+- [TU Q091](../Experiments/Q091_MVP/README.md)
+- [TU Q098](../Experiments/Q098_MVP/README.md)
+- [TU Q101](../Experiments/Q101_MVP/README.md)
+- [TU Q105](../Experiments/Q105_MVP/README.md)
+- [TU Q106](../Experiments/Q106_MVP/README.md)
+- [TU Q108](../Experiments/Q108_MVP/README.md)
+- [TU Q121](../Experiments/Q121_MVP/README.md)
+- [TU Q124](../Experiments/Q124_MVP/README.md)
+- [TU Q127](../Experiments/Q127_MVP/README.md)
+- [TU Q130](../Experiments/Q130_MVP/README.md)
+
+If you want the current published set, the cleanest place to review it is:
+
+- [Tension Universe experiment index](../Experiments/README.md)
+
+That index is the actual source of truth for what already exists.
+
+## What contributors should do next
+
+If you want to help expand the experiment layer, the rule is simple:
+
+**Do not start from the already completed items above.**
+Start from another valid Tension Universe problem that does not yet have a published MVP page.
+
+In practice, that means:
+
+1. check the published experiment index first
+2. confirm your target problem is not already covered
+3. choose a valid Tension Universe problem outside the completed set
+4. build one small, inspectable MVP page
+5. submit a focused issue or PR
+
+This keeps the board useful and prevents duplicate work.
+
+## Where to check before building
+
+Before you start, review these pages:
+
+- [Tension Universe experiment index](../Experiments/README.md)
 - [Contribution guide](./README.md)
 - [Contributor credit format](./contributor-credit-format.md)
 
-## Status definitions
+These links are enough to confirm:
 
-This board uses a small fixed set of status labels.
+- what already exists
+- how MVP pages should be structured
+- how contributor credit should be recorded
+
+## Contribution scope
+
+The expected contribution target is still small and strict.
+
+A clean MVP contribution should usually be:
+
+- one valid problem id
+- one focused experiment folder
+- one main `README.md`
+- optional notebook, screenshots, or Colab link only if they directly support the page
+
+The intended home is:
+
+`TensionUniverse/Experiments/`
+
+The preferred pattern is:
+
+`TensionUniverse/Experiments/QXXX_MVP/README.md`
+
+Here, `QXXX` is only a formatting template.
+It is **not** a real problem id by itself.
+Replace it with a valid Tension Universe problem number before creating the page.
+
+## Status model
+
+This board uses a small practical status model.
 
 - `Completed`  
-  A usable MVP page already exists in the experiment collection.
+  A visible MVP page already exists in `TensionUniverse/Experiments/`.
 
 - `In Progress`  
-  Work has started, but the MVP page or notebook is still incomplete.
+  A real experiment page is being drafted, revised, or expanded, but is not yet ready to be treated as a stable published MVP.
 
 - `Open`  
-  No stable MVP page is complete yet. This is open for contribution.
+  A valid problem has no published MVP page yet and is available for contribution.
 
 - `Reserved by Maintainer`  
-  The problem is intentionally held for internal work, sequencing, or future release planning.
+  A valid problem is intentionally held for sequencing, dependency, or release-planning reasons.
 
-These labels are used for practical coordination only. They do not imply final scientific status.
+These labels are only for coordination.
+They do not imply final scientific completion.
 
-## Standard entry format
+## Example entry format
 
-Each experiment entry on this board should follow the same compact structure.
+If this board later tracks individual items more explicitly, each entry should use a compact real-id format like this:
 
-A standard entry includes:
-
-- problem id
-- current status
-- working title
-- expected folder path
-- scope
-- difficulty
-- short claim
-- current owner state
-
-A typical entry looks like this:
-
-## TU Q000
+## TU QXXX
 
 Status: Open  
-Title: Placeholder working title  
-Path: `TensionUniverse/Experiments/Q000_MVP/README.md`  
+Title: Replace with the real working title  
+Path: `TensionUniverse/Experiments/QXXX_MVP/README.md`  
 Scope: One page MVP  
-Difficulty: Medium  
-Claim: One sentence describing what this experiment is trying to test.  
-Claimed by: Unassigned
+Difficulty: Easy / Medium / Hard  
+Claim: One sentence describing what the experiment is testing.  
+Claimed by: Unassigned / Maintainer / Contributor name
 
-This format is intentionally simple so the board can scale cleanly as more items are added.
+Important:
 
----
+`QXXX` in this example is a template token only.
+It is not a real listed Tension Universe problem unless replaced with a valid id.
 
-# Completed
+## Practical rules
 
-These entries already have a visible MVP page or a first usable implementation in the experiment layer.
-
-## TU Q091
-
-Status: Completed  
-Title: equilibrium climate sensitivity tension slices  
-Path: `TensionUniverse/Experiments/Q091_MVP/README.md`  
-Scope: MVP page with implemented Experiment A and design-stage Experiment B  
-Difficulty: Medium  
-Claim: Tests whether a model stays numerically and narratively coherent under fixed climate sensitivity reference windows.  
-Claimed by: Maintainer
-
-Notes:
-
-- first reference run documented
-- Colab notebook link included
-- screenshots and structured protocol already attached
-
----
-
-# In Progress
-
-These entries already have partial work, but the MVP page is still being developed, revised, or expanded.
-
-## TU Q000
-
-Status: In Progress  
-Title: Placeholder in-progress experiment  
-Path: `TensionUniverse/Experiments/Q000_MVP/README.md`  
-Scope: One page MVP with partial draft or planned notebook  
-Difficulty: Medium  
-Claim: Replace this line with the actual one-sentence purpose of the experiment.  
-Claimed by: Maintainer
-
-Notes:
-
-- use this section for experiments that already have a draft
-- if a notebook exists but the README is still incomplete, keep it here
-- once the page is clearly usable, move it to `Completed`
-
----
-
-# Open
-
-These entries are open for contributors who want to help expand the experiment layer.
-
-Each item should still map to a valid Tension Universe problem and should follow the MVP page format defined in the contribution guide.
-
-## TU Q001
-
-Status: Open  
-Title: Placeholder open experiment  
-Path: `TensionUniverse/Experiments/Q001_MVP/README.md`  
-Scope: One page MVP  
-Difficulty: Easy  
-Claim: Replace this with one sentence explaining the MVP experiment target.  
-Claimed by: Unassigned
-
-Notes:
-
-- recommended for a first contribution
-- keep the first version small and readable
-- AI plus Colab plus a lightweight protocol is enough
-
-## TU Q002
-
-Status: Open  
-Title: Placeholder open experiment  
-Path: `TensionUniverse/Experiments/Q002_MVP/README.md`  
-Scope: One page MVP  
-Difficulty: Medium  
-Claim: Replace this with one sentence explaining the MVP experiment target.  
-Claimed by: Unassigned
-
-Notes:
-
-- keep the scope narrow
-- one usable README is more valuable than a large unfinished theory dump
-
-## TU Q003
-
-Status: Open  
-Title: Placeholder open experiment  
-Path: `TensionUniverse/Experiments/Q003_MVP/README.md`  
-Scope: One page MVP  
-Difficulty: Hard  
-Claim: Replace this with one sentence explaining the MVP experiment target.  
-Claimed by: Unassigned
-
-Notes:
-
-- use this slot for more complex problems that may still begin as text-first experiments
-- design-level protocols are acceptable if they are clear and inspectable
-
----
-
-# Reserved by Maintainer
-
-These entries are intentionally reserved for internal sequencing, dependency reasons, or release planning.
-
-They are listed here for transparency, but they should not be treated as open contribution targets unless the board is updated later.
-
-## TU Q010
-
-Status: Reserved by Maintainer  
-Title: Placeholder reserved experiment  
-Path: `TensionUniverse/Experiments/Q010_MVP/README.md`  
-Scope: One page MVP  
-Difficulty: Medium  
-Claim: Replace this with one sentence explaining the reserved experiment target.  
-Claimed by: Maintainer
-
-Notes:
-
-- reserved for internal sequencing
-- may be opened later after dependency pages are completed
-
----
-
-# Practical contribution rules
-
-Before starting an open item, keep these rules in mind:
+Before starting a new experiment, keep these rules in mind:
 
 1. The page must map to a valid Tension Universe problem id.
-2. The contribution should stay inside the MVP experiment scope.
-3. The expected home is under `TensionUniverse/Experiments/`.
+2. Do not duplicate the already published completed set unless the work is a clearly scoped extension.
+3. Keep the contribution inside MVP experiment scope.
 4. The cleanest contribution is one folder plus one main `README.md`.
 5. Small notebooks, screenshots, and Colab links are welcome when they directly support the MVP.
-6. Large unrelated edits outside the target experiment should be avoided.
+6. Avoid large unrelated edits outside the target experiment.
 
 ## Fastest clean path
 
-If you want the fastest clean contribution path:
+If you want the fastest contribution path:
 
-1. choose one `Open` item
-2. create `TensionUniverse/Experiments/Qxxx_MVP/README.md`
-3. follow the standard MVP structure
-4. add a small notebook only if it truly helps
+1. open the published experiment index
+2. pick a valid problem that is not already completed
+3. create `TensionUniverse/Experiments/QXXX_MVP/README.md`
+4. keep the scope narrow and inspectable
 5. submit a focused PR
 
-## How this board will grow
+One real page is better than a large unfinished dump.
 
-The full Tension Universe field points toward 131 experiments.
+## How this board should grow
 
-This board does not need all 131 entries on day one.
+This board does not need 131 placeholder entries on day one.
 
-It can grow gradually.
+A cleaner long-term pattern is:
 
-A practical maintenance pattern is:
+- keep the published experiment index updated as real pages are added
+- use this board to clarify current contribution logic
+- add explicit `In Progress` or `Reserved` entries only when they refer to real problem ids
+- continue opening new ground by building valid unclaimed problems outside the completed set
 
-- add real completed entries when a usable page exists
-- move partial drafts into `In Progress`
-- open small batches of new items over time
-- reserve selected items when sequencing matters
-
-That keeps the board readable while still making the larger direction visible.
+That keeps the page readable, accurate, and useful.
 
 ## If you want to start now
 
-Start with the `Open` section.
+Start by checking the completed set first.
 
-Pick one problem.
-Keep the scope narrow.
-Build one inspectable MVP page.
-That is enough to create real forward motion in the experiment field.
+If your target is already listed, pick another valid problem.
+
+If your target is not yet built, keep the scope small, make one inspectable MVP page, and open a focused PR.
+
+That is the cleanest way to expand the Tension Universe experiment layer.
