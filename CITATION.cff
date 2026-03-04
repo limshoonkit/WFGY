@@ -1,13 +1,19 @@
 cff-version: 1.2.0
-title: "WFGY: A Reasoning Stress Test Framework for Large Language Models"
+message: "If you use this work, please cite it."
+title: "WFGY"
+type: software
 authors:
   - name: "PSBigBig"
-version: "3.0"
-date-released: "2026-02-09"
+    alias: "onestardao"
+repository-code: "https://github.com/onestardao/WFGY"
 url: "https://github.com/onestardao/WFGY"
-license: "MIT"
+license: MIT
 keywords:
+  - "RAG"
   - "LLM"
-  - "reasoning"
+  - "retrieval-augmented generation"
+  - "debugging"
+  - "troubleshooting"
   - "evaluation"
-  - "stress test"
+  - "knowledge graph"
+  - "reasoning"
