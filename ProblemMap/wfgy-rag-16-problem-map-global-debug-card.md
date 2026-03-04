@@ -127,8 +127,8 @@ Expected output:
 
 ---
 
-📥 Download the original full-resolution image directly from this repository.
-If this helps you, feel free to leave a ⭐ on GitHub.
+📥 Download the original full-resolution image directly from this repository.  
+If this helps you, feel free to leave a ⭐ on GitHub. [![GitHub Repo stars](https://img.shields.io/github/stars/onestardao/WFGY?style=social)](https://github.com/onestardao/WFGY)
 
 ---
 
