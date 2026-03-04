@@ -78,7 +78,7 @@ Important:
 | Layer         | Page                                                                                                        | What it’s for                                           |
 | ------------- | ----------------------------------------------------------------------------------------------------------- | ------------------------------------------------------- |
 | ⭐ Proof      | [WFGY Recognition Map](https://github.com/onestardao/WFGY/blob/main/recognition/README.md)                 | External citations, integrations, and ecosystem proof   |
-| ⚙️ Engine     | [WFGY 1.0](https://github.com/onestardao/WFGY/blob/main/legacy/README.md)                                   | Original PDF-based tension engine blue   |
+| ⚙️ Engine     | [WFGY 1.0](https://github.com/onestardao/WFGY/blob/main/legacy/README.md)                                   | Original PDF based tension engine and early logic sketch. Legacy reference only.   |
 | ⚙️ Engine     | [WFGY 2.0](https://github.com/onestardao/WFGY/blob/main/core/README.md)                                     | Production tension kernel and math engine for RAG and agents. |
 | ⚙️ Engine     | [WFGY 3.0](https://github.com/onestardao/WFGY/blob/main/TensionUniverse/EventHorizon/README.md)             | TXT-based Singularity tension engine (131 S-class set)  |
 | 🗺️ Map       | [Problem Map 1.0](https://github.com/onestardao/WFGY/tree/main/ProblemMap#readme)                           | Flagship 16-problem RAG failure checklist and fix map       |
@@ -91,9 +91,7 @@ Important:
 | 🧰 App        | [Blah Blah Blah](https://github.com/onestardao/WFGY/blob/main/OS/BlahBlahBlah/README.md)                    | Abstract/paradox Q&A (built on TXT OS)   — **🔴 YOU ARE HERE 🔴**                |
 | 🧰 App        | [Blur Blur Blur](https://github.com/onestardao/WFGY/blob/main/OS/BlurBlurBlur/README.md)                    | Text-to-image with semantic control                     |
 | 🧰 App        | [Blow Blow Blow](https://github.com/onestardao/WFGY/blob/main/OS/BlowBlowBlow/README.md)                    | Reasoning game engine & memory demo                     |
-| 🧪 Research   | [Semantic Blueprint](https://github.com/onestardao/WFGY/blob/main/SemanticBlueprint/README.md)              | Modular layer structures (future)                       |
-| 🧪 Research   | [Benchmarks](https://github.com/onestardao/WFGY/blob/main/benchmarks/benchmark-vs-gpt5/README.md)           | Comparisons & how to reproduce                          |
-| 🧪 Research   | [Value Manifest](https://github.com/onestardao/WFGY/blob/main/value_manifest/README.md)                     | Why this engine creates $-scale value                   |
+
 
 ---
 </details>
