@@ -97,7 +97,7 @@ Important:
 </details>
 
 <details>
-<summary><strong> 1️⃣ This is the 1M reasoning engine everyone’s been whispering about. Curious why? (Click for a quick tour)</strong></summary>
+<summary><strong> 1️⃣ Quick tour — how TXT-Blah Blah Blah sits on top of WFGY (engine → TXT OS → app)</strong></summary>
 
 <br>
 
@@ -132,7 +132,7 @@ Important:
 ──────────────────────────────────────────────── -->
 
 <details>
-<summary><strong>2️⃣ +42% Reasoning Boost — Real or Hype? (Click to expand for proof + 16 solved AI problems)</strong></summary>
+<summary><strong>2️⃣ +42% Reasoning Boost — Real or Hype? (Click to expand for proof + 16 recurring AI problems)</strong></summary>
 
 > #### ⚡ Key Metrics  
 > _Metrics are reported in the WFGY 1.0 paper and come from small internal experiments with GPT-4 on GSM8K and Multi-QA (see full breakdown below). They are intended to be reproducible with the provided `.txt` and settings, but they are not peer-reviewed and may not generalise to other models, tasks, or infrastructures._
@@ -192,14 +192,14 @@ Important:
 >  
 > 👑 *Already starred by top engineers and OSS founders — [See the Hall of Fame](https://github.com/onestardao/WFGY/tree/main/stargazers)*  
 >  
-> - ✅ **Pure text file.** No signup. No API keys. Nothing to install.  
+> - ✅ **Pure text file.** No extra SDK or install, just paste into any LLM you already use.  
 > - ✅ **One question, 50+ answers on tap.** Logic storms, creative chaos, and philosophical recursion.  
-> - ✅ **Runs offline like a spell scroll.** No tokens, tracking, or APIs — just your LLM + `.txt`.  
-> - ✅ **Not prompt engineering. Not fine-tuning.** It is designed to influence how your AI thinks from inside the embedding space.  
-> - ✅ **Semantic Tree built-in.** Enables long-form reasoning and traceable logic paths.  
-> - ✅ **Boundary-aware by design.** Tries to detect unknowns early and often stops or asks for clarification instead of pushing confident hallucinations.  
-> - ✅ **WFGY engine inside.** Includes a full symbolic reasoning core for logic, code, or recursive play.  
-> - ✅ **Made for experimentation.** Swap questions, layer prompts, test chains — all inside plain text.
+> - ✅ **Runs like a spell scroll.** Local models can run it fully offline; hosted LLMs treat it like a normal prompt.  
+> - ✅ **Not prompt engineering. Not fine-tuning.** Built to shift reasoning from inside the embedding space.  
+> - ✅ **Semantic Tree built-in.** For long-form reasoning and traceable logic paths.  
+> - ✅ **Boundary-aware by design.** Tries to flag unknowns early and prefers stopping or asking instead of bluffing.  
+> - ✅ **WFGY engine inside.** Symbolic reasoning core for logic, code, and recursive play.  
+> - ✅ **Made for experimentation.** Swap questions, layer prompts, test chains, all inside plain text.  
 >
 
 ---  
