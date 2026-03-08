@@ -50,38 +50,46 @@ Important:
 ---
 </details>
 
-## 🌐 WFGY Recognition Map · RAG & Agent Ecosystem
+## WFGY Recognition Map · RAG & Agent Ecosystem
 
-A verified record of public citations and integrations of WFGY ProblemMap across the RAG and agent ecosystem.
+Canonical public record of integrations, citations, mentions, and ecosystem proof around WFGY.  
 > Last updated: 2026-03-08 · Manually maintained.
 
+Short summary pages:
+- [ADOPTERS.md](../ADOPTERS.md) · concise public adoption summary for evaluators and potential collaborators
+- [WORK_WITH_WFGY.md](../WORK_WITH_WFGY.md) · collaboration paths, sponsorship, and contributor entry points
+
 <details>
-<summary>ℹ️ About this recognition list</summary>
+<summary>About this recognition list</summary>
 
 >
-> This page is the central record of third-party integrations, citations, mentions, and curated-list inclusions related to WFGY.  
+> This page is the **canonical public record** of third-party integrations, citations, mentions, and curated-list inclusions related to WFGY.  
+>  
+> If you want the **short version** for fast evaluation, see [ADOPTERS.md](../ADOPTERS.md).  
+> If you want the **full ecosystem log**, stay on this page.  
 >  
 > At the current stage, most external recognition is tied to the **WFGY ProblemMap line**, especially the **RAG 16 Problem Map / 16-problem failure checklist**. That is the part most commonly adopted, cited, or adapted by other repositories, docs, and discussions.  
 >  
-> This does not mean that every external project on this page is using the full WFGY product series, or every WFGY module equally. In most cases, the recognized entry point is the **ProblemMap-style diagnostic framework** for RAG, LLM robustness, and reliability workflows.  
+> This does **not** mean that every external project on this page is using the full WFGY ecosystem, or every WFGY module equally. In most cases, the recognized entry point is the **ProblemMap-style diagnostic framework** for RAG, LLM robustness, and reliability workflows.  
 >  
 > A smaller portion of entries also references **WFGY 3.0 / Singularity Demo** and related stress-test material. Since this is still a transition period, they are kept together in one list for simplicity.  
 >  
-> This page exists to keep recognition in one place, reduce duplication across other docs, and make future updates easier to maintain.  
+> This page exists to keep ecosystem recognition in one place, reduce duplication across other docs, and make future updates easier to maintain.  
 >  
-> If your repository, article, benchmark, documentation page, or discussion has included WFGY, you are welcome to:  
-> - open a PR  
-> - open an issue  
-> - fork and reference this list  
-> - suggest missing entries or proof links  
+> If your repository, article, benchmark, documentation page, or discussion has included WFGY, you are welcome to:
+> - open a PR
+> - open an issue
+> - fork and reference this list
+> - suggest missing entries or proof links
 >  
 > Contributions are welcome. If you have cited, integrated, adapted, or discussed WFGY in a public resource, feel free to add it here.  
 >  
-> ### 📌 Scope note  
-> For accuracy and transparency:  
-> - The majority of entries below are about the **WFGY ProblemMap / RAG 16 Problem Map** line  
-> - Some entries mention broader **WFGY 3.0** materials  
-> - This list should be read as a **recognition log**, not as a claim that all listed projects adopted the full WFGY ecosystem  
+> ### Scope note
+> For accuracy and transparency:
+> - the majority of entries below are about the **WFGY ProblemMap / RAG 16 Problem Map** line
+> - some entries mention broader **WFGY 3.0** materials
+> - this list should be read as a **recognition log and ecosystem proof record**, not as a claim that all listed projects adopted the full WFGY ecosystem
+> - this page is the **source-of-truth ledger**, while [ADOPTERS.md](../ADOPTERS.md) is the shorter summary layer
 
 </details>
 
