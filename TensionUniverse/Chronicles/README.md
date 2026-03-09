@@ -46,8 +46,6 @@ This way:
 
 * **Story (EN)** – [`TU-CH01_TensionHistorian__story_en.md`](./TU-CH01_TensionHistorian__story_en.md)
 * **Story (ZH)** – [`TU-CH01_TensionHistorian__story_zh.md`](./TU-CH01_TensionHistorian__story_zh.md)
-* **Science (EN)** – planned (`TU-CH01_TensionHistorian__science_en.md`)
-* **FAQ (EN)** – planned (`TU-CH01_TensionHistorian__faq_en.md`)
 
 ---
 
