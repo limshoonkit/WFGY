@@ -16,10 +16,14 @@ Important:
 
 # WFGY 1.0 Research Papers Index
 
-Last reviewed: 2026-03-04
+Last reviewed: 2026-03-10
 
 This folder hosts the public PDFs for WFGY 1.0 and a small set of companion research papers.
 It is intentionally kept in place for link stability because some external references already point to these files.
+
+Note: The internal version number of the main WFGY paper has been updated to **WFGY 1.0.2** in the document itself.  
+However, the file name remains **WFGY_v1.0.pdf** because a number of external references already point to the original file path.  
+To avoid breaking existing links, the filename has been preserved even though the document version has been incremented.
 
 ## Research status notice
 
@@ -33,18 +37,19 @@ If a paper proposes experiments, the correct interpretation is that they are pro
 
 ## What you will find here
 
-- WFGY 1.0 main paper PDF
+- WFGY 1.0 main paper PDF (document version 1.0.2)
 - Companion paper PDFs under `papers/`
 - Optional AI review artifacts under `scispace_reviews/`
 - Prompt collections under `wfgy_prompts/`
 
-Note: Several papers include a figshare DOI on the first page, for example the fifth force paper lists a figshare DOI for citation. :contentReference[oaicite:0]{index=0}
+Note: Several papers include a figshare DOI on the first page.  
+For example, the fifth force paper lists a figshare DOI for citation.
 
 ## Primary PDFs
 
 | Item | GitHub PDF link | Notes |
 | --- | --- | --- |
-| WFGY 1.0 main paper | [Download](https://github.com/onestardao/WFGY/blob/main/I_am_not_lizardman/WFGY_1.0.pdf) | Theoretical overview and framework description. The PDF itself includes citation DOI information. :contentReference[oaicite:1]{index=1} |
+| WFGY 1.0 main paper | [Download](https://github.com/onestardao/WFGY/blob/main/I_am_not_lizardman/WFGY_1.0.pdf) | Theoretical overview and framework description. The document version inside the PDF is **WFGY 1.0.2**, but the filename remains `WFGY_1.0.pdf` to preserve external links. The PDF itself includes citation DOI information. |
 | WFGY All Principles Return to One | [Download](https://github.com/onestardao/WFGY/blob/main/I_am_not_lizardman/WFGY_All_Principles_Return_to_One_v1.0_PSBigBig_Public.pdf) | Companion primary text for WFGY 1.0 materials. |
 
 ## Companion papers
@@ -77,7 +82,6 @@ I_am_not_lizardman/
 ├── papers/
 ├── scispace_reviews/
 ├── wfgy_prompts/
-├── Prompt_Revolution_WFGY_v1.0.4.pdf
 └── README.md
 ````
 
