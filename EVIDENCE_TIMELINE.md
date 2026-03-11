@@ -60,7 +60,7 @@ It combines three kinds of milestones:
    when a core module, map, framework, or teaching surface became public
 
 2. **Public ecosystem milestones**  
-   when an external project, survey, or tool publicly integrated, cited, or adapted WFGY
+   when an external project, survey, or tool publicly integrated, cited, adapted, or reused WFGY ideas
 
 3. **Packaging milestones**  
    when WFGY itself became easier to audit, route, reuse, or evaluate from the outside
@@ -241,7 +241,7 @@ Internal milestone
 
 **Why this matters**  
 This is a major packaging milestone.  
-It compressed the WFGY diagnostic line into a faster, more shareable, more reusable format across platforms and models.
+It compressed the WFGY diagnostic line into a faster, more shareable, and more reusable format across platforms and models.
 
 **Related layer**  
 This milestone connects naturally to [CASE_EVIDENCE](./CASE_EVIDENCE.md), [ADOPTERS](./ADOPTERS.md), and the future-facing collaboration surface in [Work with WFGY](./WORK_WITH_WFGY.md).
@@ -351,6 +351,49 @@ What it does is make the accumulated evidence auditable, legible, and much easie
 **Related layer**  
 This stage naturally leads into [Pilot Offer One-Pager](./PILOT_OFFER_ONE_PAGER.md) and [Sample Deliverable](./SAMPLE_DELIVERABLE.md), where public proof can later connect to a more structured collaboration surface.
 
+### 2026/03/09 · DeepAgent and awesome-ai-ml-dl widen the post-RAG signal
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+[DeepAgent PR #15](https://github.com/RUC-NLPIR/DeepAgent/pull/15#issuecomment-4020600680) merged a compact multi-tool agent failure modes troubleshooting note inspired by WFGY-style debugging concepts.  
+[awesome-ai-ml-dl PR #163](https://github.com/neomatrix369/awesome-ai-ml-dl/pull/163) added the WFGY Problem Map under Testing & Quality as a structured troubleshooting resource.
+
+**Why this matters**  
+This date matters because the signal widened in two different directions at once.  
+One direction was deeper agent-workflow diagnosis in an academic research setting.  
+The other was broader discoverability through a curated AI and machine learning resource list.
+
+Together, these events suggest that WFGY had become legible not only as a RAG debugging checklist, but also as a reusable troubleshooting concept and a recognizable public reference.
+
+### 2026/03/10 · Awesome-LLM-RAG-Application strengthens discoverability in the RAG tool layer
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+[Awesome-LLM-RAG-Application PR #9](https://github.com/lizhe2004/Awesome-LLM-RAG-Application/pull/9) added the WFGY RAG troubleshooting checklist into a curated list of LLM and RAG frameworks and tools.
+
+**Why this matters**  
+This matters because it improves discoverability exactly where many developers look for practical tooling references.  
+It reinforces the idea that the WFGY Problem Map is not only interpretable inside documentation, but also legible as a standalone troubleshooting resource in the wider RAG ecosystem.
+
+### 2026/03/11 · everything-claude-code shows community-level troubleshooting adoption
+
+**Track**  
+Public ecosystem milestone
+
+**What became public**  
+[everything-claude-code PR #373](https://github.com/affaan-m/everything-claude-code/pull/373) merged a comprehensive troubleshooting guide that also **fixes #326**, the earlier issue where the original structured troubleshooting proposal was introduced.
+
+**Why this matters**  
+This is an important signal for a different reason than a direct WFGY listing.  
+It suggests that WFGY-style structured troubleshooting ideas were legible enough to influence how a much larger developer-facing repository organized memory, context, and agent workflow debugging.
+
+This is weaker evidence than a direct named integration.  
+But it is still meaningful as a public ecosystem signal because it shows concept-level adoption in a large and highly visible repository.
+
 [Back to top](#top)
 
 ---
@@ -373,6 +416,9 @@ That is the part that became easiest for outside projects to understand, adapt, 
 
 At the same time, this timeline also shows that WFGY is broader than that wedge alone.  
 The wider stack has been built in parallel, even if public proof is currently strongest on the diagnostic side.
+
+It also shows that external legibility now spans more than one channel.  
+The signal appears through direct documentation integration, tool wrapping, academic references, curated list inclusion, and concept-level troubleshooting adoption.
 
 ## Safest reading
 
@@ -427,5 +473,5 @@ Structure and reference:
 
 ---
 
-Last updated: 2026/03/08  
+Last updated: 2026/03/11  
 Maintained manually.
