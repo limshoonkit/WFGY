@@ -10,8 +10,8 @@ How to use this file:
 3. Use this file to understand:
    - what belongs in shared
    - what does not belong in shared
-   - how replay mode and live rerun mode should share logic
-   - how helper code should remain small, clear, and auditable
+   - how replay-first notebooks should share logic
+   - why the first MVP keeps helper code small, explicit, and auditable
 4. Read together with:
    - [Flagship Runnable Demo Pack](../README.md)
    - [Family Fix Surface v1](../../family-fix-surface-v1.md)
@@ -20,7 +20,7 @@ How to use this file:
 What this file is:
 - The main index for shared demo helpers
 - The discipline page for reusable demo support assets
-- The rulebook for keeping demo code small and clear
+- The rulebook for keeping official demo code small and clear
 
 What this file is not:
 - Not the atlas core
@@ -65,22 +65,58 @@ The official flagship demos are meant to be:
 - sharp
 - readable
 - replay-friendly
-- optionally runnable
+- optionally runnable where it adds real proof value
 - easy to extend later
 
-If every notebook repeats the same helper logic, the code becomes noisy very quickly.
+If every notebook repeats the same support logic, the code becomes noisy very quickly.
 
 So this shared folder exists to hold only the support pieces that are:
 
 - small
 - generic enough to reuse
-- stable across demos
+- stable across multiple official demos
 - not part of the main teaching story
 
 In short:
 
 > demo-specific teaching stays inside each demo folder  
 > reusable support logic lives here
+
+---
+
+## Current MVP reality
+
+The current flagship demo pack is **replay-first by design**.
+
+At the moment:
+
+- **Demo 1** includes a live notebook because live comparison adds direct proof value
+- **Demo 2** is replay-only in the first MVP
+- **Demo 3** is replay-only in the first MVP
+- **Demo 4** is replay-only in the first MVP
+
+This matters because shared helpers should reflect the real teaching center of the pack.
+
+### What this means in practice
+
+The first version of `shared/` should primarily support:
+
+- replay fixture loading
+- compact route display
+- before / after formatting
+- consistent notebook labels
+- small, explicit mode handling
+
+It should **not** assume that all demos are evolving toward a heavy live runtime layer.
+
+### Honest design rule
+
+Use shared helpers to support the strongest current teaching mode.
+
+Right now, that means:
+
+> replay-first support is the default  
+> live support remains small and optional
 
 ---
 
@@ -119,16 +155,16 @@ These should remain minimal and explicit.
 
 ---
 
-### 3. Shared run-time helpers
+### 3. Small mode helpers
 
-These are small functions used in optional live rerun mode.
+These are small helpers for handling the notebook execution mode safely and clearly.
 
 Examples:
 
-- runtime API key intake helper
-- prompt loading helper
-- small request wrapper
-- safe mode switch between replay and live mode
+- replay mode defaults
+- optional live mode switch
+- minimal API key intake helper for the one live notebook
+- small prompt loading helper if clearly reused
 
 These helpers should only support the demos.
 They should not become a full execution framework.
@@ -153,7 +189,7 @@ These should reduce duplication, not add abstraction for its own sake.
 
 ### 5. Tiny documentation references
 
-If needed, this folder may hold small reference notes that are clearly reusable across all four demos.
+If needed, this folder may hold small reference notes that are clearly reusable across the official demos.
 
 Examples:
 
@@ -222,7 +258,7 @@ It should **not** contain:
 
 If a helper is really only used by one demo, it probably belongs in that demo folder, not here.
 
-The shared folder is for genuinely reusable support, not for lazily centralizing unrelated code.
+The shared folder is for genuinely reusable support, not for lazily centralizing unrelated logic.
 
 ---
 
@@ -232,7 +268,7 @@ This folder is part of the **official flagship demo pack**.
 
 Community utilities, experiments, or alternate demo helpers should live under the community side, not here.
 
-See [Community Fix Lab](../../community/README.md) for that path.
+See [Community Fix Lab](../../../community/README.md) for that path.
 
 ---
 
@@ -272,7 +308,7 @@ If the folder starts to feel like a black box, it has already gone too far.
 
 ---
 
-## Relationship to replay mode and live rerun mode
+## Relationship to replay mode and live mode
 
 This folder supports both modes, but the balance matters.
 
@@ -287,13 +323,13 @@ Shared helpers should support replay mode through:
 - readable comparison display
 - compact route summaries
 
-### Live rerun mode
+### Live mode
 
-Live rerun mode is optional.
+Live mode is currently secondary in the official MVP pack.
 
-Shared helpers may support live rerun through:
+Shared helpers may support live mode through:
 
-- API key intake
+- minimal API key intake
 - small request helpers
 - prompt loading
 - response normalization
@@ -303,9 +339,9 @@ But live mode must never force the whole folder to become heavy.
 ### Golden rule
 
 > replay mode should remain first-class  
-> live rerun mode should remain optional
+> live mode should remain optional
 
-That rule should stay visible in every shared helper decision.
+That rule should stay visible in every shared-helper decision.
 
 ---
 
@@ -334,22 +370,9 @@ Recommended purpose:
 - file loading
 - compact output formatting
 - simple route rendering
-- replay / live mode switch helpers
+- small replay / live mode switch helpers
 
 This file should remain small.
-
----
-
-### `display_helpers.py`
-
-Recommended purpose:
-
-- before / after result formatting
-- route card formatting
-- compact comparison helpers
-- notebook display cleanup
-
-If this file is not needed, do not create it just for symmetry.
 
 ---
 
@@ -361,13 +384,28 @@ Recommended purpose:
 - explain what each output field means
 - keep naming consistent across demos
 
-This is especially useful if multiple notebooks begin to share a common display structure.
+This is especially useful now that the four flagship demos are being aligned more tightly.
 
 ---
 
-### Optional tiny reference files
+### Optional files
 
-Only add these if they clearly reduce duplication:
+Only add these if they clearly reduce duplication.
+
+#### `display_helpers.py`
+
+Recommended purpose:
+
+- before / after result formatting
+- route card formatting
+- compact comparison helpers
+- notebook display cleanup
+
+If this file is not needed, do not create it just for symmetry.
+
+#### tiny reference notes
+
+Examples:
 
 - JSON field guide
 - notebook field guide
@@ -399,7 +437,9 @@ Prefer names like:
 
 - `load_input_case`
 - `load_replay_outputs`
+- `load_expected_output`
 - `format_route_summary`
+- `format_before_after`
 
 Avoid vague names like:
 
@@ -505,7 +545,7 @@ That is enough.
 
 ## One-line version
 
-**This folder contains the small, reusable support layer that keeps the official flagship demos readable, replay-friendly, and easy to audit.**
+**This folder contains the small, reusable support layer that keeps the official flagship demos readable, replay-first, and easy to audit.**
 
 ---
 
