@@ -6,23 +6,23 @@ This file is the official entry point for the first flagship runnable demo pack 
 
 How to use this file:
 1. Read this file first before opening any individual demo folder.
-2. Treat this page as the overview for what the demo pack proves, how it is organized, and how to use replay mode vs live rerun mode.
+2. Treat this page as the overview for what the demo pack proves, how it is organized, and how to use replay mode vs live mode.
 3. Use this file to understand why these four demos were selected as the first flagship set.
 4. For atlas structure, read:
-   [Atlas Final Freeze v1](../../atlas-final-freeze-v1.md)
+   [Atlas Final Freeze v1](../../../atlas-final-freeze-v1.md)
 5. For teaching cases, read:
-   [Canonical Casebook v1](../../canonical-casebook-v1.md)
+   [Canonical Casebook v1](../../../canonical-casebook-v1.md)
 6. For AI-facing routing logic, read:
-   [Atlas-to-AI Adapter v1](../../atlas-to-ai-adapter-v1.md)
+   [Atlas-to-AI Adapter v1](../../../atlas-to-ai-adapter-v1.md)
 7. For official fix logic, read:
-   [Family Fix Surface v1](../family-fix-surface-v1.md)
-   [Atlas to WFGY Bridge v1](../atlas-to-wfgy-bridge-v1.md)
-   [Misrepair Patterns v1](../misrepair-patterns-v1.md)
+   [Family Fix Surface v1](../../family-fix-surface-v1.md)
+   [Atlas to WFGY Bridge v1](../../atlas-to-wfgy-bridge-v1.md)
+   [Misrepair Patterns v1](../../misrepair-patterns-v1.md)
 
 What this file is:
 - The main index for the first flagship demo pack
 - The explanation page for why these demos matter
-- The usage guide for replay mode and live rerun mode
+- The usage guide for replay mode and live mode
 - The bridge between atlas theory and runnable proof-of-use
 
 What this file is not:
@@ -106,7 +106,7 @@ The purpose is to show a minimal but convincing pattern:
 
 That is enough to make the system feel real.
 
-### 4. Community growth should be easy after the flagship set exists
+### 4. Community growth becomes much easier once the flagship set exists
 
 These four demos are also templates.
 
@@ -166,7 +166,7 @@ That gives the system real architectural weight.
 
 ### F7 gives the atlas its sharpest identity
 
-This is one of the most distinctive parts of the whole map.
+This is one of the most distinctive cuts in the whole map.
 
 It shows that some failures are not reasoning-first or grounding-first.
 
@@ -313,15 +313,15 @@ Sometimes it fails because the box carrying the thinking is already broken.
 
 ## Demo modes
 
-Each flagship demo should support up to three usage modes.
+The flagship pack currently uses two practical modes.
 
 ### Mode A · Replay mode
 
-This is the safest and easiest mode.
+This is the default and most important public mode.
 
-It should work without any API key.
+It works without any API key.
 
-The user can read:
+The user can inspect:
 
 - the case
 - the baseline
@@ -330,19 +330,13 @@ The user can read:
 - the replayed before / after outputs
 - the explanation of what changed
 
-This mode is the most important one for public understanding.
-
 A person should be able to understand the demo even without running anything.
 
-### Mode B · Live rerun mode
+### Mode B · Live reproduction mode
 
-This is the optional execution mode.
+This is optional and only used when live execution adds real value.
 
-It may use an API key, but only at run time.
-
-The notebook should never store a secret in the repository.
-
-If live rerun exists, it should be clearly marked as:
+If it exists, it should be clearly treated as:
 
 - optional
 - for reproduction
@@ -366,9 +360,88 @@ This is how the long tail grows.
 
 ---
 
+## Why only Demo 1 has live mode in the first MVP
+
+This point matters and should be explicit.
+
+In the first MVP release:
+
+- **Demo 1** includes a live notebook
+- **Demo 2, Demo 3, and Demo 4** are intentionally **replay-only**
+
+This is not because the other demos are weaker.
+
+It is because the first thing they need to prove is different.
+
+### Why Demo 1 gets live mode first
+
+Demo 1 is the cleanest place to show a real before / after answer shift.
+
+Its teaching value becomes stronger when a reader can see:
+
+- baseline answer
+- repaired answer
+- anchor correction
+- result movement
+
+That makes live reproduction especially worthwhile.
+
+### Why Demo 2 stays replay-only in the first MVP
+
+Demo 2 is about **failure-path visibility**.
+
+Its first teaching job is not to show a model being more impressive.
+Its first teaching job is to show that:
+
+> the system was too opaque to diagnose safely  
+> and the first repair move was visibility uplift
+
+Replay mode is already enough to teach that clearly.
+
+### Why Demo 3 stays replay-only in the first MVP
+
+Demo 3 is about **execution skeleton closure**.
+
+Its teaching center is:
+
+- readiness
+- ordering
+- bridge integrity
+- closure
+
+These are structural logic shifts, not model-performance showpieces.
+
+Replay mode is the cleanest and most honest way to teach that in the first release.
+
+### Why Demo 4 stays replay-only in the first MVP
+
+Demo 4 is about **container fidelity**.
+
+Its first teaching job is to make one thing visible:
+
+> the form was already failing before deeper reasoning could stabilize
+
+This is mostly a structure-comparison demo, not a live-performance demo.
+
+Replay mode is enough for the first public proof.
+
+### The honest design rule
+
+The first MVP should choose the mode that best teaches the pattern.
+
+That means:
+
+- use live mode where live comparison adds real proof value
+- use replay mode where replay is clearer, safer, and more honest
+
+This is not a shortcut.
+It is a deliberate teaching design.
+
+---
+
 ## API key policy 🔐
 
-Some live rerun notebooks may require an API key.
+Some live notebooks may require an API key.
 
 If so, the policy is simple:
 
@@ -405,7 +478,7 @@ Each flagship demo folder should contain the following.
 - notebook file
 - optional prompt file
 - optional lightweight helper reference
-- optional screenshot or output snapshot if the replay is easier to inspect that way
+- optional screenshot or output snapshot if replay is easier to inspect that way
 
 ### Shared support
 
@@ -433,12 +506,10 @@ Each demo folder README should follow a stable structure.
 5. first repair move
 6. optional WFGY 3.0 escalation
 7. replay mode
-8. live rerun mode
-9. API key note
-10. files in this folder
-11. expected outcome
-12. limits of this demo
-13. community extension ideas
+8. files in this folder
+9. expected outcome
+10. limits of this demo
+11. community extension ideas
 
 This is important because many readers will understand the system from the README alone, without opening the notebook.
 
@@ -551,10 +622,10 @@ If you are new, use this order:
 1. [Problem Map 3.0 Troubleshooting Atlas](../../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
 2. [Atlas Hub](../../../README.md)
 3. [Atlas Final Freeze v1](../../../atlas-final-freeze-v1.md)
-4. [Family Fix Surface v1](../family-fix-surface-v1.md)
+4. [Family Fix Surface v1](../../family-fix-surface-v1.md)
 5. this demo pack
 6. individual demo folders
-7. optional deeper bridge through [Atlas to WFGY Bridge v1](../atlas-to-wfgy-bridge-v1.md)
+7. optional deeper bridge through [Atlas to WFGY Bridge v1](../../atlas-to-wfgy-bridge-v1.md)
 
 ---
 
