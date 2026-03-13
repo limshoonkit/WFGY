@@ -126,6 +126,7 @@ It exists only as a future-facing shadow layer for:
 - advanced repair reports
 - deeper custom troubleshooting
 - more specialized service-oriented workflows
+- early structured auto-repair planning
 
 This layer should not dominate the current public presentation.
 For now, the priority remains:
@@ -148,7 +149,7 @@ That means:
 2. identify the broken invariant
 3. identify the best current fit
 4. only then choose the first repair direction
-5. if deeper work is needed, bridge into WFGY 3.0 or community implementation packs
+5. if deeper work is needed, bridge into WFGY 3.0, community implementation packs, or structured planning layers
 
 This order matters because many wrong fixes start from wrong routing.
 
@@ -253,6 +254,24 @@ This layer exists to keep community contributions structured instead of chaotic.
 
 ---
 
+### Advanced repair layer 🤖
+
+- [Auto Repair v1](./auto-repair/README.md)
+
+This is an early structured planning layer for deeper repair work.
+
+It should currently be read as:
+
+- architecture-first
+- planning-oriented
+- validation-aware
+- rollback-aware
+- not yet a full autonomous repair system
+
+It exists to push the fix ecosystem forward without pretending that every case already supports safe full auto-repair.
+
+---
+
 ## What belongs in Official Fixes ✅
 
 Official Fixes should only include things that are stable enough to be treated as public atlas-facing repair guidance.
@@ -328,6 +347,10 @@ Do not dump random Colab notebooks, JSON files, or prompt packs into the root wi
 Do not turn the public fix layer into a premature sales page.
 The public value comes first.
 
+### 6. Confusing early auto-repair planning with full autonomous repair
+
+Do not present planning-layer work as if the system already supports safe universal autonomous repair.
+
 ---
 
 ## Recommended reading order 📚
@@ -341,6 +364,10 @@ If you want to understand the full fix flow in the right order, read:
 5. [Atlas to WFGY Bridge v1](./official/atlas-to-wfgy-bridge-v1.md)
 
 If you want runnable or implementation-oriented materials after that, move into the community layer.
+
+If you want to explore structured future-facing repair planning after that, move into:
+
+6. [Auto Repair v1](./auto-repair/README.md)
 
 ---
 
@@ -371,7 +398,7 @@ If the case needs deeper exploration:
 
 - use the atlas-to-WFGY bridge
 - use a community implementation pack
-- or move into a more experimental layer
+- or move into a more experimental planning layer
 
 This keeps the system clean:
 
@@ -392,7 +419,7 @@ With a fix layer, the atlas becomes much more powerful:
 - it can teach first repair moves
 - it can connect to deeper reasoning engines
 - it can grow through community implementations
-- it can support future paid advanced work without damaging the public free core
+- it can support future advanced layers without damaging the public free core
 
 That is why this folder matters so much.
 
@@ -423,11 +450,13 @@ The center of this folder remains:
 > deeper bridge second  
 > community extension third
 
+Structured auto-repair planning may grow inside that broader future-facing layer, but it should not erase the current route-first discipline.
+
 ---
 
 ## One-line status
 
-**This folder is the repair-facing extension layer of the Atlas system, combining official first repair guidance, deeper WFGY bridge logic, and community-contributed implementation paths.**
+**This folder is the repair-facing extension layer of the Atlas system, combining official first repair guidance, deeper WFGY bridge logic, community-contributed implementation paths, and an early structured auto-repair planning direction.**
 
 ---
 
