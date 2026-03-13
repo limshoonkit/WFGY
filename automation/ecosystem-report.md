@@ -1,11 +1,11 @@
 # WFGY Ecosystem Scan
 
-Generated at: Wed Mar 11 04:28:26 UTC 2026
+Generated at: Fri Mar 13 04:41:24 UTC 2026
 
 ## Repo snapshot
 
 File count:
-1374
+1379
 
 Top directories:
 ADOPTERS.md
@@ -31,6 +31,7 @@ SemanticBlueprint
 StarterVillage
 TensionUniverse
 WORK_WITH_WFGY.md
+adapters
 archive
 automation
 citation
