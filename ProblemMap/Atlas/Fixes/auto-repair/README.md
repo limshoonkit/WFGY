@@ -1,6 +1,6 @@
 # Auto Repair v1
 
-🛠️ **Auto Repair v1** is the first formal controlled-repair layer built on top of the Atlas fix system.
+🛠️ **Auto Repair v1** is the first formal controlled-repair package built on top of the Atlas fix system.
 
 This folder does **not** claim that fully autonomous repair is already solved.
 
@@ -76,7 +76,7 @@ Short version:
 
 ## Current status of v1
 
-📌 **Current status: first formal foundation package established**
+📌 **Current status: first formal controlled-repair package established**
 
 Auto Repair v1 is no longer just a vague planning note.
 
@@ -101,6 +101,7 @@ At this stage, this folder already defines and includes:
 * worked escalation examples
 * quickstart for WFGY deeper continuation
 * integrated handoff
+* freeze boundary note
 
 So v1 is still intentionally limited, but it is no longer just “future idea space.”
 
@@ -158,7 +159,15 @@ Files include:
 * `worked-escalation-example-v1.md`
 * `worked-escalation-example-f4-v1.md`
 * `wfgy-3-0-deeper-continuation-quickstart-v1.md`
+
+### E. Package boundary and handoff layer
+
+This layer defines how the package should be read, handed off, and frozen.
+
+Files include:
+
 * `auto-repair-integrated-handoff-v1.md`
+* `auto-repair-freeze-note-v1.md`
 
 ---
 
@@ -211,6 +220,7 @@ That shift is a big deal, so it needs its own clear layer.
 * Atlas-to-WFGY bridge logic
 * worked escalation examples
 * quickstart continuation guidance
+* freeze and handoff boundary
 
 ### Not included in v1
 
@@ -399,7 +409,11 @@ If you are new to this folder, read in this order.
 20. `worked-escalation-example-v1.md`
 21. `worked-escalation-example-f4-v1.md`
 22. `wfgy-3-0-deeper-continuation-quickstart-v1.md`
+
+### Step 7 · Freeze and handoff layer
+
 23. `auto-repair-integrated-handoff-v1.md`
+24. `auto-repair-freeze-note-v1.md`
 
 ---
 
@@ -480,4 +494,3 @@ For the full Atlas system, go back to:
 * `ProblemMap/Atlas/README.md`
 
 If you like the project, ⭐ star the repo and follow the Atlas branch as it grows.
-
