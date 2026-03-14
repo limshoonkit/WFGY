@@ -126,6 +126,7 @@ For harder cases, logs, traces, outputs, or failure examples can still be added 
 | Get the TXT router and try it immediately | [Router TXT Pack](./Atlas/troubleshooting-atlas-router-v1.txt) | 🟢 Beginner |
 | See the fastest way to test it in practice | [Router Usage Guide](./Atlas/troubleshooting-atlas-router-v1-usage.md) | 🟢 Beginner |
 | Jump directly to common questions | [Jump to FAQ](#faq) | 🟢 Beginner |
+| Discuss ideas or ask questions with the community | [💬 Join our Discord](https://discord.gg/KRxBsr6GYx) | 🟢 Beginner |
 | See proof that routing changes the first repair move | [Official Flagship Demos](./Atlas/Fixes/official/demos/README.md) | 🟡 Builder |
 | Explore repair strategies after routing | [Fixes Hub](./Atlas/Fixes/README.md) | 🟡 Builder |
 | Browse the full atlas structure and documentation | [Atlas Hub](./Atlas/README.md) | 🟠 Advanced |
