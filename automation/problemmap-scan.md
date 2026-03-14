@@ -1,10 +1,103 @@
 # WFGY ProblemMap Scan
 
-Generated at: 2026-03-13 05:54:25 UTC
+Generated at: 2026-03-14 05:52:10 UTC
 
 ## ProblemMap files
 
+ProblemMap/Atlas/Fixes/README.md
+ProblemMap/Atlas/Fixes/auto-repair/README.md
+ProblemMap/Atlas/Fixes/auto-repair/atlas-auto-repair-to-wfgy-bridge-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/auto-repair-architecture-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/auto-repair-freeze-note-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/auto-repair-integrated-handoff-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/auto-repair-roadmap-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/planner-review-checklist-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/planner-test-note-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/repair-action-schema-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/repair-plan-schema-v1.json
+ProblemMap/Atlas/Fixes/auto-repair/repair-planner-prompt-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/repair-planner-spec-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/repair-validation-loop-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/rollback-policy-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/safe-early-action-catalog-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/semi-auto-repair-scope-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/tiny-planner-output-examples-pack-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/tiny-rollback-examples-pack-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/tiny-semi-auto-demo-pack-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/tiny-semi-auto-demo-spec-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/tiny-validation-examples-pack-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/wfgy-3-0-deeper-continuation-quickstart-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/worked-escalation-example-f4-v1.md
+ProblemMap/Atlas/Fixes/auto-repair/worked-escalation-example-v1.md
+ProblemMap/Atlas/Fixes/community/README.md
+ProblemMap/Atlas/Fixes/community/benchmark-reruns/README.md
+ProblemMap/Atlas/Fixes/community/colab/README.md
+ProblemMap/Atlas/Fixes/community/json/README.md
+ProblemMap/Atlas/Fixes/community/json/f1-grounding-fixture-v1/README.md
+ProblemMap/Atlas/Fixes/community/json/f1-grounding-fixture-v1/input_case.json
+ProblemMap/Atlas/Fixes/community/prompts/README.md
+ProblemMap/Atlas/Fixes/community/prompts/f1-regrounding-prompt-pack-v1.md
+ProblemMap/Atlas/Fixes/community/reproduction-packs/1-grounding-reproduction-pack-v1/README.md
+ProblemMap/Atlas/Fixes/community/reproduction-packs/README.md
+ProblemMap/Atlas/Fixes/community/workflows/README.md
+ProblemMap/Atlas/Fixes/community/workflows/f1-grounding-repair-workflow-v1.md
+ProblemMap/Atlas/Fixes/official/README.md
+ProblemMap/Atlas/Fixes/official/atlas-to-wfgy-bridge-v1.md
+ProblemMap/Atlas/Fixes/official/demos/README.md
+ProblemMap/Atlas/Fixes/official/demos/demo-f1-grounding-anchor/README.md
+ProblemMap/Atlas/Fixes/official/demos/demo-f1-grounding-anchor/demo_01_f1_grounding_anchor_recovery_live.ipynb
+ProblemMap/Atlas/Fixes/official/demos/demo-f1-grounding-anchor/expected_output.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f1-grounding-anchor/input_case.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f1-grounding-anchor/replay_outputs.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f4-execution-closure/README.md
+ProblemMap/Atlas/Fixes/official/demos/demo-f4-execution-closure/demo_03_f4_execution_closure_replay.ipynb
+ProblemMap/Atlas/Fixes/official/demos/demo-f4-execution-closure/demo_03_f4_execution_closure_replay_v2.ipynb
+ProblemMap/Atlas/Fixes/official/demos/demo-f4-execution-closure/expected_output.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f4-execution-closure/input_case.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f4-execution-closure/replay_outputs.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/README.md
+ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_02_f5_observability_first_replay.ipynb
+ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/demo_02_f5_observability_first_replay_v2.ipynb
+ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/expected_output.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/input_case.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f5-observability-first/replay_outputs.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/README.md
+ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/demo_04_f7_container_fidelity_replay.ipynb
+ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/demo_04_f7_container_fidelity_replay_v2.ipynb
+ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/expected_output.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/input_case.json
+ProblemMap/Atlas/Fixes/official/demos/demo-f7-container-fidelity/replay_outputs.json
+ProblemMap/Atlas/Fixes/official/demos/shared/README.md
+ProblemMap/Atlas/Fixes/official/demos/shared/demo_utils.py
+ProblemMap/Atlas/Fixes/official/demos/shared/display_helpers.py
+ProblemMap/Atlas/Fixes/official/demos/shared/routing_schema.md
+ProblemMap/Atlas/Fixes/official/family-fix-surface-v1.md
+ProblemMap/Atlas/Fixes/official/flagship-fix-demos-v1.md
+ProblemMap/Atlas/Fixes/official/misrepair-patterns-v1.md
+ProblemMap/Atlas/Fixes/templates/README.md
+ProblemMap/Atlas/Fixes/templates/colab-template.md
+ProblemMap/Atlas/Fixes/templates/contribution-checklist.md
+ProblemMap/Atlas/Fixes/templates/fix-recipe-template.md
+ProblemMap/Atlas/Fixes/templates/json-template.json
+ProblemMap/Atlas/Fixes/templates/prompt-template.md
 ProblemMap/Atlas/README.md
+ProblemMap/Atlas/adapter-failure-discipline-v1.md
+ProblemMap/Atlas/adapter-runtime-modes-v1.md
+ProblemMap/Atlas/atlas-final-freeze-v1.md
+ProblemMap/Atlas/atlas-negative-space-report-v1.md
+ProblemMap/Atlas/atlas-to-ai-adapter-v1.md
+ProblemMap/Atlas/atlas-v1-integrated-handoff.md
+ProblemMap/Atlas/canonical-casebook-v1.md
+ProblemMap/Atlas/civilization-bridge-modules-v1.md
+ProblemMap/Atlas/cross-domain-freeze-note-v2.md
+ProblemMap/Atlas/patch-governance-v1.md
+ProblemMap/Atlas/patch-wave-2-freeze-note-v1.md
+ProblemMap/Atlas/provenance-and-derivation-v1.md
+ProblemMap/Atlas/release-and-freeze-policy-v1.md
+ProblemMap/Atlas/tiny-planner-output-examples-pack-v1.md
+ProblemMap/Atlas/troubleshooting-atlas-router-v1-usage.md
+ProblemMap/Atlas/troubleshooting-atlas-router-v1.txt
+ProblemMap/Atlas/validation-basis-v1.md
 ProblemMap/BeginnerGuide.md
 ProblemMap/Diagnose.md
 ProblemMap/GlobalDebugCardExamples/README.md
@@ -663,4 +756,4 @@ ProblemMap/wfgy-metrics.md
 ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md
 
 Total ProblemMap docs:
-657
+750
