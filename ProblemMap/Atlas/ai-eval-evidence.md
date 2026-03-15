@@ -89,3 +89,56 @@ Please output a quantitative comparison table (Before / After / Improvement %), 
 3. number of ineffective fixes
 4. development efficiency
 5. overall system stability
+````
+
+---
+
+## Notes
+
+Results may vary across models.
+
+You can run the same prompt multiple times to inspect the distribution and see whether the directional conclusion stays stable.
+
+In general, the numbers should not be treated as fixed truth values.
+
+The more important question is whether different evaluators converge on the same structural claim:
+
+> when the first debugging route is wrong, the total cost compounds
+> when routing improves early, several downstream metrics often improve together
+
+---
+
+## Current status
+
+This page is currently in the **evidence assembly phase**.
+
+The next updates planned for this page include:
+
+* multi model screenshot set
+* version tagged evaluation records
+* prompt variants
+* conservative vs stress framing notes
+* interpretation guidance for readers
+
+---
+
+## Related pages
+
+* [Troubleshooting Atlas main page](https://github.com/onestardao/WFGY/blob/main/ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md)
+* [Atlas folder](https://github.com/onestardao/WFGY/tree/main/ProblemMap/Atlas)
+* [Atlas Router TXT](https://github.com/onestardao/WFGY/blob/main/ProblemMap/Atlas/troubleshooting-atlas-router-v1.txt)
+
+---
+
+## Why this matters
+
+The Atlas does not start with repair.
+
+It starts with routing.
+
+That distinction matters because wrong first cut diagnosis does not just delay the fix.
+
+It often creates a silent cost cascade:
+wrong path selection, wasted patches, false confidence, side effects, and growing structural mess.
+
+This page exists to make that claim easier to inspect with reproducible AI reviewed comparisons.
