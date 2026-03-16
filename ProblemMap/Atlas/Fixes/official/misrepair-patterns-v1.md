@@ -37,18 +37,28 @@ Reading discipline for AI:
 AI_NOTE_END
 -->
 
-# Misrepair Patterns v1 ⚠️
+# Misrepair Patterns v1
 
-## Problem Map 3.0 Troubleshooting Atlas  
+## Problem Map 3.0 Troubleshooting Atlas
 ## Official guide to wrong first repair moves
 
-## 0. Document Status 🚦
+Quick links:
 
-This document is the **first official misrepair guide** for the atlas fix layer.
+- [Back to Official Fixes](./README.md)
+- [Back to Family Fix Surface v1](./family-fix-surface-v1.md)
+- [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to AI Eval Evidence](../../ai-eval-evidence.md)
+- [Back to Atlas Hub](../../README.md)
+- [Open the Flagship Runnable Demo Pack](./demos/README.md)
+- [Get the Atlas Router TXT](../../troubleshooting-atlas-router-v1.txt)
 
-It exists to answer a very practical question:
+---
 
-> After correct routing, what are the most common wrong first repair moves?
+This document is the **first official misrepair guide** for the Atlas fix layer.
+
+If you came here after reading **Family Fix Surface v1**, this page answers the next practical question:
+
+> After correct routing, what is the most common wrong first repair move to avoid?
 
 This matters because many debugging failures do not come only from bad classification.
 
@@ -58,13 +68,47 @@ They also come from:
 - choosing a repair move that sounds sensible but is structurally misaligned
 - patching a downstream symptom before restoring the upstream invariant
 
-This document is frozen as **Misrepair Patterns v1**.
-
-It is frozen not because all repair mistakes are known forever, but because the first stable public set of family-level misrepair warnings is now strong enough to support teaching, demos, and real troubleshooting.
+This page exists to keep the first repair step from turning into the first big mistake.
 
 ---
 
-## 1. Why misrepair deserves its own document 🧠
+## Quick start
+
+Use this page in the following order:
+
+1. scan the **Misrepair quick map**
+2. jump to your primary family
+3. read:
+   - **Common misrepair**
+   - **Why this is tempting**
+   - **Correct repair posture**
+4. compare the warning against the first move in [Family Fix Surface v1](./family-fix-surface-v1.md)
+5. only then decide whether deeper escalation is needed
+
+If you want the shortest practical rule:
+
+> route first  
+> avoid the tempting wrong first move  
+> apply the right family-level repair  
+> escalate only if needed
+
+---
+
+## Misrepair quick map
+
+| Family | Most tempting wrong first move | Better first posture |
+|---|---|---|
+| F1 | polish the answer | re-ground the anchor first |
+| F2 | make the chain longer | stabilize the path first |
+| F3 | add more instructions | restore continuity first |
+| F4 | tune prompts before closure | repair readiness and bridge first |
+| F5 | intervene before visibility | expose the failure path first |
+| F6 | stay in analysis too long | stabilize the boundary first |
+| F7 | demand better reasoning | repair the carrier first |
+
+---
+
+## Why misrepair deserves its own document
 
 Correct routing is necessary, but not sufficient.
 
@@ -88,7 +132,7 @@ Short version:
 
 ---
 
-## 2. What this document covers 🎯
+## What this document covers
 
 This document focuses on **family-level misrepair patterns**.
 
@@ -100,6 +144,7 @@ That means it identifies:
 - what the correct repair posture should be instead
 
 This document does **not** try to list every possible implementation error.
+
 That belongs later to:
 
 - community fix packs
@@ -112,7 +157,44 @@ This document stays at the official public grammar layer.
 
 ---
 
-## 3. Core misrepair discipline 🔒
+## How to use this file in practice
+
+A practical use sequence should look like this:
+
+### Step 1
+
+Route the case correctly.
+
+### Step 2
+
+Use [Family Fix Surface v1](./family-fix-surface-v1.md) to identify the right first move.
+
+### Step 3
+
+Use this file to check the most tempting wrong first move for that family.
+
+### Step 4
+
+Apply the right first repair posture.
+
+### Step 5
+
+If the case remains stubborn, continue into:
+
+- [Atlas to WFGY Bridge v1](./atlas-to-wfgy-bridge-v1.md)
+- the official demo pack
+- or later community implementation layers
+
+This keeps the repair flow clean:
+
+> route  
+> first move  
+> avoid misrepair  
+> escalate if needed
+
+---
+
+## Core misrepair discipline
 
 The official misrepair discipline is simple:
 
@@ -144,11 +226,11 @@ Short version:
 
 ---
 
-## 4. Family-level misrepair patterns 🧩
+## Family-level misrepair patterns
 
 ---
 
-# F1 · Grounding & Evidence Integrity 🌍
+# F1 · Grounding & Evidence Integrity
 
 ## Common misrepair
 
@@ -168,7 +250,7 @@ So people try to make the answer “better” instead of making it **truer**.
 
 ## Why this is structurally wrong
 
-The broken invariant in F1 is not fluency first.
+The broken invariant in F1 is not fluency first.  
 It is anchor alignment.
 
 If the answer is detached from:
@@ -195,7 +277,7 @@ Do this instead:
 
 ---
 
-# F2 · Reasoning & Progression Integrity 🧠
+# F2 · Reasoning & Progression Integrity
 
 ## Common misrepair
 
@@ -203,7 +285,7 @@ The most common wrong first move is:
 
 - adding more context blindly
 - extending the chain
-- asking for “more detailed reasoning” without stabilizing the path
+- asking for more detailed reasoning without stabilizing the path
 - increasing recursion before the progression is viable
 
 ## Why this is tempting
@@ -225,7 +307,9 @@ If the path is already unstable, making it longer usually amplifies the instabil
 This turns:
 
 - local confusion
-into
+
+into:
+
 - larger collapse
 
 ## Correct repair posture
@@ -244,7 +328,7 @@ Do this instead:
 
 ---
 
-# F3 · State & Continuity Integrity 🧵
+# F3 · State & Continuity Integrity
 
 ## Common misrepair
 
@@ -259,7 +343,7 @@ The most common wrong first move is:
 
 It is tempting because continuity problems often look like weak discipline.
 
-So people try to “remind the system harder” instead of restoring:
+So people try to remind the system harder instead of restoring:
 
 - persistence
 - role boundaries
@@ -288,7 +372,7 @@ Do this instead:
 
 ---
 
-# F4 · Execution & Contract Integrity ⚙️
+# F4 · Execution & Contract Integrity
 
 ## Common misrepair
 
@@ -327,7 +411,7 @@ Do this instead:
 
 ---
 
-# F5 · Observability & Diagnosability Integrity 🔎
+# F5 · Observability & Diagnosability Integrity
 
 ## Common misrepair
 
@@ -373,7 +457,7 @@ Do this instead:
 
 ---
 
-# F6 · Boundary & Safety Integrity 🛡️
+# F6 · Boundary & Safety Integrity
 
 ## Common misrepair
 
@@ -418,7 +502,7 @@ Do this instead:
 
 ---
 
-# F7 · Representation & Localization Integrity 🧱
+# F7 · Representation & Localization Integrity
 
 ## Common misrepair
 
@@ -457,7 +541,7 @@ Do this instead:
 
 ---
 
-## 5. Cross-family misrepair traps 🔗
+## Cross-family misrepair traps
 
 Some wrong first moves happen especially often at family boundaries.
 
@@ -465,7 +549,6 @@ Some wrong first moves happen especially often at family boundaries.
 
 Wrong move:
 - treating distorted structure as pure grounding
-or
 - treating broken grounding as only a representation problem
 
 Safe posture:
@@ -477,7 +560,6 @@ Safe posture:
 
 Wrong move:
 - escalating immediately into boundary intervention when the system is still too opaque
-or
 - staying forever in observability uplift when a real boundary breach is already active
 
 Safe posture:
@@ -489,7 +571,6 @@ Safe posture:
 
 Wrong move:
 - treating broken continuity as if it were only workflow closure
-or
 - treating execution deadlock as if it were only memory confusion
 
 Safe posture:
@@ -501,7 +582,6 @@ Safe posture:
 
 Wrong move:
 - patching progression when the carrier is broken
-or
 - obsessing over the carrier when the progression itself is the unstable element
 
 Safe posture:
@@ -509,7 +589,7 @@ Safe posture:
 
 ---
 
-## 6. The official route-first warning pattern 🚨
+## The official route-first warning pattern
 
 Whenever a repair attempt fails early, the first question should be:
 
@@ -523,7 +603,7 @@ Because many second-order failures are simply consequences of a wrong first move
 
 ---
 
-## 7. Relationship to Family Fix Surface v1 🛠️
+## Relationship to Family Fix Surface v1
 
 This document is a direct companion to:
 
@@ -546,7 +626,7 @@ Short version:
 
 ---
 
-## 8. Relationship to WFGY 3.0 bridge 🌉
+## Relationship to WFGY 3.0 bridge
 
 This document is also a companion to:
 
@@ -566,7 +646,7 @@ WFGY escalation becomes much more useful when obvious family-level misrepair has
 
 ---
 
-## 9. Relationship to community fixes 🤝
+## Relationship to community fixes
 
 Community-contributed fix packs should learn from this document.
 
@@ -590,7 +670,7 @@ because runnable material without misrepair discipline often teaches the wrong r
 
 ---
 
-## 10. How to use this file in demos and teaching 🎓
+## How to use this file in demos and teaching
 
 This file is especially useful in three places:
 
@@ -600,7 +680,7 @@ It helps new readers learn that repair is not only about choosing the right move
 
 ### 2. demos
 
-It makes demos stronger because a “wrong first move” comparison often reveals the atlas value immediately.
+It makes demos stronger because a wrong first move comparison often reveals the atlas value immediately.
 
 ### 3. AI-assisted repair
 
@@ -608,7 +688,15 @@ It helps the adapter warn against common repair mistakes before generating the f
 
 ---
 
-## 11. Patch protocol 🔄
+## Document status
+
+This document is frozen as **Misrepair Patterns v1**.
+
+It is frozen not because all repair mistakes are known forever, but because the first stable public set of family-level misrepair warnings is now strong enough to support teaching, demos, and real troubleshooting.
+
+---
+
+## Patch protocol
 
 Misrepair Patterns v1 is frozen, but not closed.
 
@@ -643,7 +731,7 @@ No large-patch pressure is currently justified.
 
 ---
 
-## 12. Official status
+## Official status
 
 The correct formal statement is:
 
@@ -652,13 +740,37 @@ The correct formal statement is:
 
 ---
 
-## 13. One-line version
+## Next steps
+
+After this page, most readers continue with:
+
+1. [Atlas to WFGY Bridge v1](./atlas-to-wfgy-bridge-v1.md)
+2. [Flagship Runnable Demo Pack](./demos/README.md)
+3. [Back to Family Fix Surface v1](./family-fix-surface-v1.md)
+4. [Back to Official Fixes](./README.md)
+
+If you want to return to the broader product surface:
+
+- [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to AI Eval Evidence](../../ai-eval-evidence.md)
+- [Back to Atlas Hub](../../README.md)
+
+If this page helps your workflow, consider:
+
+- [starring the WFGY repo](https://github.com/onestardao/WFGY)
+- opening an issue
+- testing the official demo pack
+- contributing later through the community layer
+
+---
+
+## One-line version
 
 **Misrepair Patterns v1 tells you the most common wrong first repair move to avoid after atlas routing.**
 
 ---
 
-## 14. Closing note ✨
+## Closing note
 
 A strong troubleshooting system should not only teach the right move.
 
