@@ -5,7 +5,7 @@ title: LLM Providers Guardrails FAQ Fix Patterns
 intent: choose llm vendor, debug provider-looking bugs, schema drift, tool calls, json mode, rate limits, streaming limits
 keywords:
 - llm providers
-- openai azure openai anthropic claude gemini vertex ai mistral llama cohere deepseek moonshot kimi groq grok bedrock openrouter together
+- openai azure openai anthropic claude gemini vertex ai mistral llama cohere deepseek moonshot kimi groq grok bedrock openrouter together minimax
 - provider quirks
 - schema drift
 - json mode invalid json
@@ -74,6 +74,7 @@ This page helps you **choose between LLM vendors** and **fix provider-looking bu
 | AWS Bedrock | AWS gateway to many models via one API | Enterprises already on AWS | [aws_bedrock.md](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GlobalFixMap/LLM_Providers/aws_bedrock.md) |
 | OpenRouter | Community model aggregator, OpenAI-style endpoint | Try many models via one API key | [openrouter.md](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GlobalFixMap/LLM_Providers/openrouter.md) |
 | Together AI | Aggregator + infra for open weights and fine-tunes | Fast hosting, tuning services | [together.md](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GlobalFixMap/LLM_Providers/together.md) |
+| MiniMax | CN AI lab with long-context models (204K), OpenAI-compatible API | Cost-efficient chat, RAG, agent workflows | [minimax.md](https://github.com/onestardao/WFGY/blob/main/ProblemMap/GlobalFixMap/LLM_Providers/minimax.md) |
 
 ---
 
