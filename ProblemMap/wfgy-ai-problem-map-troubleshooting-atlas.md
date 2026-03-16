@@ -33,7 +33,7 @@ AI_NOTE_END
 -->
 
 # Problem Map 3.0 Troubleshooting Atlas 🗺
-## A failure router for vibe coders and engineers building with AI.
+## A failure router for vibe coders and engineers building with AI. 🧭
 
 > **Load the TXT once, build as usual, and let AI debug at the right layer first.**
 
@@ -48,7 +48,7 @@ AI_NOTE_END
 
 ---
 
-## Start here in 60 seconds
+## Start here in 60 seconds ⏱️
 
 You do **not** need deep system knowledge to start.  
 This atlas is built for vibe coders, AI app builders, workflow builders, agent builders, and engineers working with complex AI systems.
@@ -66,7 +66,7 @@ For harder cases, logs, traces, outputs, or failure examples can still be added 
 
 ---
 
-## A quick before / after view
+## A quick before / after view 🔍
 
 What changes if the first debugging route is more often correct?
 
@@ -84,7 +84,7 @@ See more screenshots, reproduction steps, and the current work in progress evide
 
 ---
 
-## Use this when...
+## Use this when... 🧪
 
 Use the Atlas when AI debugging starts to feel expensive, vague, or strangely self-confident.
 
@@ -101,7 +101,7 @@ If that pattern feels familiar, this is exactly the point where a route-first sy
 
 ---
 
-## Quick nav · choose your entry point
+## Quick nav · choose your entry point 🚪
 
 > Not sure where to start? Begin with the **Router TXT Pack**. Everything else can be explored later.
 
@@ -118,7 +118,7 @@ If that pattern feels familiar, this is exactly the point where a route-first sy
 
 ---
 
-## What you get right now
+## What you get right now 📦
 
 | Layer | What you get |
 |------|---------------|
@@ -132,7 +132,7 @@ If that pattern feels familiar, this is exactly the point where a route-first sy
 
 ---
 
-## Why this hits different
+## Why this hits different 🎯
 
 Most AI debugging fails too early because the first cut is wrong.
 
@@ -144,7 +144,7 @@ Most AI debugging fails too early because the first cut is wrong.
 
 ---
 
-## What this system actually does
+## What this system actually does ⚙️
 
 Problem Map 3.0 does not stop at naming the failure.
 
@@ -164,7 +164,7 @@ It is the **first wrong repair move**.
 
 ---
 
-## The core promise
+## The core promise ✨
 
 You can think of this project in one sentence:
 
@@ -180,23 +180,23 @@ Not just:
 
 ---
 
-## Who this is for
+## Who this is for 👥
 
 This page is designed to be useful at more than one depth.
 
-### If you are a vibe coder
+### If you are a vibe coder 💬
 
 Use the TXT, keep building, and let AI debug with a better first cut.
 
-### If you are building AI apps or workflows
+### If you are building AI apps or workflows 🛠️
 
 Use the atlas to reduce wrong-first-fix debugging in prompt chains, tool flows, agents, and stateful systems.
 
-### If you are an engineer
+### If you are an engineer 🧩
 
 Use it as a routing grammar, failure map, and repair-first discipline.
 
-### If you want to go much deeper
+### If you want to go much deeper 🌊
 
 Use the Atlas Hub, casebook, adapter, bridge pack, demos, and fixes layer.
 
@@ -204,7 +204,7 @@ You do **not** need deep RAG expertise to start.
 
 ---
 
-## How the Atlas routes failures
+## How the Atlas routes failures 🧭
 
 <img width="1536" height="1024" alt="Atlas_Routing" src="https://raw.githubusercontent.com/onestardao/WFGY/main/ProblemMap/Atlas/images/Hero_Atlas_02.png" />
 
@@ -212,13 +212,13 @@ You do **not** need deep RAG expertise to start.
 
 ---
 
-## Use the atlas directly with AI
+## Use the atlas directly with AI 🤖
 
 Problem Map 3.0 is not only a document system.
 
 It also includes a compact product-facing routing pack:
 
-### [Troubleshooting Atlas Router v1](./Atlas/troubleshooting-atlas-router-v1-freeze-note.md)
+### [Troubleshooting Atlas Router v1](./Atlas/troubleshooting-atlas-router-v1-freeze-note.md) 📄
 
 This is the first compact TXT routing pack built from the atlas.
 
@@ -256,7 +256,7 @@ What it does give you is something much more immediately useful:
 ---
 
 <details>
-<summary><strong>Proof that this is usable, not just theoretical</strong></summary>
+<summary><strong>Proof that this is usable, not just theoretical ✅</strong></summary>
 
 <br>
 
@@ -288,7 +288,7 @@ See:
 ---
 
 <details>
-<summary><strong>From routing to repair</strong></summary>
+<summary><strong>From routing to repair 🔧</strong></summary>
 
 <br>
 
@@ -296,19 +296,19 @@ Problem Map 3.0 does not stop at diagnosis.
 
 It opens a controlled path from routing to first repair.
 
-### Atlas layer
+### Atlas layer 🗺️
 
 The atlas routes the failure.
 
-### Casebook layer
+### Casebook layer 📚
 
 The casebook teaches how major cuts should be made and how neighboring regions should be separated.
 
-### Fix layer
+### Fix layer 🛠️
 
 The fix surface turns correct routing into a disciplined first repair move.
 
-### Deeper bridge layer
+### Deeper bridge layer 🌉
 
 WFGY remains the deeper exploration engine when the case needs stronger structural intervention.
 
@@ -328,7 +328,7 @@ It is:
 ---
 
 <details>
-<summary><strong>The seven-family failure map</strong></summary>
+<summary><strong>The seven-family failure map 🧬</strong></summary>
 
 <br>
 
@@ -339,30 +339,30 @@ It is:
 ---
 
 <details>
-<summary><strong>The product stack</strong></summary>
+<summary><strong>The product stack 🧱</strong></summary>
 
 <br>
 
 Problem Map 3.0 is not a single page.  
 It is a layered system.
 
-### Atlas
+### Atlas 🗺️
 
 The map of failure space.
 
-### Router
+### Router 🚦
 
 The compact executable entry that helps AI systems route failures first.
 
-### Casebook
+### Casebook 📚
 
 The teaching layer that shows how important cuts should be made.
 
-### Fixes
+### Fixes 🔧
 
 The repair-facing layer after the route is chosen.
 
-### Demos
+### Demos 🎬
 
 The proof layer that shows different routes create different first repair moves.
 
@@ -378,7 +378,7 @@ Short version:
 
 ---
 
-## Why this exists
+## Why this exists 🧠
 
 Modern AI systems are increasingly:
 
@@ -404,7 +404,7 @@ Problem Map 3.0 Troubleshooting Atlas was built to cut these regions apart more 
 
 ---
 
-## Why this matters now
+## Why this matters now ⏰
 
 AI systems are becoming more layered, more stateful, more agentic, and more operational.
 
@@ -430,7 +430,7 @@ That is the practical value of this atlas.
 
 ---
 
-## V1 status and iteration policy
+## V1 status and iteration policy 🧪
 
 This is the first public **V1** release of the Troubleshooting Atlas.
 
@@ -459,7 +459,7 @@ please open an issue.
 
 ---
 
-## The broader direction
+## The broader direction 🌌
 
 Problem Map 3.0 is being built first as a powerful AI troubleshooting atlas.
 
@@ -484,7 +484,7 @@ That distinction matters, and it is intentional.
 
 ---
 
-## What this page does not claim
+## What this page does not claim 🚫
 
 This page does **not** claim that:
 
@@ -502,12 +502,12 @@ The safer and more accurate claim is:
 
 ---
 
-## FAQ
+## FAQ ❓
 
-### 1. Getting Started
+### 1. Getting Started 🚀
 
 <details>
-<summary><strong>Where should a new user start?</strong></summary>
+<summary><strong>Where should a new user start? 🧭</strong></summary>
 
 <br>
 
@@ -553,7 +553,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>Do I need deep RAG knowledge to use this?</strong></summary>
+<summary><strong>Do I need deep RAG knowledge to use this? 🎓</strong></summary>
 
 <br>
 
@@ -571,7 +571,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>What does Troubleshooting Atlas Router actually do?</strong></summary>
+<summary><strong>What does Troubleshooting Atlas Router actually do? ⚙️</strong></summary>
 
 <br>
 
@@ -596,7 +596,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>What is the difference between Problem Map 1.0, 2.0, and 3.0?</strong></summary>
+<summary><strong>What is the difference between Problem Map 1.0, 2.0, and 3.0? 🧩</strong></summary>
 
 <br>
 
@@ -616,10 +616,10 @@ The safer and more accurate claim is:
 
 </details>
 
-### 2. Why This Matters
+### 2. Why This Matters 💡
 
 <details>
-<summary><strong>Does this move AI closer to automatic debugging or bug fixing?</strong></summary>
+<summary><strong>Does this move AI closer to automatic debugging or bug fixing? 🤖</strong></summary>
 
 <br>
 
@@ -646,7 +646,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>If AI writes code faster, why does debugging still feel broken?</strong></summary>
+<summary><strong>If AI writes code faster, why does debugging still feel broken? 🐛</strong></summary>
 
 <br>
 
@@ -680,7 +680,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>How much debugging time can this realistically save?</strong></summary>
+<summary><strong>How much debugging time can this realistically save? ⏳</strong></summary>
 
 <br>
 
@@ -711,7 +711,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>Can this help in blind benchmarks or hidden-task settings?</strong></summary>
+<summary><strong>Can this help in blind benchmarks or hidden-task settings? 🎯</strong></summary>
 
 <br>
 
@@ -744,10 +744,10 @@ The safer and more accurate claim is:
 
 </details>
 
-### 3. Why Trust This
+### 3. Why Trust This 🏛️
 
 <details>
-<summary><strong>How do you know this atlas is not just a made-up classification system?</strong></summary>
+<summary><strong>How do you know this atlas is not just a made-up classification system? 🔬</strong></summary>
 
 <br>
 
@@ -776,7 +776,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>How was this atlas structure actually derived?</strong></summary>
+<summary><strong>How was this atlas structure actually derived? 🧱</strong></summary>
 
 <br>
 
@@ -808,7 +808,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>Why seven families and not more or fewer?</strong></summary>
+<summary><strong>Why seven families and not more or fewer? 📐</strong></summary>
 
 <br>
 
@@ -833,7 +833,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>What would falsify or seriously challenge this atlas?</strong></summary>
+<summary><strong>What would falsify or seriously challenge this atlas? ⚠️</strong></summary>
 
 <br>
 
@@ -858,7 +858,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>Is this just relabeled debugging common sense?</strong></summary>
+<summary><strong>Is this just relabeled debugging common sense? 🤔</strong></summary>
 
 <br>
 
@@ -886,7 +886,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>What if different models route the same case differently?</strong></summary>
+<summary><strong>What if different models route the same case differently? 🔀</strong></summary>
 
 <br>
 
@@ -911,10 +911,10 @@ The safer and more accurate claim is:
 
 </details>
 
-### 4. Scope, Limits, and What Comes Next
+### 4. Scope, Limits, and What Comes Next 📏
 
 <details>
-<summary><strong>Does this system already repair everything automatically?</strong></summary>
+<summary><strong>Does this system already repair everything automatically? 🤖</strong></summary>
 
 <br>
 
@@ -944,7 +944,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>Why not just use better prompts, tests, or observability tools?</strong></summary>
+<summary><strong>Why not just use better prompts, tests, or observability tools? 🧰</strong></summary>
 
 <br>
 
@@ -966,7 +966,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>When is this atlas overkill or unnecessary?</strong></summary>
+<summary><strong>When is this atlas overkill or unnecessary? ⚖️</strong></summary>
 
 <br>
 
@@ -992,7 +992,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>Is this only the first generation of the atlas?</strong></summary>
+<summary><strong>Is this only the first generation of the atlas? 🌱</strong></summary>
 
 <br>
 
@@ -1026,7 +1026,7 @@ The safer and more accurate claim is:
 </details>
 
 <details>
-<summary><strong>Is this only for AI systems?</strong></summary>
+<summary><strong>Is this only for AI systems? 🌐</strong></summary>
 
 <br>
 
@@ -1087,7 +1087,7 @@ For the complete 30+ project list (frameworks, benchmarks, curated lists), see t
 
 ---
 
-## Where to go next
+## Where to go next 🧭
 
 This page is the front door.
 
@@ -1113,7 +1113,7 @@ If this direction helps your workflow, consider:
 
 ---
 
-## Current status
+## Current status 📍
 
 The current system should be understood as:
 
@@ -1135,13 +1135,13 @@ into:
 
 ---
 
-## One-line version
+## One-line version ✍️
 
 **Problem Map 3.0 Troubleshooting Atlas is a debugging decision system for complex AI failures, built to reduce wrong-first-fix debugging.**
 
 ---
 
-## Closing note
+## Closing note 📝
 
 If you are reading this as a human, treat this page as the front door.
 
@@ -1154,9 +1154,9 @@ It is being introduced as a system you can actually use.
 ---
 
 <details>
-<summary><strong>Not sure where to start in the broader WFGY system? Open the WFGY Engine Compass</strong></summary>
+<summary><strong>Not sure where to start in the broader WFGY system? Open the WFGY Engine Compass 🧭</strong></summary>
 
-### WFGY System Map · Quick navigation
+### WFGY System Map · Quick navigation 🗺️
 
 > Problem Maps: PM1 taxonomy → PM2 debug protocol → PM3 troubleshooting atlas · built on the WFGY engine series
 
