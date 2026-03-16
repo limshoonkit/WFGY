@@ -37,39 +37,77 @@ Reading discipline for AI:
 AI_NOTE_END
 -->
 
-# Family Fix Surface v1 🛠️
+# Family Fix Surface v1
 
-## Problem Map 3.0 Troubleshooting Atlas  
+## Problem Map 3.0 Troubleshooting Atlas
 ## Official First Repair Layer by Family
 
-## 0. Document Status 🚦
+Quick links:
 
-This document is the **first official family-level repair-facing layer** for the atlas system.
-
-It exists to answer one practical question:
-
-> After correct routing, what should be tried first?
-
-This document is frozen as **Family Fix Surface v1**.
-
-It is frozen not because the entire repair universe is finished, but because the atlas now has a stable enough first repair grammar to support:
-
-- human troubleshooting
-- AI-assisted first repair guidance
-- demo flows
-- onboarding
-- route-first repair discipline
-- bridge escalation into WFGY 3.0 and community fix packs
-
-Future work should proceed through **fix-layer patch mode**, not by silently changing the official first repair grammar.
+- [Back to Official Fixes](./README.md)
+- [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to AI Eval Evidence](../../ai-eval-evidence.md)
+- [Back to Atlas Hub](../../README.md)
+- [Open the Flagship Runnable Demo Pack](./demos/README.md)
+- [Get the Atlas Router TXT](../../troubleshooting-atlas-router-v1.txt)
 
 ---
 
-## 1. What this document is 🎯
+This document is the **first official family-level repair-facing surface** for the Atlas system.
 
-This document is the **official first repair layer** of the atlas.
+If you arrived here from the official fixes hub, this is the page that answers the next practical question:
+
+> After correct routing, what should be tried first?
+
+The atlas tells you where the failure lives.  
+This document tells you what to try first after that cut is stable.
 
 It sits after routing and before deeper experimentation.
+
+Its goal is not to explain every implementation detail.  
+Its goal is to provide a stable, reusable, public-facing first repair grammar.
+
+---
+
+## Quick start
+
+Use this page in the following order:
+
+1. scan the **Family quick map**
+2. jump to your primary family
+3. read:
+   - **What this family is trying to restore**
+   - **First repair moves**
+   - **Common misrepair**
+4. only then decide whether escalation is needed
+5. use deeper bridge material only when the first family-level move is not enough
+
+If you want the shortest practical rule:
+
+> route first  
+> choose the first repair move  
+> avoid the common wrong first move  
+> escalate only if needed
+
+---
+
+## Family quick map
+
+| Family | What to restore first | First repair instinct |
+|---|---|---|
+| F1 | evidence and reality anchor | re-ground first |
+| F2 | viable reasoning path | stabilize the progression path first |
+| F3 | continuity and state ownership | restore the thread first |
+| F4 | readiness, bridge, and closure | repair the skeleton first |
+| F5 | diagnosability and visibility | expose the failure path first |
+| F6 | viable boundary and control corridor | restore the boundary first |
+| F7 | representation carrier and structural fidelity | repair the container first |
+
+---
+
+## What this document is
+
+This document is the **official first repair layer** of the atlas.
 
 Its job is to provide:
 
@@ -85,7 +123,7 @@ In short:
 
 ---
 
-## 2. What this document does not do 🔍
+## What this document does not do
 
 This document does **not** try to do all repair work at once.
 
@@ -107,7 +145,44 @@ That makes it useful, teachable, and stable.
 
 ---
 
-## 3. Core repair discipline 🔒
+## How to use this file in practice
+
+A practical use sequence should look like this:
+
+### Step 1
+
+Route the case using:
+
+- [Atlas Final Freeze v1](../../atlas-final-freeze-v1.md)
+- [Canonical Casebook v1](../../canonical-casebook-v1.md)
+- [Atlas-to-AI Adapter v1](../../atlas-to-ai-adapter-v1.md)
+
+### Step 2
+
+Use this file to choose:
+
+- what to try first
+- what not to try first
+- whether escalation is needed
+
+### Step 3
+
+If deeper work is needed, move into:
+
+- [Atlas to WFGY Bridge v1](./atlas-to-wfgy-bridge-v1.md)
+- community fix packs
+- or more experimental problem-specific layers
+
+This keeps the repair flow clean:
+
+> route  
+> first repair  
+> escalate  
+> implement
+
+---
+
+## Core repair discipline
 
 The Fix Surface layer must obey the following order.
 
@@ -126,7 +201,7 @@ Choose the family-level first move that best matches the routed failure region.
 
 ### Step 3 · Avoid the common misrepair
 
-Each family has common wrong first moves.
+Each family has common wrong first moves.  
 Avoiding these is often as important as choosing the first correct move.
 
 ### Step 4 · Escalate when needed
@@ -145,7 +220,7 @@ Short version:
 
 ---
 
-## 4. Family-level fix grammar 🧩
+## Family-level fix grammar
 
 Each family section below uses the same structure:
 
@@ -159,7 +234,7 @@ This keeps the repair surface teachable and reusable.
 
 ---
 
-# F1 · Grounding & Evidence Integrity 🌍
+# F1 · Grounding & Evidence Integrity
 
 ## What F1 is trying to restore
 
@@ -233,7 +308,7 @@ Use deeper WFGY 3.0 exploration when the case needs:
 
 ---
 
-# F2 · Reasoning & Progression Integrity 🧠
+# F2 · Reasoning & Progression Integrity
 
 ## What F2 is trying to restore
 
@@ -305,7 +380,7 @@ Use deeper WFGY 3.0 exploration when the case needs:
 
 ---
 
-# F3 · State & Continuity Integrity 🧵
+# F3 · State & Continuity Integrity
 
 ## What F3 is trying to restore
 
@@ -377,7 +452,7 @@ Use deeper WFGY 3.0 exploration when the case needs:
 
 ---
 
-# F4 · Execution & Contract Integrity ⚙️
+# F4 · Execution & Contract Integrity
 
 ## What F4 is trying to restore
 
@@ -450,7 +525,7 @@ Use deeper WFGY 3.0 exploration when the case needs:
 
 ---
 
-# F5 · Observability & Diagnosability Integrity 🔎
+# F5 · Observability & Diagnosability Integrity
 
 ## What F5 is trying to restore
 
@@ -522,7 +597,7 @@ Use deeper WFGY 3.0 exploration when the case needs:
 
 ---
 
-# F6 · Boundary & Safety Integrity 🛡️
+# F6 · Boundary & Safety Integrity
 
 ## What F6 is trying to restore
 
@@ -594,7 +669,7 @@ Use deeper WFGY 3.0 exploration when the case needs:
 
 ---
 
-# F7 · Representation & Localization Integrity 🧱
+# F7 · Representation & Localization Integrity
 
 ## What F7 is trying to restore
 
@@ -667,7 +742,7 @@ Use deeper WFGY 3.0 exploration when the case needs:
 
 ---
 
-## 5. Cross-family repair discipline 🔗
+## Cross-family repair discipline
 
 Not every case will remain cleanly inside one family.
 
@@ -697,7 +772,7 @@ These cuts matter because many bad fixes begin by repairing the wrong family.
 
 ---
 
-## 6. Misrepair pattern summary ⚠️
+## Misrepair pattern summary
 
 A wrong first move often looks like one of these:
 
@@ -712,7 +787,7 @@ This is why route-first discipline matters so much.
 
 ---
 
-## 7. Relationship to WFGY 3.0 🌊
+## Relationship to WFGY 3.0
 
 This official fix surface is intentionally **lighter** than WFGY 3.0.
 
@@ -740,9 +815,9 @@ That means this file is a public first layer, not the entire engine.
 
 ---
 
-## 8. Relationship to community fixes 🤝
+## Relationship to community fixes
 
-This file is the official surface.
+This file is the official surface.  
 It should remain stable and compact.
 
 Community-contributed fixes may later extend this surface with:
@@ -760,44 +835,24 @@ That is why this file belongs inside the official fix layer.
 
 ---
 
-## 9. How to use this file in practice 🧪
+## Document status
 
-A practical use sequence should look like this:
+This document is frozen as **Family Fix Surface v1**.
 
-### Step 1
+It is frozen not because the entire repair universe is finished, but because the atlas now has a stable enough first repair grammar to support:
 
-Route the case using:
+- human troubleshooting
+- AI-assisted first repair guidance
+- demo flows
+- onboarding
+- route-first repair discipline
+- bridge escalation into WFGY 3.0 and community fix packs
 
-- [Atlas Final Freeze v1](../../atlas-final-freeze-v1.md)
-- [Canonical Casebook v1](../../canonical-casebook-v1.md)
-- [Atlas-to-AI Adapter v1](../../atlas-to-ai-adapter-v1.md)
-
-### Step 2
-
-Use this file to choose:
-
-- what to try first
-- what not to try first
-- whether escalation is needed
-
-### Step 3
-
-If deeper work is needed, move into:
-
-- [Atlas to WFGY Bridge v1](./atlas-to-wfgy-bridge-v1.md)
-- community fix packs
-- or more experimental problem-specific layers
-
-This keeps the repair flow clean:
-
-> route  
-> first repair  
-> escalate  
-> implement
+Future work should proceed through **fix-layer patch mode**, not by silently changing the official first repair grammar.
 
 ---
 
-## 10. Patch protocol 🔄
+## Patch protocol
 
 Family Fix Surface v1 is frozen, but not closed.
 
@@ -833,7 +888,7 @@ No large-patch pressure is currently justified.
 
 ---
 
-## 11. Official status
+## Official status
 
 The correct formal statement is:
 
@@ -842,13 +897,37 @@ The correct formal statement is:
 
 ---
 
-## 12. One-line version
+## Next steps
+
+After this page, most readers continue with:
+
+1. [Misrepair Patterns v1](./misrepair-patterns-v1.md)
+2. [Flagship Runnable Demo Pack](./demos/README.md)
+3. [Atlas to WFGY Bridge v1](./atlas-to-wfgy-bridge-v1.md)
+4. [Back to Official Fixes](./README.md)
+
+If you want to return to the broader product surface:
+
+- [Back to Atlas landing page](../../../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to AI Eval Evidence](../../ai-eval-evidence.md)
+- [Back to Atlas Hub](../../README.md)
+
+If this page helps your workflow, consider:
+
+- [starring the WFGY repo](https://github.com/onestardao/WFGY)
+- opening an issue
+- testing the official demo pack
+- contributing later through the community layer
+
+---
+
+## One-line version
 
 **Family Fix Surface v1 tells you what to try first after correct atlas routing.**
 
 ---
 
-## 13. Closing note ✨
+## Closing note
 
 A strong atlas should not stop at naming failures.
 
@@ -856,5 +935,5 @@ It should also help people and AI systems take a better first action.
 
 That is what this file is for.
 
-It does not promise total closure.
+It does not promise total closure.  
 It gives a disciplined first move.
