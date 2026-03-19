@@ -8,7 +8,7 @@ How to use this file:
 1. Read this file after:
    - [Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
    - [Canonical Casebook v1](./canonical-casebook-v1.md)
-2. Treat this document as the model-facing operational layer of the atlas.
+2. Treat this document as the model-facing operational layer of the Atlas.
 3. Use this file to understand:
    - the adapter contract
    - the routing stack
@@ -16,40 +16,103 @@ How to use this file:
    - runtime modes
    - patch discipline
    - failure discipline
-4. Use this file when compressing atlas logic into prompts, TXT packs, routing flows, or AI-facing debugging systems.
+4. Use this file when compressing Atlas logic into prompts, TXT packs, routing flows, or AI-facing debugging systems.
 
 What this file is:
 - The AI-facing adapter layer
 - The routing and diagnosis control layer
-- The operational bridge between atlas structure and model usage
+- The operational bridge between Atlas structure and model usage
+- The first formal reusable model-facing routing pack for Atlas v1
 
 What this file is not:
-- Not the atlas core itself
+- Not the Atlas core itself
 - Not the casebook itself
 - Not the full fix manual
 - Not a general-purpose autonomous agent design
-- Not a license to silently rewrite the atlas through prompt behavior
+- Not a license to silently rewrite the Atlas through prompt behavior
 
 Reading discipline for AI:
-- Preserve the distinction between atlas core, casebook exemplars, adapter logic, repair-facing layer, and patch layer.
+- Preserve the distinction between Atlas core, casebook exemplars, adapter logic, repair-facing layer, and patch layer.
 - Route first, then repair.
 - Do not overclaim confidence when evidence is weak.
 - Do not let exemplars override structural rules.
 - Do not let overlays replace family routing.
+- Treat this file as an operational bridge layer, not as a replacement for frozen Atlas structure.
 
 AI_NOTE_END
 -->
 
 # Atlas-to-AI Adapter v1 🤖
 
-## Problem Map 3.0 Troubleshooting Atlas  
-## Official AI-Facing Routing and Diagnosis Layer
+## Official AI-facing routing and diagnosis layer for Atlas v1
 
-## 0. Document Status 🚦
+Quick links:
+
+- [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to Atlas Hub](./README.md)
+- [Open Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+- [Open Atlas Negative Space Report v1](./atlas-negative-space-report-v1.md)
+- [Open Canonical Casebook v1](./canonical-casebook-v1.md)
+- [Open Adapter Runtime Modes v1](./adapter-runtime-modes-v1.md)
+- [Open Adapter Failure Discipline v1](./adapter-failure-discipline-v1.md)
+- [Open Patch Governance v1](./patch-governance-v1.md)
+- [Open Release and Freeze Policy v1](./release-and-freeze-policy-v1.md)
+
+---
+
+If the Atlas core defines the structure and the casebook teaches that structure through examples, this file is the layer that makes the Atlas **usable inside real AI routing, diagnosis, and debugging flows**. 🧭
+
+This document does not create a new Atlas.
+
+It takes the frozen Atlas grammar and turns it into a disciplined operational layer for model-facing use.
+
+Short version:
+
+> the Atlas defines the map  
+> the casebook teaches the map  
+> the adapter lets AI systems operate on the map
+
+That is the job of this file.
+
+---
+
+## Quick start 🚀
+
+### I am new to the adapter layer
+
+Use this path:
+
+1. read [Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+2. read [Canonical Casebook v1](./canonical-casebook-v1.md)
+3. read this file
+4. read [Adapter Runtime Modes v1](./adapter-runtime-modes-v1.md)
+5. read [Adapter Failure Discipline v1](./adapter-failure-discipline-v1.md)
+
+### I already know the Atlas and want the shortest route
+
+Start here:
+
+1. read Section 5 for the Core Contract
+2. read Section 6 for the Routing Prompt Stack
+3. read Section 8 and Section 9 for the runtime mode system
+4. read Section 12 for adapter failure discipline
+5. read Section 16 for patch interface
+
+Shortest possible reading:
+
+> route first  
+> explain the cut  
+> state the broken invariant  
+> keep confidence honest  
+> preview repair without pretending full closure
+
+---
+
+## 0. Document status 🚦
 
 This document is the **frozen first formal AI-facing adapter** for Atlas v1.
 
-Its purpose is to turn atlas logic into a reusable operational layer for:
+Its purpose is to turn Atlas logic into a reusable operational layer for:
 
 - AI-assisted routing
 - debugging support
@@ -69,7 +132,7 @@ Future work should proceed through **adapter patch mode**, not through silent re
 
 ## 1. What this adapter is 🧭
 
-The atlas defines the structural grammar.
+The Atlas defines the structural grammar.
 
 The casebook teaches how that grammar behaves through examples.
 
@@ -77,7 +140,7 @@ The adapter turns that grammar into a model-facing routing layer.
 
 In short:
 
-> the atlas defines the map  
+> the Atlas defines the map  
 > the casebook teaches the map  
 > the adapter lets AI systems operate on the map
 
@@ -110,7 +173,7 @@ This defines:
 This defines:
 
 - the order of reasoning constraints
-- the role of atlas rules
+- the role of Atlas rules
 - the role of boundary rules
 - the role of fit discipline
 - the role of output discipline
@@ -175,13 +238,13 @@ Atlas-to-AI Adapter v1 does **not** claim that:
 - all prompts, platforms, and contexts behave identically
 - all future compact forms are already optimized
 - the adapter already contains the full repair system
-- the adapter replaces the atlas core
+- the adapter replaces the Atlas core
 - the adapter replaces the casebook
 - no future adapter patching is needed
 
 Atlas-to-AI Adapter v1 claims only that:
 
-> the first stable AI-facing routing and diagnosis layer of the atlas now exists and is strong enough to freeze as a formal reusable version
+> the first stable AI-facing routing and diagnosis layer of the Atlas now exists and is strong enough to freeze as a formal reusable version
 
 ---
 
@@ -202,6 +265,7 @@ The adapter expects some form of failure-bearing input, such as:
 - a structured internal failure note
 
 The adapter does **not** require perfect completeness.
+
 But it does require enough content to justify a routing attempt.
 
 ### 5.2 Minimum output expectation
@@ -210,15 +274,15 @@ A valid adapter output must preserve routing structure.
 
 At minimum, the adapter should be able to produce:
 
-- primary family
-- secondary family
-- why primary not secondary
-- broken invariant
-- best current fit
-- fit level
-- fix surface direction
+- primary_family
+- secondary_family
+- why_primary_not_secondary
+- broken_invariant
+- best_current_fit
+- fit_level
+- fix_surface_direction
 - confidence
-- evidence sufficiency
+- evidence_sufficiency
 
 Where ambiguity or no-fit is materially relevant, those fields must also be made explicit.
 
@@ -326,6 +390,7 @@ Exemplars may support routing, but they must never override:
 Use as little exemplar support as needed.
 
 The adapter should not become exemplar-heavy by default.
+
 It should remain rule-first, exemplar-supported.
 
 ---
@@ -395,6 +460,7 @@ More explanatory than Strict Mode, but still structure-first.
 **Risk posture**
 
 Teaching must not degrade into freeform essay behavior.
+
 The adapter still needs to respect the contract.
 
 ---
@@ -426,6 +492,7 @@ Structured, slightly more action-oriented.
 **Risk posture**
 
 This mode must not overpromise.
+
 It gives the first move, not full closure.
 
 ---
@@ -524,7 +591,8 @@ Must include:
 - evidence_sufficiency
 
 Compact mode may omit ambiguity and no-fit explanation only when both are false.
-If ambiguity or no-fit is true, the reason must still be stated.
+
+If ambiguity or no_fit is true, the reason must still be stated.
 
 ---
 
@@ -565,13 +633,17 @@ The adapter must obey the following failure discipline.
 
 These ten rules are the safety rails of the adapter.
 
+For the full discipline layer, see:
+
+- [Adapter Failure Discipline v1](./adapter-failure-discipline-v1.md)
+
 ---
 
 ## 13. Relationship to Atlas Final Freeze v1 🔗
 
-This adapter is not the atlas core.
+This adapter is not the Atlas core.
 
-It depends on the atlas core.
+It depends on the Atlas core.
 
 Use [Atlas Final Freeze v1](./atlas-final-freeze-v1.md) to determine:
 
@@ -583,8 +655,9 @@ Use [Atlas Final Freeze v1](./atlas-final-freeze-v1.md) to determine:
 
 Use this adapter to make that structure operational for AI systems.
 
-If the atlas changes through patch logic, the adapter must follow the atlas.
-The adapter must never quietly redefine the atlas.
+If the Atlas changes through patch logic, the adapter must follow the Atlas.
+
+The adapter must never quietly redefine the Atlas.
 
 ---
 
@@ -599,6 +672,7 @@ Use [Canonical Casebook v1](./canonical-casebook-v1.md) to supply:
 - repair teaching exemplars
 
 The casebook stabilizes the adapter by providing reusable teaching cases.
+
 The adapter operationalizes the casebook by deciding when and how those cases should be injected.
 
 The two are complementary, not interchangeable.
@@ -622,9 +696,10 @@ What it does not yet do in complete form is provide a full deep repair architect
 
 For deeper repair-facing work, this adapter should later connect to:
 
-- [Fix Surface v1](./fix-surface-v1.md)
-- [Node-to-Fix Layer v1](./node-to-fix-layer-v1.md)
-- [Atlas-to-WFGY Bridge v1](./atlas-to-wfgy-bridge-v1.md)
+- [Fixes Hub](./Fixes/README.md)
+- [Family Fix Surface v1](./Fixes/official/family-fix-surface-v1.md)
+- [Node-to-Fix Layer v1](./Fixes/official/node-to-fix-layer-v1.md)
+- [Atlas-to-WFGY Bridge v1](./Fixes/official/atlas-to-wfgy-bridge-v1.md)
 
 ---
 
@@ -656,7 +731,7 @@ Use for:
 
 Only use if:
 
-- the atlas family structure changes
+- the Atlas family structure changes
 - major family cuts collapse repeatedly
 - exemplar logic becomes systemically unstable
 - runtime mode architecture must be redesigned
@@ -678,23 +753,40 @@ Atlas-to-AI Adapter v1 now makes the following possible:
 - structured troubleshooting prompts
 - TXT pack construction
 - adapter patch waves
-- AI reuse without flattening the atlas core
+- AI reuse without flattening the Atlas core
 
-This is the first point where the atlas can be treated not only as a concept map, but as an operational AI-facing layer.
+This is the first point where the Atlas can be treated not only as a concept map, but as an operational AI-facing layer.
 
 ---
 
-## 18. Official Freeze Statement
+## 18. Official freeze statement 📣
 
 The correct formal statement is:
 
-> Atlas-to-AI Adapter v1 is complete as the first formal AI-facing routing and diagnosis layer of the atlas system.  
+> Atlas-to-AI Adapter v1 is complete as the first formal AI-facing routing and diagnosis layer of the Atlas system.  
 > The adapter contract, routing stack, casebook injection layer, runtime modes, patch interface, and adapter failure discipline are now stable enough for formal reuse.  
 > Future adapter work should proceed in patch mode.
 
 ---
 
-## 19. One-line version
+## Next steps ✨
+
+After this page, most readers continue with:
+
+1. [Open Adapter Runtime Modes v1](./adapter-runtime-modes-v1.md)
+2. [Open Adapter Failure Discipline v1](./adapter-failure-discipline-v1.md)
+3. [Open Canonical Casebook v1](./canonical-casebook-v1.md)
+4. [Open Fixes Hub](./Fixes/README.md)
+
+If you want the broader Atlas surface:
+
+- [Back to Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+- [Back to Atlas Hub](./README.md)
+- [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+
+---
+
+## 19. One-line version 🌍
 
 **Atlas-to-AI Adapter v1 is the first frozen AI-facing routing and diagnosis layer for Problem Map 3.0 Troubleshooting Atlas.**
 
@@ -710,5 +802,6 @@ A routing layer that lets AI systems use that map under discipline is even more 
 
 That is what this adapter is for.
 
-It does not replace the atlas.
-It makes the atlas operational.
+It does not replace the Atlas.
+
+It makes the Atlas operational.
