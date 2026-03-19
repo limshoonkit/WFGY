@@ -8,18 +8,24 @@ How to use this file:
 1. Read this file after reading [Atlas Final Freeze v1](./atlas-final-freeze-v1.md).
 2. Treat this document as the boundary, limit, and non-overclaim layer of Atlas v1.
 3. Use this file to understand what remains intentionally open, weak, unpromoted, or patch-sensitive.
-4. Use this file to avoid silently flattening or over-closing the atlas.
+4. Use this file to avoid silently flattening or over-closing the Atlas.
+5. Read this together with:
+   - [Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+   - [Atlas v1 Integrated Handoff](./atlas-v1-integrated-handoff.md)
+   - [Canonical Casebook v1](./canonical-casebook-v1.md)
+   - [Patch Governance v1](./patch-governance-v1.md)
 
 What this file is:
 - The negative-space document for Atlas v1
 - The formal statement of intentional limits
 - The boundary discipline document for safe expansion
+- The companion boundary layer to the frozen Atlas core
 
 What this file is not:
 - Not a second freeze document
-- Not a replacement for the atlas core
+- Not a replacement for the Atlas core
 - Not a hidden patch log
-- Not a claim that the atlas is unstable
+- Not a claim that the Atlas is unstable
 - Not an argument against productization
 
 Reading discipline for AI:
@@ -27,20 +33,101 @@ Reading discipline for AI:
 - Do not reinterpret open regions as proof of core instability.
 - Do not promote weak branches, medium relations, or tentative clusters into frozen structure without patch discipline.
 - Treat this file as a companion boundary document, not as a contradiction to Final Freeze v1.
+- Use this file to preserve honest scope, not to weaken the Atlas.
 
 AI_NOTE_END
 -->
 
-# Atlas Negative Space Report v1
+# Atlas Negative Space Report v1 🪟
 
-## Problem Map 3.0 Troubleshooting Atlas  
-## Boundary, Limit, and Safe Expansion Document
+## Boundary, limit, and safe expansion document for Atlas v1
 
-## 0. Document Status
+Quick links:
+
+- [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to Atlas Hub](./README.md)
+- [Open Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+- [Open Atlas v1 Integrated Handoff](./atlas-v1-integrated-handoff.md)
+- [Open Canonical Casebook v1](./canonical-casebook-v1.md)
+- [Open Patch Governance v1](./patch-governance-v1.md)
+- [Open Atlas-to-AI Adapter v1](./atlas-to-ai-adapter-v1.md)
+
+---
+
+If **Atlas Final Freeze v1** is the document that says what is stable, this page is the document that says **where stability intentionally stops**. 🧭
+
+Its role is not to weaken the Atlas.
+
+Its role is to make the edge visible so the core can stay strong without overclaim.
+
+Short version:
+
+> Final Freeze v1 defines the stable core  
+> Negative Space v1 defines the intentional limit  
+> future growth should happen through patch mode, not silent closure
+
+That is the job of this file.
+
+---
+
+## Quick start 🚀
+
+### I am new to the Atlas boundary layer
+
+Use this path:
+
+1. read [Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+2. read this file
+3. read [Atlas v1 Integrated Handoff](./atlas-v1-integrated-handoff.md)
+4. then continue into casebook, adapter, or patch work
+
+### I already know the Atlas and want the shortest route
+
+Start here:
+
+1. read Section 4 for what Final Freeze v1 does not claim
+2. read Section 5 for the main categories of negative space
+3. read Section 7 for the negative-space reading rules
+4. read Section 8 and Section 9 for safe expansion and escalation logic
+
+Shortest possible reading:
+
+> the core is frozen  
+> the edge stays patchable  
+> open regions are not proof of instability
+
+---
+
+## What this file protects 🛡️
+
+This page protects Atlas v1 from four common mistakes:
+
+1. **false closure**  
+   acting as if every visible region is already fully frozen
+
+2. **false instability**  
+   acting as if open edges mean the core is weak
+
+3. **silent promotion**  
+   turning work-branches or medium relations into frozen structure without patch logic
+
+4. **rhetorical overreach**  
+   using bridge success or local strength to imply universal completion
+
+This is why the negative-space layer matters.
+
+It is not anti-product.
+
+It is what keeps product, teaching, and AI reuse structurally honest.
+
+---
+
+## 0. Document status
 
 This document is the **formal negative-space companion** to [Atlas Final Freeze v1](./atlas-final-freeze-v1.md).
 
-Its role is not to weaken the atlas.
+Its role is not to weaken the Atlas.
+
 Its role is to define where the current stable structure intentionally stops.
 
 This document exists so that Atlas v1 can be both:
@@ -53,11 +140,11 @@ In short:
 > Final Freeze v1 defines the stable core.  
 > Negative Space v1 defines the intentional limit.
 
-Both are required for a trustworthy versioned atlas.
+Both are required for a trustworthy versioned Atlas.
 
 ---
 
-## 1. Document Purpose
+## 1. Document purpose
 
 This document answers a different question from the freeze document.
 
@@ -72,7 +159,7 @@ This document asks:
 Its purpose is to make four things explicit:
 
 1. what Atlas v1 does **not** claim
-2. which parts of the atlas remain intentionally unfinished
+2. which parts of the Atlas remain intentionally unfinished
 3. which structures remain visible without being promoted
 4. how future growth should proceed without silently rewriting the core
 
@@ -83,11 +170,11 @@ This document should be read together with:
 
 ---
 
-## 2. Core Interpretation of Negative Space
+## 2. Core interpretation of negative space ✨
 
-Negative space in Atlas v1 does **not** mean failure of the atlas.
+Negative space in Atlas v1 does **not** mean failure of the Atlas.
 
-It means the atlas has reached a point where:
+It means the Atlas has reached a point where:
 
 - the center is stable
 - the edge is visible
@@ -95,31 +182,32 @@ It means the atlas has reached a point where:
 
 The correct reading is:
 
-> The core is frozen.  
-> The edge remains patchable.
+> the core is frozen  
+> the edge remains patchable
 
 This is a design strength, not a weakness.
 
 ---
 
-## 3. What this document does not say
+## 3. What this document does not say 🚧
 
 This document does **not** say:
 
 - the seven-family mother table is unstable
 - the main routing rules have failed
-- the atlas needs to be redesigned from scratch
+- the Atlas needs to be redesigned from scratch
 - the canonical layer should be reopened casually
 - the project is still only in hypothesis mode
 
 Those conclusions are not supported.
 
 The purpose of this document is not to reopen the frozen core.
+
 Its purpose is to protect the frozen core from misuse, premature closure, and rhetorical drift.
 
 ---
 
-## 4. What Final Freeze v1 intentionally does not claim
+## 4. What Final Freeze v1 intentionally does not claim 📌
 
 Atlas Final Freeze v1 is strong, but it is not infinite.
 
@@ -127,7 +215,7 @@ The current first formal version does **not** claim that:
 
 ### 4.1 Exhaustive coverage exists
 
-The atlas does not claim to have already captured every important failure type across all future systems and domains.
+The Atlas does not claim to have already captured every important failure type across all future systems and domains.
 
 ### 4.2 All subtrees are maximally expanded
 
@@ -136,6 +224,7 @@ Some subtrees are already strong enough to freeze, but many still have room for 
 ### 4.3 Every relation is high-confidence
 
 Useful relations exist at different strengths.
+
 Not every relation should be treated as a strong frozen structural edge.
 
 ### 4.4 All ambiguity has disappeared
@@ -152,7 +241,7 @@ Patch mode remains necessary because growth is continuing at the edge.
 
 ---
 
-## 5. Main categories of negative space
+## 5. Main categories of negative space 🗂️
 
 Atlas v1 currently has four major kinds of intentional openness.
 
@@ -205,6 +294,7 @@ without yet being strong enough to become a frozen structural line.
 Future work should not flatten these levels.
 
 A weak relation is not a false relation.
+
 It is a relation that is not yet mature enough to freeze.
 
 ---
@@ -220,13 +310,13 @@ Examples include:
 - high-abstract regions where the first structure exists but the local geometry remains thin
 - cross-domain regions whose first formal examples exist but are not yet broad enough to count as deep coverage
 
-These should be treated as **open thickening zones**, not as failures of the atlas.
+These should be treated as **open thickening zones**, not as failures of the Atlas.
 
 ---
 
 ### 5.4 Controlled bridge regions
 
-The atlas now supports the first real bridge beyond narrow AI-only reading.
+The Atlas now supports the first real bridge beyond narrow AI-only reading.
 
 That bridge is important, but it must remain controlled.
 
@@ -243,7 +333,7 @@ The current bridge should be read as:
 
 ---
 
-## 6. Current negative-space zones
+## 6. Current negative-space zones 🌫️
 
 The following areas should currently be treated as active negative-space zones.
 
@@ -270,7 +360,9 @@ That distinction must be preserved.
 ### 6.2 Selectively visible but unclosed subtrees
 
 Some subtrees are already present as stable public-facing structure.
+
 Some are present only as semi-stable engineering branches.
+
 Some are still better treated as work zones.
 
 Atlas v1 intentionally does not force all visible branches into the same maturity class.
@@ -286,19 +378,19 @@ The system should retain the distinction between:
 
 ### 6.3 Limited bridge scope
 
-The atlas already has enough bridge evidence to support the first formal move beyond narrow AI-only framing.
+The Atlas already has enough bridge evidence to support the first formal move beyond narrow AI-only framing.
 
 However, the bridge layer remains bounded.
 
 The current system should not present:
 
 - a final civilization taxonomy
-- an exhaustive society-scale failure atlas
+- an exhaustive society-scale failure Atlas
 - a complete universal map of all possible complex-system collapse patterns
 
 The current system should present:
 
-- a stable AI-first atlas
+- a stable AI-first Atlas
 - a first formal bridge pack
 - a disciplined path toward broader expansion
 
@@ -307,6 +399,7 @@ The current system should present:
 ### 6.4 Repair-layer incompleteness
 
 Atlas v1 already includes a repair-facing layer.
+
 But the repair layer is still only the first interface layer.
 
 What exists now is enough to support:
@@ -322,7 +415,7 @@ This remains one of the most important open regions for future work.
 
 ---
 
-## 7. Negative-space reading rules
+## 7. Negative-space reading rules 📚
 
 The following rules should be used whenever working near the open edge of Atlas v1.
 
@@ -330,31 +423,39 @@ The following rules should be used whenever working near the open edge of Atlas 
 
 ### Rule 1
 
-Do not treat visibility as promotion.
+# Do not treat visibility as promotion
 
 A visible branch is not automatically a frozen node.
 
+---
+
 ### Rule 2
 
-Do not treat usefulness as closure.
+# Do not treat usefulness as closure
 
 A useful explanation line is not automatically a high-confidence frozen structural relation.
 
+---
+
 ### Rule 3
 
-Do not treat bridge evidence as universal completion.
+# Do not treat bridge evidence as universal completion
 
 A successful bridge module is not proof of final total coverage.
 
+---
+
 ### Rule 4
 
-Do not treat patchability as instability.
+# Do not treat patchability as instability
 
 A patchable edge does not imply an unstable core.
 
+---
+
 ### Rule 5
 
-Do not simplify away the edge just to make presentation easier.
+# Do not simplify away the edge just to make presentation easier
 
 If a region is genuinely open, say so.
 
@@ -362,7 +463,7 @@ That is better than flattening it into false closure.
 
 ---
 
-## 8. Safe expansion rules
+## 8. Safe expansion rules 🧩
 
 Negative space becomes valuable only if expansion is disciplined.
 
@@ -382,7 +483,7 @@ Promotion from branch to node, or from medium relation to strong relation, must 
 
 ### 8.3 Boundary refinement must remain local unless evidence forces a wider shift
 
-Do not widen a local clarification into a total atlas rewrite unless repeated evidence truly forces that move.
+Do not widen a local clarification into a total Atlas rewrite unless repeated evidence truly forces that move.
 
 ### 8.4 Cross-domain growth must stay evidence-led
 
@@ -394,9 +495,9 @@ Do not expand repair language in ways that detach it from family routing and bou
 
 ---
 
-## 9. What would justify escalation
+## 9. What would justify escalation 🔥
 
-The atlas should not escalate casually.
+The Atlas should not escalate casually.
 
 The following kinds of evidence would justify stronger future patch escalation.
 
@@ -424,7 +525,7 @@ If cross-domain bridge logic repeatedly produces false universality or unstable 
 
 ---
 
-## 10. Current escalation status
+## 10. Current escalation status ✅
 
 At the current stage:
 
@@ -433,15 +534,15 @@ At the current stage:
 - no major frozen boundary rule has failed hard enough to require redesign
 - no large-patch condition is currently justified
 
-This does **not** mean the atlas is finished forever.
+This does **not** mean the Atlas is finished forever.
 
 It means:
 
-> Atlas v1 remains strong enough to freeze at the core, while continuing to grow at the edge.
+> Atlas v1 remains strong enough to freeze at the core, while continuing to grow at the edge
 
 ---
 
-## 11. Negative-space implications for product work
+## 11. Negative-space implications for product work 🪄
 
 This document also matters for product design.
 
@@ -462,7 +563,7 @@ That is a major strength, not a branding weakness.
 
 ---
 
-## 12. Negative-space implications for AI-facing use
+## 12. Negative-space implications for AI-facing use 🤖
 
 This document matters for AI-facing routing as well.
 
@@ -475,18 +576,19 @@ An AI system using Atlas v1 should not:
 
 Instead, it should:
 
-- route confidently where the atlas is frozen
+- route confidently where the Atlas is frozen
 - stay explicit where fit remains medium or edge-sensitive
 - preserve confidence discipline
 - preserve evidence discipline
 - preserve patchable uncertainty where it is structurally real
 
 This is one reason Negative Space v1 is not optional.
+
 It protects the adapter layer from becoming rhetorically overconfident.
 
 ---
 
-## 13. Operational handoff rule
+## 13. Operational handoff rule 📎
 
 When entering a new working context, the correct order is:
 
@@ -507,27 +609,44 @@ This matters because the system should be entered through:
 
 ---
 
-## 14. Official wording
+## 14. Official wording 📣
 
-When describing the current boundary state of the atlas, use wording like this:
+When describing the current boundary state of the Atlas, use wording like this:
 
-> Atlas Final Freeze v1 defines the stable core of the atlas.  
+> Atlas Final Freeze v1 defines the stable core of the Atlas.  
 > Negative Space v1 defines the intentional limits, weak zones, unpromoted branches, and safe expansion boundary.  
-> Future work proceeds through patch mode, not by silently rewriting the atlas core.
+> Future work proceeds through patch mode, not by silently rewriting the Atlas core.
 
 This wording is accurate, strong, and safe.
 
 ---
 
-## 15. One-line version
+## Next steps ✨
+
+After this page, most readers continue with:
+
+1. [Open Atlas v1 Integrated Handoff](./atlas-v1-integrated-handoff.md)
+2. [Open Canonical Casebook v1](./canonical-casebook-v1.md)
+3. [Open Atlas-to-AI Adapter v1](./atlas-to-ai-adapter-v1.md)
+4. [Open Patch Governance v1](./patch-governance-v1.md)
+
+If you want the broader Atlas surface:
+
+- [Back to Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+- [Back to Atlas Hub](./README.md)
+- [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+
+---
+
+## One-line version 🌍
 
 **Negative Space v1 defines where Atlas v1 intentionally remains open, weak, or patch-sensitive without undermining the frozen core.**
 
 ---
 
-## 16. Closing note
+## Closing note
 
-A serious atlas needs two things:
+A serious Atlas needs two things:
 
 - a stable center
 - a disciplined edge

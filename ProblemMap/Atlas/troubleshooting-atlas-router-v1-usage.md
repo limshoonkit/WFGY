@@ -17,6 +17,7 @@ What this file is:
 - The main usage guide for the Router TXT pack
 - A practical onboarding page for humans and AI-facing workflows
 - A bridge between the Router pack and real troubleshooting use
+- The first formal how-to page for route-first Router operation
 
 What this file is not:
 - Not the Atlas core
@@ -30,45 +31,54 @@ Reading discipline for AI:
 - Treat the Router as a compact operational pack, not as the whole Atlas.
 - Do not overclaim that the Router guarantees full diagnosis or full repair closure.
 - Keep the order clear: route first, then first repair direction.
+- Treat this guide as practical usage help, not as a replacement for the freeze note.
 
 AI_NOTE_END
 -->
 
-# Troubleshooting Atlas Router v1 Usage Guide
+# Troubleshooting Atlas Router v1 Usage Guide 🛠️
 
-## Problem Map 3.0 Troubleshooting Atlas
 ## How to use the first route-first TXT troubleshooting pack
 
 Quick links:
 
 - [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
 - [Get the Router TXT Pack](./troubleshooting-atlas-router-v1.txt)
-- [Router Freeze Note](./troubleshooting-atlas-router-v1-freeze-note.md)
-- [Atlas Hub](./README.md)
-- [Official Flagship Demos](./Fixes/official/demos/README.md)
+- [Open the Router Freeze Note](./troubleshooting-atlas-router-v1-freeze-note.md)
+- [Open Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+- [Back to Atlas Hub](./README.md)
+- [Open Official Flagship Demos](./Fixes/official/demos/README.md)
 
 ---
 
-This document explains how to use `Troubleshooting Atlas Router v1`.
+This guide explains how to use `Troubleshooting Atlas Router v1` in real troubleshooting work.
 
 Its purpose is simple:
 
-> show what the Router is for,  
-> when to use it,  
-> what kind of input to provide,  
-> what kind of output to expect,  
+> show what the Router is for  
+> when to use it  
+> what kind of input to provide  
+> what kind of output to expect  
 > and how to read that output correctly
 
-This is a usage guide.  
+This is a usage guide.
+
 It is not the full Atlas.  
 It is not the full teaching layer.  
 It is not the full repair engine.
 
 It is the practical onboarding page for using the Router well.
 
+Short version:
+
+> load the TXT  
+> paste one real case  
+> ask for route-first output  
+> read the cut before you touch the fix
+
 ---
 
-## Quick start
+## Quick start 🚀
 
 If you want the shortest practical path, do this:
 
@@ -89,7 +99,7 @@ If that already works for you, you do not need to read the whole page first.
 
 ---
 
-## Minimal prompt pattern
+## Minimal prompt pattern ⚡
 
 Here is the simplest way to use the Router.
 
@@ -108,7 +118,7 @@ That is enough for a first pass.
 
 ---
 
-## Tiny example
+## Tiny example 🧪
 
 Here is a small example of the kind of case that already works well.
 
@@ -128,11 +138,12 @@ Parse failures and downstream workflow breaks.
 ```
 
 This is not the only valid format.
+
 It is just a simple example of the level of signal that helps the Router cut cleanly.
 
 ---
 
-## 1. What the Router is for
+## 1. What the Router is for 🧭
 
 `Troubleshooting Atlas Router v1` is a compact TXT pack designed to help AI systems read troubleshooting cases through the Atlas family map.
 
@@ -153,7 +164,7 @@ Short version:
 
 ---
 
-## 2. When to use it
+## 2. When to use it ✅
 
 Use the Router when you have a real troubleshooting case and want a faster route-first judgment.
 
@@ -181,7 +192,7 @@ but more like:
 
 ---
 
-## 3. When not to use it
+## 3. When not to use it 🚧
 
 Do not use the Router as if it were already:
 
@@ -208,7 +219,7 @@ Short version:
 
 ---
 
-## 4. What you need before using it
+## 4. What you need before using it 📦
 
 At minimum, you need two things:
 
@@ -234,11 +245,12 @@ Useful forms of input include:
 * a short log snippet with context
 
 You do not need a perfect formal schema.
+
 But the better the case description, the better the route.
 
 ---
 
-## 5. The basic usage flow
+## 5. The basic usage flow 🔄
 
 The Router is designed for a very simple flow.
 
@@ -281,7 +293,7 @@ That is the healthy use pattern.
 
 ---
 
-## 6. Stronger prompt pattern
+## 6. Stronger prompt pattern 🧠
 
 If you want a cleaner result, use a slightly more guided prompt.
 
@@ -308,7 +320,7 @@ This version tends to reduce sloppy outputs.
 
 ---
 
-## 7. What kind of input works best
+## 7. What kind of input works best 🔍
 
 The Router works best when the case contains enough material to expose the failure shape.
 
@@ -322,6 +334,7 @@ The most useful ingredients are:
 * any concrete artifact such as output, log, schema, or snippet
 
 The Router is still usable on shorter descriptions.
+
 But the best results usually come when the case includes:
 
 * expected behavior
@@ -332,7 +345,7 @@ That gives the model something real to cut.
 
 ---
 
-## 8. What the output means
+## 8. What the output means 🧩
 
 The Router’s output is compact, but every field matters.
 
@@ -388,7 +401,7 @@ This tells you whether the current case actually contained enough material to su
 
 ---
 
-## 9. How to judge whether the output is good
+## 9. How to judge whether the output is good 🧪
 
 A good Router output usually has these qualities:
 
@@ -414,7 +427,7 @@ That is how you should read the result.
 
 ---
 
-## 10. What to do when evidence is weak
+## 10. What to do when evidence is weak 🩺
 
 Sometimes the Router will say:
 
@@ -441,7 +454,7 @@ Short version:
 
 ---
 
-## 11. How to use the Router with different kinds of cases
+## 11. How to use the Router with different kinds of cases 🗂️
 
 The Router can be used across several common troubleshooting styles.
 
@@ -503,7 +516,7 @@ Likely value:
 
 ---
 
-## 12. What the Router is especially good at
+## 12. What the Router is especially good at 🌟
 
 Router v1 is especially strong at these things:
 
@@ -529,7 +542,7 @@ This is one of the biggest product thresholds the Router crosses.
 
 ---
 
-## 13. What the Router is still limited at
+## 13. What the Router is still limited at ⚠️
 
 Router v1 is useful, but it still has normal first-version limits.
 
@@ -554,7 +567,7 @@ If you need stronger coverage, move up into:
 
 ---
 
-## 14. Relationship to the larger Atlas system
+## 14. Relationship to the larger Atlas system 🔗
 
 The Router should be seen as one layer in the larger system.
 
@@ -578,7 +591,7 @@ The Router is strongest when used as a front layer, not when forced to become th
 
 ---
 
-## 15. Suggested usage pattern for humans
+## 15. Suggested usage pattern for humans 👤
 
 If a human wants to use this product manually, the best pattern is:
 
@@ -594,7 +607,7 @@ This keeps the product useful and honest.
 
 ---
 
-## 16. Suggested usage pattern for AI workflows
+## 16. Suggested usage pattern for AI workflows 🤖
 
 If the Router is used inside a workflow, the safest first-version pattern is:
 
@@ -613,7 +626,7 @@ This keeps the Router acting like a disciplined front-end classifier.
 
 ---
 
-## 17. What not to do
+## 17. What not to do ⛔
 
 To use Router v1 well, avoid these mistakes.
 
@@ -632,7 +645,7 @@ These are exactly the kinds of mistakes the Router is meant to reduce.
 
 ---
 
-## 18. Recommended short wording
+## 18. Recommended short wording 📣
 
 If you need a short explanation for a README, demo, or collaboration thread, use wording like this:
 
@@ -643,27 +656,22 @@ This is strong, clear, and safe.
 
 ---
 
-## 19. One-line status
+## 19. One-line status 🌍
 
 **This guide explains how to use Troubleshooting Atlas Router v1 as a compact route-first TXT pack for failure classification and first-fix guidance.**
 
 ---
 
-## 20. Next steps
+## 20. Next steps ✨
 
 If you want the shortest next path:
 
 1. [Get the Router TXT Pack](./troubleshooting-atlas-router-v1.txt)
-2. [Go back to the Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+2. [Open the Router Freeze Note](./troubleshooting-atlas-router-v1-freeze-note.md)
 3. [See the Official Flagship Demos](./Fixes/official/demos/README.md)
 4. [Open the Atlas Hub](./README.md)
 
-If this guide helped you get started, consider:
-
-* [starring the WFGY repo](https://github.com/onestardao/WFGY)
-* sharing a real edge case
-* opening an issue
-* testing the Router on a difficult workflow
+If this guide helped you get started, a good next move is to test the Router on one real case before opening the deeper Atlas layers.
 
 ---
 

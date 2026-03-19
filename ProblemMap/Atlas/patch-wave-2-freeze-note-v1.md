@@ -5,7 +5,7 @@ Document role:
 This file is the formal freeze note for Patch Wave 2 of the Atlas system.
 
 How to use this file:
-1. Read this file after reading the frozen atlas core and the main Patch Wave 2 additions.
+1. Read this file after reading the frozen Atlas core and the main Patch Wave 2 additions.
 2. Use this page to understand what Patch Wave 2 officially adds to the system.
 3. Treat this file as a version-node freeze note, not as the full patch log or internal work diary.
 4. Read together with:
@@ -14,14 +14,16 @@ How to use this file:
    - [Canonical Casebook v1](./canonical-casebook-v1.md)
    - [Atlas-to-AI Adapter v1](./atlas-to-ai-adapter-v1.md)
    - [Cross-Domain Demonstration Pack v2](./cross-domain-demonstration-pack-v2.md)
+   - [Patch Governance v1](./patch-governance-v1.md)
 
 What this file is:
 - The formal freeze note for the first major post-v1 patch wave
 - A version-boundary document for Patch Wave 2
 - A summary of what is now considered formally added and stabilized by this patch wave
+- The official wording layer for citing Patch Wave 2 safely
 
 What this file is not:
-- Not the atlas core mother table
+- Not the Atlas core mother table
 - Not the full internal patch diary
 - Not a universal completion claim
 - Not a replacement for future patch waves
@@ -29,38 +31,97 @@ What this file is not:
 
 Reading discipline for AI:
 - Preserve the distinction between Atlas Final Freeze v1 and later patch-wave additions.
-- Treat this file as a formal patch boundary note, not as a rewrite of the atlas core.
+- Treat this file as a formal patch boundary note, not as a rewrite of the Atlas core.
 - Do not overclaim that Patch Wave 2 closes all future work.
 - Keep the distinction between frozen core, frozen patch node, and future patch expansion clear.
+- Use this file to control version wording, not to bypass core freeze discipline.
 
 AI_NOTE_END
 -->
 
-# Patch Wave 2 Freeze Note v1
+# Patch Wave 2 Freeze Note v1 🌊
 
-## Problem Map 3.0 Troubleshooting Atlas
 ## Formal freeze note for the first major post-v1 patch wave
 
-This document is the formal freeze note for **Patch Wave 2 v1** of the Atlas system.
+Quick links:
 
-Its purpose is simple:
+- [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+- [Back to Atlas Hub](./README.md)
+- [Open Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+- [Open Atlas Negative Space Report v1](./atlas-negative-space-report-v1.md)
+- [Open Canonical Casebook v1](./canonical-casebook-v1.md)
+- [Open Atlas-to-AI Adapter v1](./atlas-to-ai-adapter-v1.md)
+- [Open Cross-Domain Demonstration Pack v2](./cross-domain-demonstration-pack-v2.md)
+- [Open Patch Governance v1](./patch-governance-v1.md)
 
-> to state clearly what Patch Wave 2 has now added  
-> what is stable enough to treat as a formal version node  
-> and what still remains open for future growth
+---
+
+If **Atlas Final Freeze v1** is the frozen mother core, this page is the document that says what the first major strengthening wave has now added on top of that core. 🧭
+
+This file exists to make three things clear:
+
+- what Patch Wave 2 has added
+- what is now stable enough to reference as a formal patch node
+- what still remains open for later patch growth
+
+Short version:
+
+> Atlas Final Freeze v1 remains the core  
+> Patch Wave 2 v1 is the first major strengthening wave built on top of that core  
+> future work still continues through later patching
 
 That is the job of this file.
 
-This document should be read as a **patch freeze note**.
-It does not replace the frozen core.
-It does not redraw the mother table.
-It does not claim that all remaining work is done.
+---
 
-What it does say is this:
+## Quick start 🚀
 
-> the first major post-v1 patch wave has now matured enough to freeze as a real and reusable version boundary
+### I am new to Patch Wave 2
 
-That is a meaningful step.
+Use this path:
+
+1. read [Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+2. read [Atlas Negative Space Report v1](./atlas-negative-space-report-v1.md)
+3. read [Patch Governance v1](./patch-governance-v1.md)
+4. read the main Patch Wave 2 materials
+5. read this file
+
+### I already know the Atlas and want the shortest route
+
+Start here:
+
+1. read Section 3 for what Patch Wave 2 now freezes
+2. read Section 4 for what Patch Wave 2 has actually improved
+3. read Section 5 for what Patch Wave 2 does not change
+4. read Section 6 and Section 7 for what may and may not now be claimed
+5. read Section 8 for the official interpretation
+
+Shortest possible reading:
+
+> this is a strengthening wave  
+> not a core rewrite  
+> not a universal completion claim  
+> and not the end of future patching
+
+---
+
+## What this file is protecting 🛡️
+
+This page protects Patch Wave 2 from two bad readings:
+
+1. **underreading**  
+   acting as if the patch-wave additions are still only loose notes and not stable enough to cite
+
+2. **overreading**  
+   acting as if one strong patch wave means the whole system is now complete
+
+Both are wrong.
+
+Patch Wave 2 is real enough to freeze as a formal version node.
+
+But it is still a patch wave built on top of the core, not a final end-state system.
+
+That boundary is the whole reason this file exists.
 
 ---
 
@@ -86,7 +147,7 @@ It gives Patch Wave 2 a clean boundary.
 
 ---
 
-## 2. What Patch Wave 2 is
+## 2. What Patch Wave 2 is 🧩
 
 Patch Wave 2 is the first major structured patch wave built on top of the frozen Atlas v1 core.
 
@@ -111,19 +172,20 @@ That distinction matters.
 
 ---
 
-## 3. What Patch Wave 2 now freezes
+## 3. What Patch Wave 2 now freezes 📌
 
 The following Patch Wave 2 results are now considered stable enough to freeze as a formal patch node.
 
 ### 3.1 Atlas subtree thickening
 
-Patch Wave 2 formally thickens selected high-pressure atlas regions, including:
+Patch Wave 2 formally thickens selected high-pressure Atlas regions, including:
 
 - stronger subdivision in the F3 multi-actor continuity region
 - stronger stability in the F4 institutional enforcement region
 - stronger stability in the F5 early-warning region
 
 This matters because these were not random additions.
+
 They were selected because they were already pressure-rich and worth formal strengthening.
 
 ### 3.2 First formal cross-domain bridge pack
@@ -131,6 +193,7 @@ They were selected because they were already pressure-rich and worth formal stre
 Patch Wave 2 now includes a first formal cross-domain bridge layer.
 
 This is not merely a future idea.
+
 It is now a frozen patch-level addition.
 
 That bridge layer is represented by:
@@ -147,9 +210,10 @@ Patch Wave 2 strengthens the teaching system by freezing the first formal negati
 
 - wrong-route examples
 - misrepair examples
-- more explicit “do not cut here first” and “do not repair here first” logic
+- more explicit “do not cut here first” logic
+- more explicit “do not repair here first” logic
 
-This matters because the atlas becomes stronger when it teaches not only correct use, but also common error patterns.
+This matters because the Atlas becomes stronger when it teaches not only correct use, but also common error patterns.
 
 ### 3.4 Adapter realism upgrade
 
@@ -167,15 +231,15 @@ This is important because it moves the adapter closer to real operational use wi
 
 Patch Wave 2 also freezes relation-level strengthening between families, nodes, and fix-facing guidance.
 
-This matters because a patch wave is stronger when it does not only add content, but reconnects new content back into the atlas map.
+This matters because a patch wave is stronger when it does not only add content, but reconnects new content back into the Atlas map.
 
 ---
 
-## 4. What Patch Wave 2 has actually improved
+## 4. What Patch Wave 2 has actually improved 🔧
 
 Patch Wave 2 improves the system in five major ways.
 
-### 4.1 The atlas becomes harder, not looser
+### 4.1 The Atlas becomes harder, not looser
 
 The high-pressure subtrees strengthened in this wave were not added to make the system larger for appearance.
 
@@ -183,13 +247,13 @@ They were added to make the system more structurally precise.
 
 This is a hardening wave, not a decoration wave.
 
-### 4.2 The atlas becomes broader in a disciplined way
+### 4.2 The Atlas becomes broader in a disciplined way
 
 Patch Wave 2 introduces the first real bridge beyond narrow AI-only use.
 
 That means the system now has a cleaner answer to the question:
 
-- can this atlas travel further without collapsing
+- can this Atlas travel further without collapsing
 
 Patch Wave 2 says yes, but carefully.
 
@@ -218,7 +282,7 @@ That is an important practical step.
 
 ### 4.5 The patch system itself becomes more real
 
-Patch Wave 2 proves that the atlas can grow through explicit version discipline.
+Patch Wave 2 proves that the Atlas can grow through explicit version discipline.
 
 That may sound procedural, but it is actually one of the strongest signals of system maturity.
 
@@ -226,7 +290,7 @@ A system becomes real when it can grow without silently mutating.
 
 ---
 
-## 5. What Patch Wave 2 does not change
+## 5. What Patch Wave 2 does not change 🚧
 
 This section is critical.
 
@@ -241,7 +305,7 @@ Patch Wave 2 does **not** change the following:
 
 This means Patch Wave 2 should never be read as:
 
-- a new atlas core
+- a new Atlas core
 - a hidden v2 rewrite
 - a replacement for Final Freeze v1
 
@@ -251,7 +315,7 @@ Instead, it should be read as:
 
 ---
 
-## 6. What Patch Wave 2 allows us to say
+## 6. What Patch Wave 2 allows us to say 📣
 
 After this freeze note, the following statements are now considered acceptable and stable:
 
@@ -261,11 +325,11 @@ The Atlas system already has a first major patch wave beyond the initial v1 free
 
 ### Allowed statement 2
 
-The atlas has already strengthened selected high-pressure subtrees after the initial freeze.
+The Atlas has already strengthened selected high-pressure subtrees after the initial freeze.
 
 ### Allowed statement 3
 
-The atlas now includes a first formal cross-domain bridge layer as part of its patch growth.
+The Atlas now includes a first formal cross-domain bridge layer as part of its patch growth.
 
 ### Allowed statement 4
 
@@ -279,7 +343,7 @@ These are safe claims.
 
 ---
 
-## 7. What Patch Wave 2 does not allow us to say
+## 7. What Patch Wave 2 does not allow us to say ⛔
 
 The following statements are still too strong and should be avoided:
 
@@ -311,7 +375,7 @@ These are not justified by the current state.
 
 ---
 
-## 8. Current patch-wave interpretation
+## 8. Current patch-wave interpretation 🧱
 
 The correct interpretation of Patch Wave 2 is:
 
@@ -325,7 +389,7 @@ Everything else in this note serves that interpretation.
 
 ---
 
-## 9. Relationship to the main system layers
+## 9. Relationship to the main system layers 🔗
 
 Patch Wave 2 touches multiple layers of the system.
 
@@ -350,12 +414,14 @@ It improves compactness, selectivity, and practical boundary handling.
 It proves that patching is not a vague promise but a real versioned process.
 
 This is why Patch Wave 2 is important.
+
 It is not a single-document patch.
+
 It is a multi-layer strengthening wave.
 
 ---
 
-## 10. Relationship to future patch growth
+## 10. Relationship to future patch growth 🌱
 
 A good patch freeze note should make future work easier.
 
@@ -376,7 +442,7 @@ It should reduce ambiguity for future growth.
 
 ---
 
-## 11. Recommended official wording
+## 11. Recommended official wording 📣
 
 When you need a short patch-wave statement in a new window, collaboration note, product-support page, or internal handoff, use wording like this:
 
@@ -387,11 +453,11 @@ This wording is strong, accurate, and safe.
 
 ---
 
-## 12. Practical interpretation for current work
+## 12. Practical interpretation for current work 🛠️
 
 For current work, this freeze note means:
 
-- the core atlas no longer needs to be re-argued from scratch
+- the core Atlas no longer needs to be re-argued from scratch
 - Patch Wave 2 additions are now stable enough to reference
 - bridge and adapter growth are now real parts of the system map
 - future work should build on these additions rather than pretending they do not exist
@@ -401,7 +467,7 @@ This is exactly the kind of clarity a healthy system needs.
 
 ---
 
-## 13. What future work should do
+## 13. What future work should do 🌱
 
 Future patch work should:
 
@@ -422,7 +488,7 @@ High-value future work includes:
 
 ---
 
-## 14. What future work should not do
+## 14. What future work should not do 🚧
 
 Future patch work should **not**:
 
@@ -436,7 +502,23 @@ A patch system is only strong if it stays disciplined.
 
 ---
 
-## 15. One-line status
+## Next steps ✨
+
+After this page, most readers continue with:
+
+1. [Open Patch Governance v1](./patch-governance-v1.md)
+2. [Open Cross-Domain Demonstration Pack v2](./cross-domain-demonstration-pack-v2.md)
+3. [Open Atlas-to-AI Adapter v1](./atlas-to-ai-adapter-v1.md)
+
+If you want the broader Atlas surface:
+
+- [Back to Atlas Final Freeze v1](./atlas-final-freeze-v1.md)
+- [Back to Atlas Hub](./README.md)
+- [Back to Atlas landing page](../wfgy-ai-problem-map-troubleshooting-atlas.md)
+
+---
+
+## 15. One-line status 🌍
 
 **Patch Wave 2 v1 is now frozen as the first major post-v1 strengthening wave of the Atlas system, with future growth continuing through disciplined later patching.**
 
