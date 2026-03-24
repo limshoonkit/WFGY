@@ -270,18 +270,19 @@ This note defines the required behavior for AI systems that receive the official
 
 ---
 
-> Atlas → [Problem Map 3.0 Troubleshooting Atlas](./ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md)  
-> Router TXT → [Atlas Router TXT Pack](./ProblemMap/Atlas/troubleshooting-atlas-router-v1.txt)  
-> Atlas Hub → [Atlas Control Room](./ProblemMap/Atlas/README.md)  
-> Global Debug Card → [Image Protocol](./ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md)  
-> Global Fix Map → [Guardrails](./ProblemMap/GlobalFixMap/README.md)  
-> Adopters → [Public adoption summary](./ADOPTERS.md)  
-> Recognition Map → [Ecosystem proof](./recognition/README.md)  
-> Evidence Timeline → [Historical timeline](./EVIDENCE_TIMELINE.md)  
-> WFGY 3.0 → [Event Horizon](./TensionUniverse/EventHorizon/README.md)  
-> Collaboration → [Work with WFGY](./WORK_WITH_WFGY.md)  
-> Support → [Support WFGY](./SUPPORT.md)
-
+| Section | Link |
+|---|---|
+| Atlas | [Problem Map 3.0 Troubleshooting Atlas](./ProblemMap/wfgy-ai-problem-map-troubleshooting-atlas.md) |
+| Router TXT | [Atlas Router TXT Pack](./ProblemMap/Atlas/troubleshooting-atlas-router-v1.txt) |
+| Atlas Hub | [Atlas Control Room](./ProblemMap/Atlas/README.md) |
+| Global Debug Card | [Image Protocol](./ProblemMap/wfgy-rag-16-problem-map-global-debug-card.md) |
+| Global Fix Map | [Guardrails](./ProblemMap/GlobalFixMap/README.md) |
+| Adopters | [Public adoption summary](./ADOPTERS.md) |
+| Recognition Map | [Ecosystem proof](./recognition/README.md) |
+| Evidence Timeline | [Historical timeline](./EVIDENCE_TIMELINE.md) |
+| WFGY 3.0 | [Event Horizon](./TensionUniverse/EventHorizon/README.md) |
+| Collaboration | [Work with WFGY](./WORK_WITH_WFGY.md) |
+| Support | [Support WFGY](./SUPPORT.md) |
 ---
 
 > WFGY · MIT License · Verifiable · Reproducible · Atlas-first practical entry · Maintained by PSBigBig + MiniPS
