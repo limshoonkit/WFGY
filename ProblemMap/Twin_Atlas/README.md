@@ -19,10 +19,10 @@ What this page is not:
 
 Reading strategy:
 1. Read this page first for the global framing.
-2. Use the quick-entry table below the hero image if you want the fastest path.
+2. Use the three entry paths below if you want the fastest next step.
 3. Use AI Eval and Results Summary if you want visible proof first.
-4. Use the two TXT downloads and the 60-second path if you want to run it yourself.
-5. Follow the Forward Atlas, Inverse Atlas, and Runtime links if you want the full engine structure.
+4. Use the two TXT downloads and the 60-second rerun path if you want to test it yourself.
+5. Use the atlas and runtime links if you want the engine structure before the proof surface.
 
 Important boundary:
 This page presents WFGY 4.0 as a design-complete flagship direction with a coherent architecture and public evidence surface.
@@ -45,43 +45,57 @@ Twin Atlas exists because better reasoning is not only about finding a plausible
 
 ![WFGY 4.0 Hero Scoreboard](./figures/hero-governance-scoreboard.png)
 
-> Current public AI eval snapshot from the WFGY 4.0 governance stress surface. This is a flagship evidence surface, not a universal benchmark claim.
+> Current public runs already show the core Twin Atlas shift: less pressure-driven closure, more lawful downgrade, and a stricter boundary between plausible route and public conclusion.
 
-## 🚀 Enter WFGY 4.0 in One Minute
+## 🧠 Why This Matters
 
-| Start path | Best for | Go |
+Most AI systems still live in a pre-constitutional era.
+
+They can infer, guess, summarize, and generate, but they do not cleanly separate what seems plausible, what is structurally grounded, what is repairable, and what has actually earned the right to be emitted in public form.
+
+WFGY 4.0 changes that boundary.
+
+Twin Atlas does not simply try to make answers sound better. It changes the conditions under which an answer is allowed to become public output.
+
+That is why WFGY 4.0 should be read as a governance engine, not as another prompt trick.
+
+## 🚪 Choose Your First Move
+
+| Start here | Best for | Go |
 |---|---|---|
-| **📊 See visible proof first** | first-time readers who want public before / after evidence immediately | [AI Eval](./demos/ai-eval.md) · [Results Summary](./evidence/results-summary.md) · [Screenshots](./demos/screenshots/) |
-| **⚡ Run it yourself** | readers who want the fastest public rerun path | [Twin Atlas Runtime TXT](./demos/prompts/wfgy-4_0-twin-atlas-runtime.txt) · [Governance Stress Suite TXT](./demos/prompts/wfgy-4_0-governance-stress-suite.txt) · [Reproduce in 60 Seconds](./demos/reproduce-in-60-seconds.md) |
-| **🏛️ Read the engine first** | readers who want the architecture before the proof surface | [Quickstart](./quickstart.md) · [Runtime](./runtime/README.md) · [Bridge](./Bridge/README.md) |
+| **See proof first** | You want public before / after evidence immediately | [AI Eval](./demos/ai-eval.md) |
+| **Try it yourself** | You want the fastest public rerun path | [Reproduce in 60 Seconds](./demos/reproduce-in-60-seconds.md) |
+| **Read the engine first** | You want the architecture before the proof surface | [Quickstart](./quickstart.md) |
 
-## 📦 Public Proof Surface
+## 🔍 Public Proof, Already Live
 
-WFGY 4.0 is not being presented here as theory alone.
+This release surface is not just theory.
 
-The current release surface already includes:
+You can already inspect it in public form:
 
-- a public Twin Atlas runtime TXT
-- a public governance stress suite TXT
-- a screenshot layer across the current public model set
-- model-specific raw runs
-- a results summary layer
-- flagship evidence pages for deeper inspection
+* **AI Eval**: the screenshot-first comparison layer  
+* **Results Summary**: the aggregate read across the current public runs  
+* **Raw Runs**: the original model-specific outputs  
+* **Two public TXT files**: the runtime file and the governance stress suite  
+* **Screenshots**: the visible public image layer  
+* **A live rerun path**: a shortest-path public reproduction flow
 
-That means this page is not just a philosophy page.
-It is the flagship landing page of a live public evidence surface.
+This means the current WFGY 4.0 surface is not asking readers to trust a concept first and verify later.
 
-## ⚡ 60-Second Trial
+It is already structured so readers can verify now.
 
-If you want the shortest public path, do this:
+## ⚡ Run It Now
 
-1. Open your target AI system.
-2. Paste [`wfgy-4_0-twin-atlas-runtime.txt`](./demos/prompts/wfgy-4_0-twin-atlas-runtime.txt).
-3. Then paste [`wfgy-4_0-governance-stress-suite.txt`](./demos/prompts/wfgy-4_0-governance-stress-suite.txt).
-4. Let the model complete both passes.
-5. Compare the BEFORE pass and the AFTER pass.
+If you want the shortest public trial, use these two files in order:
 
-The shortest useful question is not "did the answer become nicer?"
+1. [`wfgy-4_0-twin-atlas-runtime.txt`](./demos/prompts/wfgy-4_0-twin-atlas-runtime.txt)
+2. [`wfgy-4_0-governance-stress-suite.txt`](./demos/prompts/wfgy-4_0-governance-stress-suite.txt)
+
+Then compare the **BEFORE** pass and the **AFTER** pass.
+
+The shortest useful question is not:
+
+“did the answer become nicer?”
 
 The real question is:
 
@@ -89,33 +103,17 @@ The real question is:
 
 That is the Twin Atlas test.
 
-## 🧠 What WFGY 4.0 Changes
-
-Most systems still live in a pre-constitutional era.
-
-They can infer, guess, summarize, and generate, but they do not cleanly separate what seems plausible, what is structurally grounded, what is repairable, and what has actually earned the right to be emitted in public form.
-
-WFGY 4.0 changes that boundary.
-
-In Twin Atlas, a plausible route is not automatically a lawful conclusion, a repair candidate is not automatically a structural repair, and a cleaner answer is not automatically a more legitimate answer. The engine is designed to stop those collapses before they become public output.
-
-## 🏛️ The Three-Part Engine
+## 🏛️ The Engine Core
 
 Twin Atlas unifies three distinct powers into one engine direction:
 
-1. route-first structural orientation  
-2. legitimacy-first generation governance  
-3. advisory-only operational coupling  
-
-These are not duplicate functions. They are different powers in the same runtime.
-
-| Component | Role | What it prevents |
+| Component | Core role | What it prevents |
 |---|---|---|
-| **🧭 Forward Atlas** | route-first structural orientation | wrong first cut, weak routing, misplaced repair effort |
-| **🌉 Bridge** | advisory-only coupling and weak-prior transfer | route plausibility leaking into authorization |
-| **🔒 Inverse Atlas** | legitimacy-first generation governance | over-claim, fake repair finality, unlawful public emission |
+| **Forward Atlas** | route-first structural orientation | wrong first cut, misplaced repair effort, shallow routing confidence |
+| **Bridge** | advisory-only coupling and weak-prior transfer | route plausibility leaking into authorization |
+| **Inverse Atlas** | legitimacy-first generation governance | over-claim, fake repair finality, unlawful public emission |
 
-### 🧭 Forward Atlas
+### Forward Atlas
 
 **Forward Atlas**, the Twin Atlas engine name for **Troubleshooting Atlas / Problem Map 3.0**, is the route-first side of the system.
 
@@ -123,7 +121,7 @@ Its job is to improve the first structural cut. It asks where the failure most l
 
 Forward Atlas does not own final authorization.
 
-### 🌉 Bridge
+### Bridge
 
 **Bridge** is the advisory-only coupling layer.
 
@@ -131,7 +129,7 @@ Its job is to carry route value forward without converting route plausibility in
 
 Bridge exists because conceptual pairing is not the same thing as lawful handoff.
 
-### 🔒 Inverse Atlas
+### Inverse Atlas
 
 **Inverse Atlas** is the legitimacy-first side of the engine.
 
@@ -139,45 +137,21 @@ Its job is to determine whether the current answer has actually earned the right
 
 Inverse Atlas is not a style layer. It is a governance layer.
 
-## ⚙️ Why Both Atlas Lines Matter
+## 🧩 Why Twin Atlas Needs All Three Parts
 
 A reasoning system can fail in at least two different ways.
 
-First, it can look in the wrong structural region.  
-Second, it can speak too strongly before lawful support exists.
+First, it can look in the wrong structural region. Second, it can speak too strongly before lawful support exists.
 
 These are not the same failure.
 
-A route-first system alone can still over-resolve, over-claim, erase still-live neighboring cuts, or present cosmetic repair as if it were structural.  
+A route-first system alone can still over-resolve, over-claim, erase still-live neighboring cuts, or present cosmetic repair as if it were structural.
+
 A legitimacy-first system alone can still begin from a weak first cut and spend its caution budget protecting the wrong route.
 
-Twin Atlas exists because both failures matter at the same time.
+Bridge matters because those two powers cannot simply be placed side by side and assumed to work. Without a disciplined coupling layer, route plausibility leaks into authorization, candidate repair leaks into structural repair language, and cleaner transfer language starts to behave like silent approval.
 
-## 🌉 Why Bridge Had To Exist
-
-Forward Atlas and Inverse Atlas are not two copies of the same idea. One improves where the system looks. The other governs when and how strongly the system is allowed to conclude.
-
-But those two powers cannot simply be placed side by side and assumed to work.
-
-Without a disciplined coupling layer:
-
-- route plausibility leaks into authorization
-- candidate repair leaks into structural repair language
-- cleaner transfer language starts to behave like silent approval
-
-Bridge exists to stop that leak while still allowing operational handoff.
-
-That is why Bridge is not a cosmetic middle layer. It is the membrane that lets the two atlas lines become one engine without collapsing into one blurry reasoning shell.
-
-## 🧩 What Each Side Contributes
-
-| Component | Core contribution |
-|---|---|
-| **🧭 Forward Atlas** | first-cut structural routing, broken invariant localization, neighboring-route separation, first repair direction discipline, misrepair awareness under thin evidence |
-| **🌉 Bridge** | weak-prior transfer, no-inflation handoff, route preservation without authorization leak, coupling between route discovery and governance review |
-| **🔒 Inverse Atlas** | problem constitution, pre-emission legitimacy control, neighboring-cut survival review, repair-legality review, lawful stopping, downgrade, and ceiling discipline |
-
-Together, these three pieces form an engine that can show both what the system is structurally seeing and what the system is lawfully allowed to say.
+Twin Atlas exists because all three failures matter at the same time: weak first cut, inflated handoff, and unlawful public conclusion.
 
 ## 🧪 Flagship Evidence
 
@@ -185,24 +159,20 @@ Twin Atlas is not presented here as pure theory.
 
 WFGY 4.0 already includes a flagship governance stress surface designed to evaluate a failure class that ordinary benchmarks often underexpose: high-pressure cases where a model is forced to commit, forced to pick one answer, and pressured to cross evidence boundaries before it has earned the right to do so.
 
-### 📉 Flagship Delta
+### What the current public runs repeatedly show
 
-Across the current public 8-case runs, the clearest repeated pattern is not just "softer answers."
-
-It is a shift away from pressure-driven closure and toward lawful downgrade, competing-route preservation, and ceiling-respecting output.
-
-The strongest repeated public signal currently visible is:
-
-- **Illegal Commitment** repeatedly falls from **8 -> 0**
-- **Evidence Boundary Violation** repeatedly falls from **8 -> 0** in the strongest current public runs
-- **Lawful Downgrade** repeatedly rises from **0 -> 8**
-- one current public outlier also shows why this evidence surface matters: over-downgrade and blanket-refusal drift remain inspectable rather than hidden
+| Repeated public signal | Current pattern |
+|---|---|
+| **Illegal Commitment** | repeatedly **8 -> 0** |
+| **Evidence Boundary Violation** | repeatedly **8 -> 0** in the strongest current public runs |
+| **Lawful Downgrade** | repeatedly **0 -> 8** |
+| **Outlier visibility** | at least one public run preserves over-downgrade or blanket-refusal drift instead of hiding it |
 
 This is not just a softer answer style.
 
 It is a shift from pressure-driven closure toward lawful downgrade, competing-route preservation, and ceiling-respecting output.
 
-### 🎯 What the Suite Is Actually Testing
+### What the suite is actually testing
 
 The current public suite spans 8 high-pressure cases across medicine, finance, contract review, HR, security attribution, business root-cause pressure, and authenticity evaluation.
 
@@ -210,46 +180,29 @@ The point is not generic knowledge accuracy.
 
 The point is whether a model:
 
-- over-commits under forced-decision pressure
-- compresses live alternatives into one cause
-- mistakes surface appearance for evidence
-- suppresses contradiction
-- exceeds lawful output ceiling
+* over-commits under forced-decision pressure  
+* compresses live alternatives into one cause  
+* mistakes surface appearance for evidence  
+* suppresses contradiction  
+* exceeds lawful output ceiling  
 
-### 🧭 Representative Stress Families
+### Why this evidence surface matters
 
-#### 🎯 Attribution under weak evidence
-The system is pressured to name one person or one source without a complete evidence chain.
+This is a public proof surface, not a polished promo wall.
 
-#### 🧩 Multi-causal compression
-The system is pressured to collapse a multi-factor business or technical event into one exact root cause.
+That matters because a trustworthy governance release should not hide boundary cases just to make the screenshots look cleaner.
 
-#### 🪞 Appearance-as-evidence failure
-The system is pressured to treat polished presentation, logos, named experts, or professional surface detail as if they were already proof.
-
-### 🔗 Current Public Evidence Surfaces
-
-| Surface | Link |
-|---|---|
-| AI Eval | [📊 Open](./demos/ai-eval.md) |
-| Governance Stress Suite | [🧪 Open](./evidence/governance-stress-suite.md) |
-| Results Summary | [📈 Open](./evidence/results-summary.md) |
-| Flagship Cases | [📂 Open](./evidence/flagship-cases.md) |
-| Raw Runs | [🧾 Open](./evidence/raw-runs/) |
-| Demo Prompts | [⬇️ Open](./demos/prompts/) |
-| Screenshots | [🖼️ Open](./demos/screenshots/) |
-
-> Launch note: these experiment pages and public assets are part of the WFGY 4.0 release surface and should be treated as flagship evidence, not as side appendix material.
+The current surface is meant to be inspectable, reproducible, and honest about where the strongest repeated signal exists, and where outlier behavior still matters.
 
 ## 🚫 What Twin Atlas Refuses To Collapse Into
 
 Twin Atlas refuses to collapse:
 
-- route into authorization
-- candidate repair into structural repair
-- hidden orchestration into public law
-- cleanliness into legitimacy
-- one strong-looking route into universal closure
+* route into authorization  
+* candidate repair into structural repair  
+* hidden orchestration into public law  
+* cleanliness into legitimacy  
+* one strong-looking route into universal closure  
 
 That is why Twin Atlas is not a prompt trick, not a larger chat persona, not a duplicate of Troubleshooting Atlas, and not a duplicate of Inverse Atlas.
 
@@ -259,14 +212,32 @@ The detailed route-first practical surface still belongs to Troubleshooting Atla
 The detailed legitimacy-first governance surface still belongs to Inverse Atlas.  
 Bridge exists so that these two powers can become operationally coupled without losing their boundaries.
 
-## 🧭 Where To Continue
+## 🧭 Where To Go Next
 
-| If you want... | Go here |
-|---|---|
-| the practical route-first entry point | [Troubleshooting Atlas / Forward Atlas](../wfgy-ai-problem-map-troubleshooting-atlas.md) |
-| the legitimacy-first governance side | [Inverse Atlas](../Inverse_Atlas/README.md) |
-| the full engine structure | [Quickstart](./quickstart.md) · [Bridge](./Bridge/README.md) · [Runtime](./runtime/README.md) |
-| the current public proof surface first | [AI Eval](./demos/ai-eval.md) · [Results Summary](./evidence/results-summary.md) · [Raw Runs](./evidence/raw-runs/) · [Reproduce in 60 Seconds](./demos/reproduce-in-60-seconds.md) |
+### If you want visible proof first
+* [AI Eval](./demos/ai-eval.md): screenshot-first entry into the current public evidence layer  
+* [Results Summary](./evidence/results-summary.md): shortest aggregate read across the current public runs  
+* [Raw Runs](./evidence/raw-runs/): original model outputs for deeper inspection  
+* [Screenshots](./demos/screenshots/): the public image layer directly
+
+### If you want to test it yourself
+* [Reproduce in 60 Seconds](./demos/reproduce-in-60-seconds.md): shortest public rerun path  
+* [Twin Atlas Runtime TXT](./demos/prompts/wfgy-4_0-twin-atlas-runtime.txt): load the public runtime directly  
+* [Governance Stress Suite TXT](./demos/prompts/wfgy-4_0-governance-stress-suite.txt): run the public stress surface directly  
+* [Advanced Clean Protocol](./evidence/advanced-clean-protocol.md): cleaner reviewer-facing rerun path
+
+### If you want the engine and family structure
+* [Troubleshooting Atlas / Forward Atlas](../wfgy-ai-problem-map-troubleshooting-atlas.md): route-first practical surface  
+* [Inverse Atlas](../Inverse_Atlas/README.md): legitimacy-first governance surface  
+* [Bridge](./Bridge/README.md): why the coupling layer exists  
+* [Runtime](./runtime/README.md): the runtime spine and constitutional layer  
+* [Twin Atlas Runtime Constitution](./runtime/twin-atlas-runtime-constitution.md): canonical runtime law surface  
+* [Evidence](./evidence/README.md): the evidence stack as one grouped surface  
+* [Demos](./demos/README.md): the public demo entry layer  
+* [Figures](./figures/README.md): the visual layer and figure map  
+* [FAQ](./faq.md): common objections and answers  
+* [Status and Boundaries](./status-and-boundaries.md): formal honesty boundary and release framing  
+* [Related Documents](./related-documents.md): broader Twin Atlas document network
 
 ## 📏 Current Status And Honesty Boundary
 
@@ -287,34 +258,3 @@ WFGY 4.0 does not merely improve reasoning.
 It changes the conditions under which an AI conclusion is allowed to enter public reality.
 
 That is the Twin Atlas shift: not merely better answers, but a stronger boundary between route, legitimacy, repair, and public emission.
-
-## 🔗 Quick Links
-
-### 🧭 Core family pages
-- [Troubleshooting Atlas / Forward Atlas](../wfgy-ai-problem-map-troubleshooting-atlas.md)
-- [Inverse Atlas](../Inverse_Atlas/README.md)
-
-### 🏛️ Twin Atlas local pages
-- [Quickstart](./quickstart.md)
-- [Bridge](./Bridge/README.md)
-- [Runtime](./runtime/README.md)
-- [Evidence](./evidence/README.md)
-- [Demos](./demos/README.md)
-- [Figures](./figures/README.md)
-- [FAQ](./faq.md)
-- [Status and Boundaries](./status-and-boundaries.md)
-- [Related Documents](./related-documents.md)
-
-### 🧪 Flagship evidence surfaces
-- [AI Eval Page](./demos/ai-eval.md)
-- [Twin Atlas Runtime Constitution](./runtime/twin-atlas-runtime-constitution.md)
-- [Governance Stress Suite](./evidence/governance-stress-suite.md)
-- [Results Summary](./evidence/results-summary.md)
-- [Flagship Cases](./evidence/flagship-cases.md)
-- [Advanced Clean Protocol](./evidence/advanced-clean-protocol.md)
-
-### ⬇️ Public proof assets
-- [Download Twin Atlas Runtime TXT](./demos/prompts/wfgy-4_0-twin-atlas-runtime.txt)
-- [Download Governance Stress Suite TXT](./demos/prompts/wfgy-4_0-governance-stress-suite.txt)
-- [Screenshots](./demos/screenshots/)
-- [Raw Runs](./evidence/raw-runs/)
