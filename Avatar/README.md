@@ -11,20 +11,6 @@ What this page is for:
 4. Keep the page clean, GitHub-readable, and internationally legible.
 5. Route readers into deeper docs, eval, research, and community layers only after the main product story is clear.
 
-What this page is not:
-1. Not the full packed master body.
-2. Not the full research layer.
-3. Not the full multilingual report.
-4. Not the full community submission handbook.
-5. Not a fake claim that every future layer is already fully completed.
-
-How to use this page:
-1. Read the hero section first.
-2. Use the 60-second path if you want immediate contact.
-3. Scan the eight flagship signals.
-4. Open the detail pages that match your interest.
-5. Go deeper only after the first product picture is clear.
-
 Important boundary:
 This page presents the current flagship product surface of Avatar.
 It is designed to be clear, strong, and usable.
@@ -107,7 +93,7 @@ Shape route behavior without rebuilding the whole system by hand.
 <td width="50%" valign="top">
 
 ### 🧠 Language Behavior Can Be Engineered
-Avatar is not only about nicer text, but about behavior as a designed surface.
+Behavior is treated as a designed surface, not just prettier text.
 
 [Read more](./highlights/language-behavior-can-be-engineered.md)
 
@@ -126,7 +112,7 @@ Keep stronger variants instead of chasing one lucky output.
 <td width="50%" valign="top">
 
 ### 🛡️ Editable but Governed
-Strong editability without collapsing into lawless persona chaos.
+Strong editability without collapsing into persona chaos.
 
 [Read more](./highlights/editable-but-governed.md)
 
