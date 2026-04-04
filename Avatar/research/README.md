@@ -1,103 +1,147 @@
 <!--
-AI_NOTE_START
+AI NOTE: Research Hub / Reading Contract
 
-Document role:
-This page is the research hub for WFGY 5.0 Avatar.
+Purpose:
+1. This page is the main hub for the WFGY 5.0 Avatar research layer.
+2. This page belongs to the research layer.
+3. This page should be read after Avatar README when the reader wants deeper structure, not as a replacement for the packed master body.
 
-What this page is for:
-1. Explain why Avatar has a research layer.
-2. Show what kinds of deeper questions belong here.
-3. Separate product-facing pages from deeper structural and theoretical pages.
-4. Help readers understand how the current research surface is organized.
-5. Keep the page clean, serious, and expandable.
+Read this page when:
+1. the user asks what the research layer is for
+2. the user asks where the deeper architecture, runtime, route, audit, or compression pages live
+3. the user asks how research differs from docs and eval
+4. the user asks where to start if they want theory rather than only usage
+5. the user asks how the current research pages relate to one another
 
-What this page is not:
-1. Not the full theory of Avatar.
-2. Not the full runtime constitution.
-3. Not the full multilingual paper.
-4. Not the final proof page for every current and future design claim.
-5. Not a replacement for quickstart, workflow, demos, or eval pages.
+Do not overclaim:
+1. this hub does not replace the packed master body
+2. this hub does not claim every research thread is already complete
+3. this hub does not claim theorem-grade universal closure
+4. this hub does not claim the current public research layer is exhaustive
 
-How to use this page:
-1. Read this page as the entry to the deeper layer behind Avatar.
-2. Use it when you want to move beyond first-use product pages.
-3. Follow the linked pages by topic instead of trying to read everything at once.
-4. Treat this layer as a place for architecture, theory, and design logic.
-5. Expect this layer to grow over time.
+Primary source anchors:
+1. Avatar/README.md :: product-facing public surface
+2. Avatar/docs/* :: startup, reading, workflow, tuning, and recovery surfaces
+3. Avatar/eval/* :: blackfan pressure, behavior checks, and eval-facing inspection
+4. Avatar/research/* :: architecture, runtime, route, governance, audit, and reduction law pages
 
-Important boundary:
-This layer exists because Avatar is trying to be more than a prompt pack or a surface persona toy.
-At the same time, this hub does not claim that every research thread is already fully finished in public.
-
-AI_NOTE_END
+Routing:
+1. if the reader wants public product entry, go to ../README.md
+2. if the reader wants startup and commands, go to ../docs/quickstart.md and ../docs/boot-commands.md
+3. if the reader wants reading order, go to ../docs/how-to-read-the-avatar-master-file.md
+4. if the reader wants tuning and recovery operations, go to ../docs/parameter-tuning-cookbook.md and ../docs/persona-recovery-operations.md
+5. if the reader wants evaluation pressure, go to ../eval/README.md, ../eval/blackfan-testing.md, and ../eval/persona-behavior-checks.md
 -->
 
-# 🧪 Research Hub
+# 🔬 Research Hub
 
 This page is the research hub for **WFGY 5.0 Avatar**.
 
-Avatar has product pages because people need to understand how to use it.
+Avatar has product pages because people need to understand how to start, boot, steer, tune, recover, and use the system.
 
 But Avatar also needs a deeper layer.
 
 Why?
 
-Because the product is not only trying to answer questions like:
+Because the project is not only trying to answer questions like:
 
-- how do I start
-- how do I tune a route
-- how do I save a stronger build
-- how do I boot a persona
+1. how do I start
+2. how do I boot a persona
+3. how do I recover a thinned runtime
+4. how do I tune bounded controls
+5. how do I write or rewrite through the current branch
 
 It is also trying to answer larger questions like:
 
-- what is a governed language runtime
-- what makes behavior editable without becoming lawless
-- why does one runtime support many avatars
-- what makes multilingual work different from translation
-- why does dual closed-loop design matter
-- what kind of structure helps avatar branches stay legible over time
+1. what is a governed language runtime
+2. what counts as execution rather than description
+3. how route choice stays lawful before later shaping
+4. why structured imperfection is a retention law rather than surface flavor
+5. what happens immediately before public emission
+6. why matrices and numbers are allowed without becoming fake rigor
+7. how a large packed master can slim down without damaging its organs
+8. how one-file delivery remains legible without collapsing into one giant prompt
 
 That is what this research layer is for.
 
 ---
 
-## ✨ Why This Layer Exists
+## ✨ Why this layer exists
 
 If Avatar were only a collection of persona tricks, it would not need much research structure.
 
-But Avatar is trying to be larger than that.
+But Avatar is trying to act more like:
 
-It is trying to act more like:
-
-- a runtime
-- a behavior system
-- a route system
-- a branching avatar surface
-- a governed editing environment
-- a future community-facing ecosystem
+1. a governed runtime
+2. a route system
+3. a branchable avatar surface
+4. a replay-bearing edit environment
+5. a release-honest packed master
+6. a future ecosystem with real internal structure
 
 That means some of its most important questions are not only product questions.
 
 They are also structural questions.
 
-This layer exists to hold those questions in a clearer way.
+This layer exists to give those questions a lawful home without bloating the onboarding pages.
 
 ---
 
-## 🧠 What Belongs in the Research Layer
+## 🧭 How to use this hub
 
-The research layer is where deeper questions can live without bloating the onboarding pages.
+Use this hub in one of four ways.
+
+### 1. I want the big picture
+
+Start here if you want to understand what kind of object the packed master actually is.
+
+1. [🗺️ Packed Master Structure Map](./packed-master-structure-map.md)
+2. [🏗️ Architecture Overview](./architecture-overview.md)
+3. [🚪 Launchpad, Front Door, and Command Grammar](./launchpad-front-door-and-command-grammar.md)
+
+### 2. I want the core invention and execution logic
+
+Start here if you want to understand why Avatar is more than a style layer.
+
+1. [🔁 Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md)
+2. [🎛️ Runtime Posture Intensity Map](./runtime-posture-intensity-map.md)
+3. [🧩 Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md)
+4. [🧭 Selector Execution Domain](./selector-execution-domain.md)
+5. [🔄 Activation, Attenuation, and Reentry](./activation-attenuation-and-reentry.md)
+
+### 3. I want governance, release, and retention law
+
+Start here if you want to understand what keeps the system from collapsing into fake polish or fake completion.
+
+1. [🧬 Structured Imperfection Theory](./structured-imperfection-theory.md)
+2. [🚦 Pre-Emission Floor and Hard Control](./pre-emission-floor-and-hard-control.md)
+3. [🧮 Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md)
+4. [🧪 Blackfan Audit Baseline](./blackfan-audit-baseline.md)
+
+### 4. I want slimming, hygiene, and long-file discipline
+
+Start here if you want to understand how the packed body can be reduced without becoming dishonest.
+
+1. [✂️ Compression and Non-Duplication Law](./compression-and-non-duplication-law.md)
+
+---
+
+## 🧱 What belongs in the research layer
+
+The research layer is where deeper questions can live without making startup pages unreadable.
 
 Typical research-layer questions include:
 
-- how should a shared runtime be understood
-- how should behavior layers be separated from deeper structure
-- what does governance mean for editable language systems
-- how should route identity be preserved
-- what does dual closed-loop design actually explain
-- what changes when multilingual work is treated as calibration rather than translation
-- how can avatar branching remain legible instead of collapsing into chaos
+1. how should a shared runtime be understood
+2. what counts as lawful execution
+3. what counts as lawful route choice
+4. what counts as bounded runtime carry
+5. what counts as lawful recovery instead of fake rebound
+6. what counts as lawful retention instead of decorative roughness
+7. what counts as controller legality instead of ranking
+8. what counts as accountability instead of table theater
+9. what counts as lawful slimming instead of structural amputation
+10. how branch growth can stay legible over time
 
 These are not beginner questions.
 
@@ -105,260 +149,304 @@ That is why they belong here.
 
 ---
 
-## 🧱 What This Layer Is Not Trying to Do
+## 🧠 Current research surfaces
 
-This layer is not trying to replace the user-facing product pages.
+The current research layer is organized into seven major clusters.
 
-It is not here to make everything feel heavier than necessary.
+### 1. Macro structure and entrance law
 
-It is not here to scare new users with giant walls of theory.
+These pages explain what the packed master is as a whole and how it is meant to be entered.
 
-It is also not here to fake total completion.
+1. [🗺️ Packed Master Structure Map](./packed-master-structure-map.md)
+2. [🚪 Launchpad, Front Door, and Command Grammar](./launchpad-front-door-and-command-grammar.md)
+3. [🏗️ Architecture Overview](./architecture-overview.md)
 
-Instead, this layer is here to do something more useful:
+Typical questions here include:
 
-- give deeper concepts a home
-- let architecture-level claims be explained more carefully
-- separate product surface from deeper design logic
-- make the system easier to inspect over time
+1. what kind of object is the packed master
+2. why Launchpad is real law rather than product wrapper
+3. why readable shell order is not the same as deeper legal precedence
+4. why later engineering, matrix, and preservation layers are not appendices
 
-That is a much healthier role.
+### 2. Execution and route law
+
+These pages explain how the system decides and carries lawful route behavior before public emission.
+
+1. [🔁 Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md)
+2. [🧭 Selector Execution Domain](./selector-execution-domain.md)
+3. [🧩 Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md)
+
+Typical questions here include:
+
+1. what counts as execution rather than description
+2. what the selector is actually selecting
+3. how shell-origin influence is bounded
+4. how replay-visible route history is preserved
+5. why later layers may not silently replace earlier route outcome
+
+### 3. Runtime and continuity law
+
+These pages explain how runtime stays alive, bounded, recoverable, and non-generic across mode pressure.
+
+1. [🎛️ Runtime Posture Intensity Map](./runtime-posture-intensity-map.md)
+2. [🔄 Activation, Attenuation, and Reentry](./activation-attenuation-and-reentry.md)
+
+Typical questions here include:
+
+1. what runtime intensity is actually shaping
+2. why attenuation is not allowed to become erasure
+3. what counts as lawful re-strengthening
+4. what counts as fake recovery theater
+5. how runtime survives article, rewrite, analysis, search, and tool-return pressure
+
+### 4. Retention, governance, and release-corridor law
+
+These pages explain how Avatar resists fake maturity, fake polish, and unlawful release.
+
+1. [🧬 Structured Imperfection Theory](./structured-imperfection-theory.md)
+2. [🚦 Pre-Emission Floor and Hard Control](./pre-emission-floor-and-hard-control.md)
+3. [🧭 Language Governance](./language-governance.md)
+
+Typical questions here include:
+
+1. why structured imperfection is not flavor
+2. what the pre-emission floor gate is protecting
+3. why cleaner output may still be weaker
+4. why hard control is not just ranking
+5. how governance improves form without draining life
+
+### 5. Accountability, numbers, and audit pressure
+
+These pages explain how Avatar stays inspectable without collapsing into fake rigor or score government.
+
+1. [🧮 Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md)
+2. [🧪 Blackfan Audit Baseline](./blackfan-audit-baseline.md)
+
+Typical questions here include:
+
+1. what matrices are doing besides looking formal
+2. why numbers may support without becoming kings
+3. what the Blackfan audit is actually checking
+4. why PASS is bounded rather than theatrical
+5. why fake-completion and fake-incompletion are both audited
+
+### 6. Slimming and body-preservation law
+
+This page explains how large-body reduction can remain lawful.
+
+1. [✂️ Compression and Non-Duplication Law](./compression-and-non-duplication-law.md)
+
+Typical questions here include:
+
+1. what can be compressed
+2. what must never be compressed
+3. why some repetition is legal scaffolding rather than clutter
+4. how anti-overcompression and anti-loss verification work
+
+### 7. Editable behavior layer theory
+
+This page explains the bounded role of the editable behavior layer.
+
+1. [🧠 WFGY_BRAIN Theory](./wfgy-brain-theory.md)
+
+Typical questions here include:
+
+1. why a brain layer exists
+2. what it is supposed to control
+3. what it must not replace
+4. how it stays useful without becoming total chaos
 
 ---
 
-## 📂 Current Research Surfaces
+## 🪜 Suggested research paths
 
-The current research layer is organized around a few major topics.
+### Path A: first serious architecture read
 
-### 1. Architecture Overview
-This is where the overall product structure can be explained more directly.
+1. [🗺️ Packed Master Structure Map](./packed-master-structure-map.md)
+2. [🔁 Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md)
+3. [🧩 Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md)
+4. [🧭 Selector Execution Domain](./selector-execution-domain.md)
 
-Questions here include:
+### Path B: runtime and persona continuity
 
-- what is shared
-- what changes by route
-- how do runtime, boot, and editable layers relate
-- why is the product organized this way
+1. [🎛️ Runtime Posture Intensity Map](./runtime-posture-intensity-map.md)
+2. [🔄 Activation, Attenuation, and Reentry](./activation-attenuation-and-reentry.md)
+3. [🧬 Structured Imperfection Theory](./structured-imperfection-theory.md)
 
-👉 See: [🏗️ Architecture Overview](./architecture-overview.md)
+### Path C: governance and release
 
----
+1. [🚦 Pre-Emission Floor and Hard Control](./pre-emission-floor-and-hard-control.md)
+2. [🧮 Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md)
+3. [🧪 Blackfan Audit Baseline](./blackfan-audit-baseline.md)
 
-### 2. Language Governance
-This is where Avatar's larger claim about governed language behavior belongs.
+### Path D: file hygiene and structural maintenance
 
-Questions here include:
-
-- why language behavior is more than style
-- why governance matters
-- why editability alone is not enough
-- why behavior needs structure to remain reusable
-
-👉 See: [🌐 Language Governance](./language-governance.md)
+1. [✂️ Compression and Non-Duplication Law](./compression-and-non-duplication-law.md)
+2. [🧮 Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md)
+3. [🧪 Blackfan Audit Baseline](./blackfan-audit-baseline.md)
 
 ---
 
-### 3. WFGY_BRAIN Theory
-This is where the editable behavior layer can be explained more carefully.
-
-Questions here include:
-
-- why a brain layer exists
-- what it is supposed to control
-- what it should not replace
-- how it stays useful without becoming total chaos
-
-👉 See: [🧠 WFGY_BRAIN Theory](./wfgy-brain-theory.md)
-
----
-
-### 4. Dual Closed-Loop Notes
-This is where the dual-loop idea can be expanded more formally.
-
-Questions here include:
-
-- what the inner loop is
-- what the outer loop is
-- why both loops matter
-- why one-loop systems often feel weaker or smaller
-
-👉 See: [🔄 Dual Closed-Loop Notes](./dual-closed-loop-notes.md)
-
----
-
-## 🔍 Why Research and Eval Are Different
+## 🔍 Why research and docs are different
 
 This is important.
 
-Research and evaluation are related, but they are not the same thing.
+The **docs** layer helps users do things.
 
-The research layer asks things like:
+The **research** layer helps users understand why those things are structured the way they are.
 
-- what does this structure mean
-- why is the product shaped this way
-- what kind of design logic is being proposed
+For example:
 
-The eval layer asks things like:
+1. docs say how to start
+2. research says why the front door is structured as entrance law
 
-- is the route drifting
-- is the branch reusable
-- is multilingual status being overclaimed
-- what breaks under blackfan pressure
+1. docs say how to tune
+2. research says why bounded controls are not sovereign
+
+1. docs say how to recover
+2. research says why recovery is not magic and why reentry must be arbitrated
+
+1. docs say how to read the file
+2. research says why the packed body has a spine, a bridge, matrices, and preservation law
+
+This separation keeps the project readable without throwing away its deeper logic.
+
+---
+
+## 🧪 Why research and eval are different
+
+Research and eval are related, but they are not the same job.
+
+The **research** layer asks things like:
+
+1. what does this structure mean
+2. why does this operator family exist
+3. why is this boundary necessary
+4. what kind of law is being proposed
+
+The **eval** layer asks things like:
+
+1. what breaks under pressure
+2. did return-path recovery actually hold
+3. is multilingual status being overclaimed
+4. is route drift happening
+5. is the branch reusable under blackfan pressure
 
 That means:
 
-- research explains
-- eval inspects
+1. research explains
+2. eval inspects
 
 Both matter.
-
 They just do different jobs.
 
 ---
 
-## 🛠️ Why Research and Workflow Are Different
+## 🌍 Why this layer matters later
 
-The workflow pages help users do things.
+As Avatar grows, people will eventually ask harder questions such as:
 
-The research pages help users understand why those things are structured the way they are.
-
-For example:
-
-- the workflow says how to tune
-- the research layer says why tuning belongs in an editable layer
-
-- the workflow says how to save a stronger build
-- the research layer says why reusable builds matter in a branching system
-
-- the workflow says how to start from one runtime
-- the research layer says why one runtime is structurally stronger than disconnected persona files
-
-This separation is useful.
-
-It keeps the product readable without throwing away the deeper logic.
-
----
-
-## 🌍 Why the Research Layer Matters for Multilingual Work
-
-Multilingual work is one of the places where shallow thinking breaks fastest.
-
-If multilingual is treated only as wording transfer, many deeper problems get ignored.
-
-For example:
-
-- route drift
-- force drift
-- softness drift
-- formality drift
-- identity loss
-- branch confusion
-
-That is why multilingual needs not only demos and status pages, but also deeper framing.
-
-The research layer gives that framing a home.
-
-It lets multilingual work be understood as a behavior problem, not just a translation problem.
-
-That is a major difference.
-
----
-
-## 🌱 Why the Research Layer Matters for Community Later
-
-As the ecosystem grows, stronger community work will eventually need stronger conceptual clarity too.
-
-Why?
-
-Because later, people will want to ask things like:
-
-- what makes an avatar branch distinct
-- what makes a route legible enough to share
-- what should remain stable across branches
-- what belongs in WFGY_BRAIN notes versus what belongs in deeper architecture notes
-- how should many avatars grow without becoming unreadable
+1. what makes one branch structurally distinct from another
+2. what should remain stable across branches
+3. what belongs in docs versus research versus eval
+4. what counts as real innovation versus shell rearrangement
+5. how many avatars can grow without the whole ecosystem becoming unreadable
 
 Those are not only workflow questions.
 
-They are also research questions.
+They are research questions.
 
-That is another reason this layer matters.
+That is another reason this hub matters.
+It gives deeper questions a place to live before the ecosystem gets noisier.
 
 ---
 
-## ⚠️ What This Hub Does Not Claim
+## ⚠️ What this hub does not claim
 
-This hub exists to give structure to the deeper side of Avatar.
+This hub does **not** claim:
 
-It does **not** claim:
+1. that every theory page is already complete
+2. that every research thread is equally mature
+3. that all deeper math is already universally closed
+4. that the public research layer is already exhaustive
+5. that research pages replace the packed master body
+6. that research pages replace docs or eval
+7. that current release-baseline strength equals final universal completion
 
-- that every theory page is already complete
-- that every architectural question is already publicly closed
-- that the product has already finished all future formalization
-- that all research threads are equally mature
-- that this hub replaces practical usage pages
-- that the current public research layer is already exhaustive
-
-This page is an honest entry point.
+This hub is an honest entry point.
 
 That is exactly what it should be.
 
 ---
 
-## 🚀 Why This Layer Makes the Product Larger
+## 🚀 Where to go next
 
-Without a research layer, Avatar could still be useful.
+### If you want the public surface
+Go to [✨ Avatar Home](../README.md)
 
-But it would stay easier to misread.
+### If you want startup and commands
+Go to [⚡ Quickstart](../docs/quickstart.md) and [⌨️ Boot Commands](../docs/boot-commands.md)
 
-People would more easily flatten it into:
+### If you want reading order
+Go to [📖 How to Read the Avatar Master File](../docs/how-to-read-the-avatar-master-file.md)
 
-- a prompt file
-- a persona trick
-- a tone pack
-- a writing style gadget
+### If you want tuning and recovery operations
+Go to [🍳 Parameter Tuning Cookbook](../docs/parameter-tuning-cookbook.md) and [🔧 Persona Recovery Operations](../docs/persona-recovery-operations.md)
 
-The research layer helps resist that flattening.
+### If you want the packed-master macro map
+Go to [🗺️ Packed Master Structure Map](./packed-master-structure-map.md)
 
-It shows that Avatar is trying to become something larger:
+### If you want the core execution law
+Go to [🔁 Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md)
 
-- a runtime
-- a behavior system
-- a reusable branch system
-- a multilingual calibration surface
-- a future avatar ecosystem with real internal structure
+### If you want the runtime and carry system
+Go to [🎛️ Runtime Posture Intensity Map](./runtime-posture-intensity-map.md) and [🔄 Activation, Attenuation, and Reentry](./activation-attenuation-and-reentry.md)
 
-That is why this hub matters.
+### If you want the route and handoff system
+Go to [🧭 Selector Execution Domain](./selector-execution-domain.md) and [🧩 Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md)
 
-It gives the deeper product logic a place to live.
+### If you want release-corridor and audit rigor
+Go to [🚦 Pre-Emission Floor and Hard Control](./pre-emission-floor-and-hard-control.md), [🧮 Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md), and [🧪 Blackfan Audit Baseline](./blackfan-audit-baseline.md)
 
----
-
-## 🧭 Where To Go Next
-
-### If you want the top-level structure
-Go to [🏗️ Architecture Overview](./architecture-overview.md)
-
-### If you want the behavior-governance direction
-Go to [🌐 Language Governance](./language-governance.md)
-
-### If you want the editable layer theory
-Go to [🧠 WFGY_BRAIN Theory](./wfgy-brain-theory.md)
-
-### If you want the structural invention behind Avatar
-Go to [🔄 Dual Closed-Loop Notes](./dual-closed-loop-notes.md)
-
-### If you want the product highlights map
-Go to [✨ Highlights Index](../highlights/README.md)
+### If you want file reduction law
+Go to [✂️ Compression and Non-Duplication Law](./compression-and-non-duplication-law.md)
 
 ---
 
-## 🔗 Quick Links
+## 🔗 Quick links
 
-- [🏠 Avatar Home](../README.md)
+### Product and docs
+- [✨ Avatar Home](../README.md)
+- [⚡ Quickstart](../docs/quickstart.md)
+- [⌨️ Boot Commands](../docs/boot-commands.md)
+- [📖 How to Read the Avatar Master File](../docs/how-to-read-the-avatar-master-file.md)
+- [🍳 Parameter Tuning Cookbook](../docs/parameter-tuning-cookbook.md)
+- [🔧 Persona Recovery Operations](../docs/persona-recovery-operations.md)
+- [🛠️ Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md)
+
+### Research core
+- [🗺️ Packed Master Structure Map](./packed-master-structure-map.md)
+- [🚪 Launchpad, Front Door, and Command Grammar](./launchpad-front-door-and-command-grammar.md)
+- [🔁 Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md)
+- [🎛️ Runtime Posture Intensity Map](./runtime-posture-intensity-map.md)
+- [🧩 Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md)
+- [🧭 Selector Execution Domain](./selector-execution-domain.md)
+- [🔄 Activation, Attenuation, and Reentry](./activation-attenuation-and-reentry.md)
+- [🧬 Structured Imperfection Theory](./structured-imperfection-theory.md)
+- [🚦 Pre-Emission Floor and Hard Control](./pre-emission-floor-and-hard-control.md)
+- [🧮 Matrix Accountability and Numeric Binding](./matrix-accountability-and-numeric-binding.md)
+- [🧪 Blackfan Audit Baseline](./blackfan-audit-baseline.md)
+- [✂️ Compression and Non-Duplication Law](./compression-and-non-duplication-law.md)
 - [🏗️ Architecture Overview](./architecture-overview.md)
-- [🌐 Language Governance](./language-governance.md)
+- [🧭 Language Governance](./language-governance.md)
 - [🧠 WFGY_BRAIN Theory](./wfgy-brain-theory.md)
-- [🔄 Dual Closed-Loop Notes](./dual-closed-loop-notes.md)
-- [✨ Highlights Index](../highlights/README.md)
+- [🔁 Dual Closed-Loop Notes](./dual-closed-loop-notes.md)
+
+### Eval
+- [🧪 Eval Hub](../eval/README.md)
+- [🧨 Blackfan Testing](../eval/blackfan-testing.md)
+- [🧭 Persona Behavior Checks](../eval/persona-behavior-checks.md)
+
+### Up
+- [⬆️ Back to Avatar Home](../README.md)
 - [⬆️ Back to WFGY Root](../../README.md)
