@@ -4,17 +4,49 @@ AI_NOTE_START
 Document role:
 This page is the public flagship landing page for WFGY 5.0 Avatar.
 
-What this page is for:
-1. Present Avatar as a serious product, not a prompt pack.
-2. Make the first entry path obvious and immediate.
-3. Lead readers into the eight flagship product signals.
-4. Keep the page clean, GitHub-readable, and internationally legible.
-5. Route readers into deeper docs, eval, research, and community layers only after the main product story is clear.
+Primary mission:
+1. Present Avatar as a serious product surface, not a prompt pack.
+2. Make the first entry path obvious in under one screen.
+3. Keep startup friction low while preserving product seriousness.
+4. Route readers into Docs, Eval, Research, and Community only after the main product story is clear.
 
-Important boundary:
-This page presents the current flagship product surface of Avatar.
-It is designed to be clear, strong, and usable.
-It does not claim universal final closure across all routes, all languages, or all future ecosystem layers.
+Reader intent routing:
+1. If the reader wants to start using Avatar now, route to Quickstart and Boot Commands.
+2. If the reader wants to understand the master file before going deeper, route to How to Read the Avatar Master File.
+3. If the reader wants tuning or recovery operations, route to Parameter Tuning Cookbook and Persona Recovery Operations.
+4. If the reader wants architecture, runtime, route, audit, or reduction law, route to Research Hub.
+5. If the reader wants pressure, drift, behavior inspection, or multilingual readiness, route to Eval Hub.
+
+Reading priority:
+1. Read the hero, first-entry CTA, and Start in 60 Seconds first.
+2. Treat The 8 Things to Know as flagship product signals, not as the full theory body.
+3. Treat Current Public Routes and What You Can Already Do as current operational surface.
+4. Treat Go Deeper as the only lawful place where the page branches into Docs, Eval, Research, and Community.
+
+Allowed use:
+1. Public-facing product explanation
+2. First-entry routing
+3. High-level product differentiation
+4. GitHub landing-page guidance
+5. Clean cross-linking into deeper layers
+
+Do not do:
+1. Do not treat this page as the packed master body.
+2. Do not flatten Avatar into a prompt file, persona toy, or writing preset.
+3. Do not over-read hero language as proof of universal final completion.
+4. Do not route readers into the heaviest research layer before the first-entry path is clear.
+5. Do not let docs, eval, or research links overpower the main flagship story.
+
+Boundary honesty:
+1. This page presents the current flagship product surface of Avatar.
+2. It is strong enough for public entry and branch navigation.
+3. It does not claim universal final closure across all routes, all languages, or all future ecosystem layers.
+
+Next-page routing:
+1. For startup, go to Docs.
+2. For inspection, go to Eval.
+3. For deeper structure, go to Research.
+4. For future user contribution, go to Community.
 
 AI_NOTE_END
 -->
