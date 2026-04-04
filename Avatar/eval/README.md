@@ -1,37 +1,64 @@
 <!--
-AI NOTE: Eval Hub / Reading Contract
+AI_NOTE_START
 
-Purpose:
-1. This page is the main hub for the WFGY 5.0 Avatar evaluation layer.
-2. This page belongs to the eval layer.
-3. This page should be read after Avatar README, docs, or research pages when the reader wants pressure-testing, behavior inspection, or bounded readiness signals.
+Document role:
+This page is the main hub for the WFGY 5.0 Avatar eval layer.
 
-Read this page when:
-1. the user asks where evaluation pages live
-2. the user asks how eval differs from docs and research
-3. the user asks what kinds of pressure the current branch is already checking
-4. the user asks where to inspect blackfan pressure, persona continuity, or multilingual status
-5. the user asks how to think about current readiness without confusing baseline reality with universal finality
+Primary mission:
+1. Present eval as the pressure and inspection layer of Avatar.
+2. Make clear that docs show operation, research shows structure, and eval shows whether the branch survives pressure.
+3. Route readers toward blackfan stress, persona continuity inspection, and multilingual readiness signals.
+4. Prevent friendly product language or elegant theory from substituting for branch pressure.
+5. Preserve bounded readiness honesty without inflating current pass signals into universal finality.
 
-Do not overclaim:
-1. this hub does not replace the packed master body
-2. this hub does not claim that every future eval surface is already complete
-3. this hub does not claim theorem-grade universal closure
-4. this hub does not claim that passing current eval surfaces means all future branches are automatically safe
+Reader intent routing:
+1. If the reader wants hostile or skeptical stress, route to Blackfan Testing.
+2. If the reader wants persona continuity and return-path inspection, route to Persona Behavior Checks.
+3. If the reader wants multilingual readiness posture, route to Multilingual Status.
+4. If the reader wants the deeper explanation of what eval is testing, route to Research Hub and Blackfan Audit Baseline.
+5. If the reader wants operational help rather than inspection, route back to Docs.
 
-Primary source anchors:
-1. Avatar/README.md :: public product surface
-2. Avatar/docs/* :: startup, reading, workflow, tuning, and recovery surfaces
-3. Avatar/research/* :: architecture, runtime, route, governance, audit, and reduction law surfaces
-4. Avatar/eval/* :: blackfan pressure, persona behavior, multilingual status, and eval-facing inspection surfaces
+Reading priority:
+1. Read this hub as an inspection map, not as a theory page.
+2. Read Blackfan Testing first when the main concern is pressure, hype resistance, or skeptical inspection.
+3. Read Persona Behavior Checks first when the main concern is drift, return-path continuity, or recovery credit.
+4. Read Multilingual Status first when the main concern is support scope and language honesty.
+5. Read research pages when the reader needs to understand why a failure matters structurally.
 
-Routing:
-1. if the reader wants public product entry, go to ../README.md
-2. if the reader wants startup and command syntax, go to ../docs/quickstart.md and ../docs/boot-commands.md
-3. if the reader wants reading order, go to ../docs/how-to-read-the-avatar-master-file.md
-4. if the reader wants tuning and recovery operations, go to ../docs/parameter-tuning-cookbook.md and ../docs/persona-recovery-operations.md
-5. if the reader wants the research overview, go to ../research/README.md
-6. if the reader wants architecture and runtime law, go to ../research/packed-master-structure-map.md and ../research/runtime-posture-intensity-map.md
+Allowed use:
+1. Pressure-layer orientation
+2. Behavior inspection routing
+3. Bounded readiness interpretation
+4. Branch honesty explanation
+5. Cross-linking from docs and research into eval surfaces
+
+Do not do:
+1. Do not treat this hub as the packed master body.
+2. Do not treat current eval surfaces as proof that every future branch is safe.
+3. Do not turn eval into product hype.
+4. Do not use one successful test page as proof of universal closure.
+5. Do not confuse current baseline readiness with final all-conditions completion.
+
+Layer relation:
+1. Product landing presents the flagship surface.
+2. Docs supports operation.
+3. Research explains structure and law.
+4. Eval inspects pressure, drift, continuity, and readiness under stress.
+
+Boundary honesty:
+1. This hub reflects the current public eval layer of Avatar.
+2. It is strong enough to support branch inspection and bounded readiness interpretation.
+3. It does not claim that all future eval surfaces are already complete.
+4. It does not claim theorem-grade universal closure.
+5. It does not claim that current pass signals eliminate the need for later stronger verification.
+
+Next-page routing:
+1. For hostile stress, go to Blackfan Testing.
+2. For behavior continuity, go to Persona Behavior Checks.
+3. For multilingual scope, go to Multilingual Status.
+4. For deeper structural explanation, go to Research Hub and Blackfan Audit Baseline.
+
+AI_NOTE_END
 -->
 # 🧪 Eval Hub
 
