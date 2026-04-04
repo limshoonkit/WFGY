@@ -1,37 +1,67 @@
 <!--
-AI NOTE: Docs Hub / Reading Contract
+AI_NOTE_START
 
-Purpose:
-1. This page is the main hub for the WFGY 5.0 Avatar docs layer.
-2. This page belongs to the docs layer.
-3. This page should be read after Avatar README when the reader wants startup, command, reading, tuning, or recovery guidance, not as a replacement for the packed master body.
+Document role:
+This page is the main hub for the WFGY 5.0 Avatar docs layer.
 
-Read this page when:
-1. the user asks where the docs pages live
-2. the user asks how docs differ from research and eval
-3. the user asks where to start using Avatar
-4. the user asks where boot, reading order, tuning, or recovery guidance is documented
-5. the user asks which page to read next based on their current task
+Primary mission:
+1. Present docs as the operational layer of Avatar.
+2. Make startup, reading, tuning, and recovery guidance easy to find without forcing readers into the heaviest theory first.
+3. Keep docs practical, route-aware, and GitHub-readable.
+4. Show clear next steps for different user intents without replacing research or eval.
+5. Prevent docs from becoming either a shallow product clone or a fake theory substitute.
 
-Do not overclaim:
-1. this hub does not replace the packed master body
-2. this hub does not claim every future docs surface is already complete
-3. this hub does not claim theorem-grade universal closure
-4. this hub does not claim that docs pages replace research or eval
+Reader intent routing:
+1. If the reader wants to start quickly, route to Quickstart and Boot Commands.
+2. If the reader wants lawful reading order for the master file, route to How to Read the Avatar Master File.
+3. If the reader wants bounded control steering, route to Parameter Tuning Cookbook and Avatar Tuning Workflow.
+4. If the reader wants persona restoration after drift, route to Persona Recovery Operations.
+5. If the reader wants deeper structural explanation, route to Research Hub.
+6. If the reader wants pressure, drift, or readiness inspection, route to Eval Hub.
 
-Primary source anchors:
-1. Avatar/README.md :: public product-facing entry
-2. Avatar/docs/* :: startup, command, reading, tuning, and recovery surfaces
-3. Avatar/research/* :: architecture, runtime, route, governance, audit, and reduction-law surfaces
-4. Avatar/eval/* :: blackfan pressure, behavior inspection, and multilingual status surfaces
+Reading priority:
+1. Read this hub as the operational entry map.
+2. Read Quickstart and Boot Commands first for first-time use.
+3. Read How to Read the Avatar Master File before deep packed-master reading.
+4. Read tuning and recovery pages only after startup grammar is understood.
+5. Treat research and eval links as downstream branches, not replacements for docs.
 
-Routing:
-1. if the reader wants public product entry, go to ../README.md
-2. if the reader wants deeper structure, go to ../research/README.md
-3. if the reader wants pressure and inspection, go to ../eval/README.md
-4. if the reader wants startup, go to ./quickstart.md and ./boot-commands.md
-5. if the reader wants reading order, go to ./how-to-read-the-avatar-master-file.md
-6. if the reader wants tuning and recovery, go to ./parameter-tuning-cookbook.md and ./persona-recovery-operations.md
+Allowed use:
+1. Startup routing
+2. Operational guidance
+3. Reading-order guidance
+4. Tuning and recovery routing
+5. Cross-linking from product landing into practical use surfaces
+
+Do not do:
+1. Do not treat this hub as the packed master body.
+2. Do not turn docs into a research index.
+3. Do not use docs pages to overclaim engine completion.
+4. Do not assume operational clarity replaces deeper structural reading.
+5. Do not let docs sprawl become a fake completeness signal.
+
+Layer relation:
+1. Product landing explains what Avatar is.
+2. Docs explains how to use Avatar.
+3. Research explains why deeper structures exist.
+4. Eval tests what survives pressure.
+
+Boundary honesty:
+1. This hub reflects the current public docs layer of Avatar.
+2. It is strong enough for startup, reading, tuning, and recovery routing.
+3. It does not claim every future docs surface is already complete.
+4. It does not claim theorem-grade universal closure.
+5. It does not claim that docs pages replace research or eval.
+
+Next-page routing:
+1. For startup, go to Quickstart and Boot Commands.
+2. For lawful reading, go to How to Read the Avatar Master File.
+3. For tuning, go to Parameter Tuning Cookbook and Avatar Tuning Workflow.
+4. For recovery, go to Persona Recovery Operations.
+5. For deeper structure, go to Research Hub.
+6. For pressure and inspection, go to Eval Hub.
+
+AI_NOTE_END
 -->
 
 # 📘 Docs Hub
