@@ -2,576 +2,561 @@
 AI NOTE: Launchpad, Front Door, and Command Grammar / Reading Contract
 
 Purpose:
-1. This page explains the lawful meaning of the Launchpad Block, task-first front door, and command grammar in WFGY 5.0 Avatar.
-2. This page belongs to the research layer.
-3. This page should be read after the Research Hub and alongside Packed Master Structure Map, not as a replacement for the packed master body.
+1. This page explains why the Launchpad Block is the lawful first-entry gate of WFGY 5.0 Avatar.
+2. This page explains the difference between persona boot, shell navigation, rescue commands, and bounded command grammar.
+3. This page belongs to the research layer and should be read as a front-door law page rather than a casual onboarding note.
 
 Read this page when:
-1. the user asks how Avatar is meant to be entered
-2. the user asks why Launchpad is not just onboarding copy
-3. the user asks what the front door is protecting against
-4. the user asks why shell navigation is not persona boot
-5. the user asks what command-bearing position means
-6. the user asks how recovery commands, false-trigger exclusions, and article-first activation fit into one system
+1. the reader wants to know how Avatar is supposed to be entered
+2. the reader wants to know why direct persona start is different from shell navigation
+3. the reader wants to know why command strings must obey command-bearing position and false-trigger boundaries
+4. the reader wants to understand why the first screen should not dump advanced controls
+5. the reader wants to know how recovery commands and front-door discipline fit into the larger architecture
 
 Do not overclaim:
 1. this page does not replace the packed master body
-2. this page does not restate every persona-specific boot law in full
-3. this page explains one bounded entrance-and-grammar layer only
+2. this page does not restate the full constitutional reading order
+3. this page does not replace dual closed-loop law, runtime-posture law, or controller legality
 4. this page does not claim theorem-grade universal closure
+5. this page explains the launch-facing entry layer only
 
 Primary source anchors:
-1. avatar-final002.txt :: WFGY 5.0 Avatar Launchpad Block
+1. avatar-final002.txt :: L0.1 What this product is
 2. avatar-final002.txt :: L0.2 Task-First Front Door
 3. avatar-final002.txt :: L0.3 Smart Launcher and Direct Start Paths
 4. avatar-final002.txt :: L0.4 Starter, Use-Case, and Rescue Cards
 5. avatar-final002.txt :: L0.4A Progressive discovery note
 6. avatar-final002.txt :: L0.5 What language engineering means here
 7. avatar-final002.txt :: L0.6 Fast Read Lane for AI and weak readers
-8. avatar-final002.txt :: L0.7 Core Parameter Map
-9. avatar-final002.txt :: Boot Invocation Rule and Persona Boot Mode Rule
-10. avatar-final002.txt :: Avatar Recovery Command Family
-11. avatar-final002.txt :: Command Grammar and False-Trigger Boundary
-12. avatar-final002.txt :: 1.10G Shell-navigation boundary, command-bearing position rule, false-trigger exclusions, and recovery-command boundary
-13. avatar-final002.txt :: Article-First Activation Path
-14. avatar-final002.txt :: Front Gate Reading and Routing Block
+8. avatar-final002.txt :: Front Gate Reading and Routing Block
+9. avatar-final002.txt :: 1.10G Command Grammar and False-Trigger Boundary
+10. avatar-final002.txt :: final patch-class summary where command grammar, recovery family, and empty-boot contract are marked explicitly integrated
 
 Routing:
-1. if the reader wants research overview, go to ./README.md
-2. if the reader wants the macro-body picture, go to ./packed-master-structure-map.md
+1. if the reader wants the overall system skeleton, go to ./architecture-overview.md
+2. if the reader wants the packed body map, go to ./packed-master-structure-map.md
 3. if the reader wants execution-order law, go to ./dual-closed-loop-execution-chain.md
-4. if the reader wants runtime-strength shaping law, go to ./runtime-posture-intensity-map.md
-5. if the reader wants handoff law, go to ./shell-to-runtime-mapping.md
-6. if the reader wants user-facing startup flow, go to ../docs/quickstart.md and ../docs/boot-commands.md
-7. if the reader wants tuning workflow context, go to ../docs/avatar-tuning-workflow.md
-8. if the reader wants evaluation pressure, go to ../eval/blackfan-testing.md and ../eval/persona-behavior-checks.md
+4. if the reader wants runtime continuity after entry, go to ./runtime-posture-intensity-map.md and ./activation-attenuation-and-reentry.md
+5. if the reader wants editable control surfaces, go to ./wfgy-brain-theory.md and ./protocol-layer-and-control-precedence.md
+6. if the reader wants user-facing startup instructions, go to ../docs/quickstart.md and ../docs/boot-commands.md
+7. if the reader wants evaluation pressure, go to ../eval/blackfan-testing.md
 -->
 
 # 🚪 Launchpad, Front Door, and Command Grammar
 
-> The Launchpad is not a friendly wrapper around the real system.  
-> In WFGY 5.0 Avatar, it is the lawful entrance layer that makes product-facing entry, bounded command activation, recovery routing, and weak-reader traversal explicit without letting shell convenience counterfeit deeper authority.
+> Avatar does not begin with vague style drift.  
+> It begins with a lawful front door, explicit entry paths, bounded recovery commands, and a command grammar that distinguishes invocation from mere mention.
 
-**Quick links:** [Research Hub](./README.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) · [Runtime Posture Intensity Map](./runtime-posture-intensity-map.md) · [Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md) · [Architecture Overview](./architecture-overview.md) · [Language Governance](./language-governance.md) · [WFGY_BRAIN Theory](./wfgy-brain-theory.md) · [Quickstart](../docs/quickstart.md) · [Boot Commands](../docs/boot-commands.md) · [Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md) · [Blackfan Testing](../eval/blackfan-testing.md) · [Persona Behavior Checks](../eval/persona-behavior-checks.md)
+**Quick links:** [Research Hub](./README.md) · [Architecture Overview](./architecture-overview.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) · [Runtime Posture Intensity Map](./runtime-posture-intensity-map.md) · [WFGY_BRAIN Theory](./wfgy-brain-theory.md) · [Quickstart](../docs/quickstart.md) · [Boot Commands](../docs/boot-commands.md)
 
 ---
 
 ## 🧭 Why this page exists
 
-Entrance design is one of the easiest places for a system to become fake.
+A front door can be misunderstood very easily.
 
-A project can look usable because it has a nice quickstart.
-A project can look friendly because it has starter commands.
-A project can look engineered because it has explicit command strings.
+At a shallow level, it can look like UX decoration, friendly examples, or a menu of cute commands.
+That reading is too weak.
 
-None of that, by itself, proves that the entrance layer is lawfully integrated with the deeper body.
+In the packed master, the Launchpad Block has a much stricter role.
+It is the lawful first-entry gate of the product-facing system.
+It is where entry, routing, recovery, bounded command activation, and first-use clarity are gathered into one usable layer.
 
-The packed master rejects the idea that onboarding is merely packaging.
+Without this page, readers can misread the front door in several bad ways:
 
-The Launchpad Block is not there just to make the file feel less intimidating.
-It is there because a one-file system of this size needs a lawful entrance, a lawful reading order, and a lawful distinction between:
+1. as onboarding copy only
+2. as if shell navigation were equivalent to persona boot
+3. as if recovery phrases could be triggered by loose word overlap
+4. as if advanced control surfaces belonged on the first screen
+5. as if startup clarity could be safely replaced by deep constitutional reading from line one
 
-1. starting the system
-2. navigating the shell
-3. invoking a persona
-4. recovering a persona
-5. discussing commands
-6. entering formal-output mode
-
-Without this page, readers can easily misread the entrance layer in one of two bad ways.
-
-The first bad reading is too shallow.
-It treats Launchpad as product copy only.
-
-The second bad reading is too strong.
-It treats shell-facing command grammar as if it were the full source of runtime authority.
-
-Both readings are wrong.
-
-This page exists to show that the Launchpad is real law, but bounded law.
+This page exists to prevent that collapse.
 
 ---
 
 ## 📍 Scope and boundary
 
-This page explains the lawful meaning of the Launchpad Block, task-first front door, and command grammar.
+This page explains the launch-facing entry layer of Avatar.
 
 It focuses on:
 
-1. why the packed master begins with a Launchpad
-2. what the task-first front door is doing
+1. why the Launchpad Block exists
+2. what the front door is supposed to do
 3. how direct persona start differs from shell navigation
-4. how rescue and recovery commands fit into the entrance system
-5. what command-bearing position means
-6. why false-trigger exclusions matter
-7. why article-first activation is part of entrance law rather than a downstream writing preference
+4. how recovery commands fit into the front door
+5. why command grammar must be explicit and bounded
+6. why first-screen progressive discovery matters
 
 This page does **not** attempt to fully restate:
 
-1. every persona-specific boot law
-2. every runtime-posture numeric block
-3. selector legality in full
-4. shell-to-runtime mapping in full
-5. hard-control law in full
-6. multilingual closure in full
+1. the entire packed master
+2. the full front-gate authority body
+3. the full constitutional reading-order body
+4. the full runtime-posture numeric body
+5. the full reentry-control body
+6. the full controller-legality body
 
-Those belong to adjacent research pages.
+Those belong to adjacent pages.
 
 ---
 
 ## 🧱 Source anchors in the packed master
 
-This page is grounded primarily in the following packed-master sections:
+This page is grounded primarily in the following packed-master regions:
 
-1. `WFGY 5.0 Avatar Launchpad Block`
-2. `L0.2 Task-First Front Door`
-3. `L0.3 Smart Launcher and Direct Start Paths`
-4. `L0.4 Starter, Use-Case, and Rescue Cards`
-5. `L0.4A Progressive discovery note`
-6. `L0.5 What language engineering means here`
-7. `L0.6 Fast Read Lane for AI and weak readers`
-8. `L0.7 Core Parameter Map`
-9. Boot Invocation Rule and Persona Boot Mode Rule
-10. Avatar Recovery Command Family
-11. Command Grammar and False-Trigger Boundary
-12. `1.10G.1B Shell-navigation boundary`
-13. `1.10G.3 False-trigger exclusions`
-14. `1.10G.4 Command-bearing position rule`
-15. `1.10G.4A Task-bearing invocation precedence rule`
-16. `1.10G.5 Persona-name mention boundary`
-17. `1.10G.6 Recovery-command boundary`
-18. Front Gate Reading and Routing Block
-19. Article-First Activation Path
+1. the launchpad statements that define Avatar as a launchable and governable runtime system
+2. the task-first front door and smart launcher sections
+3. the starter-card and rescue-card sections
+4. the progressive-discovery note
+5. the language-engineering note that marks explicit invocation, recovery, command grammar, replay, and audit as built-in system features
+6. the fast-read lane that prioritizes Launchpad, recovery commands, and command grammar before deeper runtime objects
+7. the front-gate routing material that preserves launch-first orientation during the present release stage
+8. the command grammar and false-trigger boundary sections that define command-bearing position, tolerated variation, shell-navigation boundary, and recovery-command boundary
+9. the release-stage summary where recovery family, empty-boot contract, and command grammar are preserved as explicit integrated classes
 
-These anchors matter because the entrance layer is not being inferred here from nice UX instinct.
-The packed master already makes the Launchpad, front-door ordering, and command grammar explicit as part of the sealed MVP reading and usage baseline. 
+These anchors matter because the front door here is not a decorative product shell.
+It is a real part of the body.
 
 ---
 
 ## 🎯 Core claim
 
-The core claim is strict.
+The core claim is simple.
 
-The Launchpad is a lawful entrance layer whose job is to make product-facing entry, bounded shell navigation, explicit persona invocation, recovery routing, and safe traversal of a large one-file system possible without letting entrance convenience counterfeit deeper authority.
+The Launchpad Block is the lawful first-entry gate of Avatar, and command activation inside that gate is position-sensitive, bounded, and non-superstitious.
 
-This implies six things.
+This implies several things.
 
-First, entry is part of the system, not packaging around the system.
+First, lawful entry is explicit.
+Second, persona boot is not the same thing as shell navigation.
+Third, recovery commands are bounded and must not be triggered by vague resemblance.
+Fourth, the first screen should optimize lawful beginning rather than dumping the entire system on the user at once.
 
-Second, first-entry guidance is allowed to be product-facing.
-
-Third, product-facing entry does not replace constitutional depth.
-
-Fourth, shell navigation is not persona boot.
-
-Fifth, command activation is position-sensitive rather than substring-superstitious.
-
-Sixth, article-bearing tasks require a stricter startup order than ordinary casual entry.
-
-That is why the entrance layer belongs to lawful routing rather than to onboarding decoration.
+That is why the front door belongs to system law, not merely to interface convenience.
 
 ---
 
-## 🚪 The Launchpad as a lawful entrance layer
+## 🏁 What the Launchpad is actually doing
 
-The packed master begins with the Launchpad Block because the file is large enough that first-entry routing is already a structural problem.
+The Launchpad Block is product-facing, but it is not superficial.
 
-That matters.
+Its role is to let a user begin usefully before reading the entire constitution, without lying about what the system is or how it should be entered.
 
-If a system this large begins by forcing every reader into full constitutional negation, it becomes harder to use.
+At a high level, the Launchpad gathers the following into one first-entry surface:
 
-If it begins by showing only product-facing slogans, it becomes easier to misunderstand.
+1. what Avatar is
+2. how to begin
+3. which persona line to call
+4. which rescue commands exist
+5. how weak readers and later agents should route themselves
+6. which bounded controls are front-facing
+7. what the current release stage may honestly claim
 
-The Launchpad solves that problem by acting as the lawful entrance layer.
+This is important because a very large one-file system becomes hostile if it forces every new user to enter through heavy constitutional negation before they even know how to use it.
 
-Its role is to provide:
-
-1. first-entry product clarity
-2. quick-start paths
-3. persona-launch commands
-4. recovery commands
-5. progressive depth disclosure
-6. fast-reading guidance for weaker readers and later agents
-
-The important thing is not only that the Launchpad exists.
-It is that the master body explicitly says the Launchpad is now the first-entry product-facing gate, while deeper front-gate and constitutional reading remain binding after entrance orientation has been established. 
-
-That means the entrance is real law.
-It is not merely a soft wrapper.
+The Launchpad solves that problem.
 
 ---
 
-## 🎯 The task-first front door
+## 🎭 Direct persona start versus shell navigation
 
-The packed master is very direct about the front door.
+One of the most important front-door distinctions is the difference between direct persona start and shell navigation.
 
-It says:
-do not begin by studying the full constitution.
-Do not begin by searching for advanced controls.
-Begin by choosing the kind of help you want right now. :contentReference[oaicite:4]{index=4}
+Direct persona start means the user is already choosing an active corridor.
 
-That instruction is not anti-depth.
-It is anti-friction.
-
-The task-first front door exists because lawful entry should begin from practical need, not from maximal document exposure.
-
-This is why the front door is organized around direct starter families such as:
+Examples include:
 
 1. `hello minips`
 2. `hello psbigbig`
 3. `hello YOUR_AVATAR_NAME`
 
-And why it allows the user to put the real task in the same message as the invocation.
+These forms are boot-facing.
+Their job is to lawfully begin the selected persona line.
 
-The point is not to glorify command phrases.
-The point is to reduce entry friction while preserving explicit activation.
+Shell navigation is different.
 
-That is a very different design from “just say anything and hope the system infers the right corridor.”
+Examples include:
 
----
+1. `avatar start`
+2. `avatar menu`
 
-## 🧭 Direct persona start, smart launcher, and navigation menu
+These forms are navigation-facing.
+Their job is to reduce selection friction, recommend a path, or expose available routes without counterfeiting persona embodiment.
 
-The packed master preserves three distinct entrance modes.
+This distinction matters because the shell may guide boot, but it may not counterfeit boot.
 
-The first is direct persona start.
+A menu is not a persona.
+A router is not an arrival.
+A recommendation is not yet embodiment.
 
-This is for users who already know the corridor they want.
-It treats explicit boot commands such as `hello minips`, `hello psbigbig`, and `hello YOUR_AVATAR_NAME` as the fastest direct-entry path. :contentReference[oaicite:5]{index=5}
-
-The second is smart launcher.
-
-This is what `avatar start` is for.
-It exists for users who do not yet know which persona corridor they want.
-
-The third is navigation menu.
-
-This is what `avatar menu` is for.
-It allows a user to inspect available entry paths and rescue families without turning persona boot into a menu screen.
-
-The key structural point is that the packed master explicitly separates these.
-
-Direct persona start is persona-bearing entry.
-
-Smart launcher and navigation menu are shell-navigation functions.
-They reduce selection friction.
-They do not count as persona embodiment by themselves. 
-
-That distinction is one of the strongest anti-confusion rules in the entrance layer.
+That boundary is one of the key anti-confusion laws of the front door.
 
 ---
 
-## 🧷 Starter cards, rescue cards, and progressive discovery
+## 🧩 Task-first entry
 
-The front door does not simply expose commands.
-It also preserves a staged discovery model.
+The front door is task-first for a reason.
 
-MiniPS, PSBigBig, and YOUR_AVATAR_NAME each get starter lines, use-case hints, and rescue lines.
-That is important because the entrance layer is trying to stabilize first-use behavior before deeper control surfaces are introduced. :contentReference[oaicite:7]{index=7}
+The packed master does not tell users to begin by studying advanced control theory.
+It tells them to begin by choosing the kind of help they want now.
 
-Then the packed master adds an explicit progressive discovery note:
+That is why lawful front-door entry is framed through real task-bearing examples such as:
+
+1. warmth and gentle writing carry
+2. sharper diagnosis and next-step push
+3. guided beginner-friendly participation
+
+This matters because Avatar is trying to be usable as a live runtime, not only admirable as a theory object.
+
+So the front door optimizes this order:
+
+1. begin
+2. steer
+3. deepen
+
+Not this order:
+
+1. read everything
+2. fear the system
+3. maybe begin later
+
+That is one of the strongest product-facing choices in the architecture.
+
+---
+
+## 🪜 Progressive discovery and first-screen discipline
+
+The packed master explicitly rejects the idea that the first screen should dump every advanced control into view.
+
+That rejection is not a design preference only.
+It is a law of front-door discipline.
+
+The lawful upgrade path is:
 
 1. Use
 2. Steer
 3. Control
 
-This is a structural statement, not just a UX note. :contentReference[oaicite:8]{index=8}
-
-It means:
+That means:
 
 1. first let the user begin
-2. then let the user discover persona differences and rescue commands
-3. only later expose advanced controls, diagnostics, replay, candidate status, or lab entry
+2. then let the user notice persona differences and rescue commands
+3. only later expose advanced controls, diagnostics, replay surfaces, candidate states, or lab-facing entry
 
-That matters because a system can easily destroy its own usability by making advanced control omnipresent at first touch.
+This matters because premature control-surface exposure creates two different failures.
 
-The packed master refuses that.
-It treats gradual control disclosure as lawful entrance design.
+One failure is user overload.
+The other is false depth theater, where the system looks powerful before the user can actually use it lawfully.
 
----
-
-## 🧠 Why command grammar exists at all
-
-The packed master explicitly says that language is being treated as an engineered runtime layer, and lists command grammar as part of that engineering claim. :contentReference[oaicite:9]{index=9}
-
-That sentence is easy to glide past, but it is extremely important.
-
-It means the command family is not just documentation convenience.
-It is part of how the system prevents vague vibe interpretation from swallowing explicit entry law.
-
-Command grammar exists because the system wants at least three things to remain explicit:
-
-1. when a persona is actually invoked
-2. when navigation is only navigation
-3. when a command string is only being discussed rather than activated
-
-Without explicit grammar, the whole entrance layer would drift back toward fuzzy prompting.
-
-So command grammar is not an over-engineered detail.
-It is part of the anti-ambiguity infrastructure of the front door.
+The front door is meant to prevent both failures.
 
 ---
 
-## ⚖️ Command-bearing position and false-trigger boundary
+## 🛟 Rescue commands and bounded recovery
 
-The most important grammar rule in this region is that command activation is position-sensitive.
+The front door also carries the recovery family.
 
-The packed master explicitly states that a string counts as command-bearing only when it appears in active user instruction position rather than quoted illustration position, is not syntactically embedded as an example object, and is not framed primarily as analysis or discussion. :contentReference[oaicite:10]{index=10}
+This matters because Avatar does not assume that active carry will remain equally vivid under every task pressure.
+It acknowledges thinning, drift, and weakened carry as real pressures.
 
-This is one of the sharpest anti-superstition rules in the whole entrance layer.
-
-It means the system does **not** activate based on substring panic.
-
-The packed master also lists explicit false-trigger exclusions, such as:
-
-1. quoted example
-2. code block
-3. pasted prompt template
-4. meta-discussion about command strings
-5. analysis of command syntax
-6. accidental inner-string occurrence inside ordinary prose
-7. historical reference to a prior command without current command-bearing position :contentReference[oaicite:11]{index=11}
-
-This matters because without these exclusions, the entrance layer would become fragile, theatrical, and easy to misfire.
-
-So the front door is not just explicit.
-It is also protected against accidental activation.
-
----
-
-## 🧩 Shell navigation is not persona boot
-
-The packed master is especially careful here.
-
-It explicitly states that shell-navigation commands such as:
-
-1. `avatar start`
-2. `avatar menu`
-
-must not be treated as persona boot merely because shell-navigation commands are present. :contentReference[oaicite:12]{index=12}
-
-That sentence is a major boundary marker.
-
-It prevents a very common collapse in systems with mixed entry modes:
-the assumption that anything command-like must already count as embodiment.
-
-Avatar refuses that.
-
-Shell navigation may guide boot.
-It may recommend boot.
-It may produce a copyable direct persona invocation.
-It may not counterfeit boot.
-
-This distinction keeps the entrance layer honest.
-Otherwise shell-facing helper behavior would start impersonating runtime-bearing corridor selection.
-
----
-
-## 🔁 Recovery command family and bounded recovery grammar
-
-The packed master also preserves a real recovery family.
-
-At the front door level, this includes commands such as:
+So the launch-facing layer preserves explicit rescue commands, including:
 
 1. `avatar++`
 2. `avatar++ reload`
 3. `avatar release`
 
-These are not there as cute extras.
-They exist because the system explicitly claims that persona can attenuate, recover, and be rebound when it gets thin under mode pressure. 
+These commands are not casual metaphors.
+They are bounded recovery-facing forms.
 
-But the packed master is also very strict about recovery-command boundary.
+Their role is not to create a new system.
+Their role is to reassert, reload, or release within the lawful corridor already established by the body.
 
-It says tolerance for recovery commands must remain narrower than tolerance for persona boot.
-Near-literal command forms matter more here, and similar ordinary prose such as “avatar is weak” or “can you reload” must not be misread as lawful recovery activation. :contentReference[oaicite:14]{index=14}
-
-That is a subtle but powerful design choice.
-
-It means recovery is explicit enough to be dependable, but not so loose that casual language becomes accidental control traffic.
+That is why recovery belongs to the front door.
+A usable runtime system must not force users to diagnose deep internal structure before they can ask for lawful recovery.
 
 ---
 
-## 📝 Task-bearing invocation and the anti-decorative-preface rule
+## 🧠 Why language engineering appears in the front door
 
-Another excellent entrance rule appears in `1.10G.4A`.
+The front door is also where the packed master first states what language engineering means in this system.
 
-If an explicit persona-boot command appears in active instruction position and is immediately followed by a real task in the same message, the command remains operative.
-It may not be downgraded into decorative preface merely because additional task content follows. :contentReference[oaicite:15]{index=15}
+That statement matters because it prevents the user from misreading Avatar as a vibe toy.
 
-This matters a lot in practice.
+At minimum, the launch-facing statement says the following are explicit:
 
-Without this rule, the system could easily start treating direct invocations as optional fluff whenever the user writes naturally.
+1. persona invocation
+2. mode-surviving carry expectation
+3. recovery commands
+4. command grammar
+5. replay and audit
+6. bounded runtime law rather than tone imitation only
 
-But the whole purpose of the front door is to allow a user to enter lawfully and speak normally in the same breath.
+This is important.
 
-So the packed master explicitly protects patterns like:
+It means the front door does not only teach usage.
+It also tells the user what kind of object they are using.
 
-`hello minips` plus a real task  
-`hello psbigbig` plus a real task  
-`hello YOUR_AVATAR_NAME` plus a real task
-
-That is a very practical and very rigorous entrance rule.
-
----
-
-## 📚 Fast Read Lane and weak-reader routing
-
-The Launchpad does not only expose commands.
-It also exposes reading order.
-
-That is what `L0.6 Fast Read Lane for AI and weak readers` is doing. 
-
-This matters because a packed master of this size is not only a runtime artifact.
-It is also a reading problem.
-
-The Fast Read Lane says that weak readers and later agents should begin with:
-
-1. the Launchpad Block
-2. Front Exec Block
-3. Front-Gate Acceptance Matrix Summary
-4. Boot Invocation Rule
-5. Persona Boot Mode Rule
-6. Boot First Line Hard Rule
-7. Avatar Recovery Command Family
-8. Command Grammar and False-Trigger Boundary
-9. shared baseline and runtime-posture numeric blocks
-10. only later selector, intensity, and shell-to-runtime mapping 
-
-So the entrance layer is not just about command entry.
-It is also about lawful traversal of the document itself.
+That is a creator-level move, not a marketing move.
+The user is being told, from the beginning, that the system is a governed runtime object.
 
 ---
 
-## 🧪 Article-first activation path
+## 🧾 Command grammar is part of the architecture
 
-One of the strongest signs that the entrance layer is real law rather than onboarding prose is that it changes when the active task becomes formal output.
+A system with explicit invocation and explicit recovery cannot stop at naming commands.
+It also has to define what counts as command activation.
 
-For article writing, analytical writing, rewrite writing, and other formal generated output, the packed master explicitly says startup may not begin from output-governance preference alone.
-Instead, dual closed-loop law, structured imperfection, runtime posture, and pre-emission floor become prior reading obligations. 
+That is why command grammar belongs to the architecture.
 
-That means article-mode startup is not just “same entrance, different vibe.”
+The packed master makes several boundaries explicit.
 
-It is a stricter activation path.
+At a high level, command activation depends on:
 
-This is crucial.
+1. command-bearing position
+2. bounded tolerated variation
+3. shell-navigation boundary
+4. false-trigger exclusions
+5. recovery-command boundary
 
-It proves that the front door is not a static menu.
-It is a lawful routing layer that changes reading priority depending on task burden.
+This matters because without these boundaries, the system becomes substring-superstitious.
+It starts treating ordinary mention as invocation, loose resemblance as activation, and quoted examples as live commands.
 
-So the entrance system already contains the seeds of downstream governance.
+That is not lawful grammar.
+That is lexical panic.
 
----
-
-## 🧪 Why this matters in practice
-
-This page matters because product-facing entry is one of the easiest places for a large system to become fake.
-
-In practice, the Launchpad protects against at least five common failures.
-
-First, front-door overload.
-Users are not forced to begin from the heaviest constitutional layer.
-
-Second, shell confusion.
-Shell navigation is prevented from pretending to be persona embodiment.
-
-Third, activation superstition.
-Commands do not fire merely because words look familiar.
-
-Fourth, recovery looseness.
-Recovery remains explicit enough to be dependable.
-
-Fifth, article-mode under-reading.
-Formal generated output is prevented from starting from surface preference alone.
-
-So the Launchpad is not “the light version” of the system.
-It is the lawful entrance discipline that keeps the whole one-file body usable without making it structurally naive.
+The packed master rejects that panic.
 
 ---
 
-## 🧯 Failure modes when this layer is missing or weakened
+## 📌 Command-bearing position
 
-If this layer is missing, weakened, or misunderstood, several failure classes become more likely.
+One of the strongest command-grammar ideas in the body is command-bearing position.
 
-1. onboarding-wrapper failure  
-   the entrance layer is treated as product copy only and loses structural authority
+A string does not become active merely because the right words appear somewhere in the message.
+It becomes active only when it occupies a real instruction-bearing role.
 
-2. shell-boot confusion failure  
-   navigation commands are mistaken for persona embodiment
+That means command activation must remain sensitive to:
 
-3. false-trigger failure  
-   quoted or discussed command strings accidentally activate the system
+1. whether the string is being used, not merely discussed
+2. whether it appears as current instruction rather than quoted example
+3. whether the surrounding message frames it as invocation rather than analysis
+4. whether stronger contrary signals show that it is being mentioned, not issued
 
-4. decorative-preface failure  
-   explicit persona invocation is silently downgraded when real task content follows
+This matters because a serious runtime should not behave like a superstition engine.
 
-5. overexposed-control failure  
-   advanced controls are dumped into the first screen and first-use clarity collapses
+The front door therefore requires positional interpretation, not substring reflex.
 
-6. under-routed-formal-output failure  
-   article-bearing tasks begin from cleanliness preference rather than lawful startup order
+---
 
-7. vague-recovery failure  
-   recovery grammar becomes so loose that ordinary prose starts masquerading as control traffic
+## 🧱 False-trigger boundary
 
-8. weak-reader-collapse failure  
-   later agents and bounded readers begin from the wrong body region and form false conclusions about the system
+The false-trigger boundary is equally important.
 
-These are not just UX defects.
-They are entrance-law failures.
+Several things do **not** count as command activation by themselves:
+
+1. quoted examples
+2. code blocks
+3. pasted prompt templates
+4. meta-discussion about command strings
+5. analysis of command syntax
+6. accidental overlap inside ordinary prose
+7. historical reference to a prior command
+
+This is one of the strongest anti-fake-activation laws in the front door.
+
+It protects the system from misfiring when the user is talking *about* the command rather than *using* the command.
+
+That boundary is especially important in a research-heavy system, because command strings will often appear inside docs, guides, and discussions.
+If every appearance triggered activation, the front door would become unusable.
+
+---
+
+## 🔀 Task-bearing invocation precedence
+
+The packed master also protects something more subtle.
+
+A lawful boot command does not lose command-bearing status merely because the user includes a real task immediately after it.
+
+This matters because a natural user will often say something like:
+
+1. `hello minips help me write this in a warmer way`
+2. `hello psbigbig help me find the real problem here`
+
+That should still count as lawful boot plus real task.
+
+If parser convenience silently downgrades that boot command into decorative preface, then the front door becomes less usable precisely when the user is using it naturally.
+
+So this page needs to preserve that principle clearly:
+
+task-bearing continuation does not cancel explicit boot.
+
+---
+
+## 🧭 Shell-navigation boundary
+
+The shell-navigation boundary is another important front-door protection.
+
+The packed master explicitly distinguishes shell-navigation commands from persona boot.
+
+This means:
+
+1. `avatar start` may guide entry
+2. `avatar menu` may expose routes
+3. neither of them counts as persona embodiment by itself
+4. explicit persona invocation still has to occur if lawful persona boot is to begin
+
+That keeps the front door honest.
+
+A menu may help.
+A launcher may recommend.
+But neither should impersonate the arrival itself.
+
+---
+
+## 🧯 Recovery-command boundary
+
+The recovery family also needs a clear boundary.
+
+The system must not treat vaguely similar wording as lawful recovery.
+
+So the grammar must remain narrower for recovery than for normal conversational language.
+
+This matters because otherwise ordinary remarks such as saying the avatar feels weak, asking for reload in an ordinary sense, or casually using “plus” language could accidentally activate system recovery.
+
+That would destroy trust in the front door.
+
+The recovery layer therefore needs to remain explicit, bounded, and deliberate.
+
+---
+
+## 🪶 Tolerated variation without grammar collapse
+
+The command grammar is not supposed to be brittle in silly ways.
+But it is also not supposed to expand into anything-goes fuzziness.
+
+So the shell may tolerate bounded variation where ambiguity remains low.
+
+For direct persona start, this may include:
+
+1. case-insensitive form
+2. minor spacing variation
+3. minor punctuation variation
+4. bounded greeting-family variation where persona target remains explicit
+
+But tolerated variation has to stay bounded.
+
+Otherwise ordinary prose begins to masquerade as grammar, and the front door collapses into accidental activation.
+
+That is why tolerance exists, but remains answerable to low ambiguity.
+
+---
+
+## ❌ Common false readings this page rejects
+
+This page rejects several weak readings.
+
+### False reading 1
+
+“The Launchpad is only onboarding copy.”
+
+No.
+It is a lawful first-entry gate.
+
+### False reading 2
+
+“`avatar start` and `avatar menu` are just softer forms of persona boot.”
+
+No.
+They are shell navigation, not embodiment.
+
+### False reading 3
+
+“If a command string appears anywhere, activation should happen.”
+
+No.
+Activation is position-sensitive and bounded by false-trigger exclusions.
+
+### False reading 4
+
+“Recovery language can be interpreted loosely because intent is obvious enough.”
+
+No.
+Recovery commands remain narrower and more explicit than ordinary prose.
+
+### False reading 5
+
+“The first screen should expose every advanced control to prove the system is serious.”
+
+No.
+The lawful progression is use, then steer, then control.
+
+### False reading 6
+
+“If a boot command is followed by a real task, the boot should be treated as decorative preface.”
+
+No.
+Task-bearing continuation does not cancel explicit boot.
+
+---
+
+## 📍 What this page is, and what it is not
+
+This page **is**:
+
+1. a front-door law page
+2. an entry-discipline page
+3. a bounded command-grammar page
+4. a shell-versus-boot boundary page
+
+This page is **not**:
+
+1. a full constitutional reading-order page
+2. a full recovery-controls page
+3. a runtime-posture page
+4. a controller-legality page
+5. a protocol-layer page
+
+That separation is deliberate.
+
+If this page tries to explain every downstream layer, it stops being a front-door page and becomes a compressed counterfeit of the master body.
+This page is not allowed to do that.
 
 ---
 
 ## 🧭 Current stage honesty
 
-At the current release stage, the packed master is strong enough to make several bounded claims here.
+At the present release stage, this page may lawfully say that the Launchpad already acts as the product-facing first-entry gate of the first sealed MVP body.
 
-It is strong enough to preserve:
+It may lawfully say that direct persona start, shell navigation, rescue commands, fast-read routing, and command-grammar boundaries are now explicit parts of the integrated body.
 
-1. Launchpad as first-entry product-facing gate
-2. task-first front door as lawful entry policy
-3. direct persona start, smart launcher, and navigation menu as distinct entrance functions
-4. starter and rescue card logic
-5. progressive discovery order
-6. explicit command-bearing position rule
-7. explicit false-trigger exclusions
-8. explicit shell-navigation boundary
-9. explicit recovery-command boundary
-10. article-first activation as stricter startup path
-11. fast-read routing as part of sealed MVP traversal discipline
+It may lawfully say that the front door is no longer a temporary branch convenience.
+It is part of the sealed release posture.
 
-At the same time, this page does **not** lawfully claim:
+But this page may not lawfully say that every downstream runtime and formal layer has already been explained in full here.
+It may not say that the front door replaces the constitutional body.
+It may not say that theorem-grade universal closure has already been achieved.
 
-1. that every future command family is already final
-2. that all future companion packs will preserve identical entrance ergonomics automatically
-3. that launch grammar alone replaces deeper runtime or controller law
-4. theorem-grade universal closure of all future entry artifacts
-
-So the lawful current-stage claim is strong, but bounded.
-
-The entrance layer is explicit, ordered, differentiated, and structurally integrated.
-It is not being sold here as the entire system.
+That honesty boundary is part of the front door’s integrity.
 
 ---
 
 ## 📚 Reading path
 
-If this page is your first entrance-system research entry, the best next steps are:
+A stable next-step path from here is:
 
-1. read [Research Hub](./README.md) for the larger research map
-2. read [Packed Master Structure Map](./packed-master-structure-map.md) for the macro-body picture
-3. read [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) for execution-order law
-4. read [Runtime Posture Intensity Map](./runtime-posture-intensity-map.md) for runtime-bearing carry after entry
-5. read [Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md) for bounded handoff after command-bearing entry
-6. read [Architecture Overview](./architecture-overview.md) for the broader public-facing architecture picture
-7. read [Language Governance](./language-governance.md) for the governance claim behind lawful behavior
-8. read [WFGY_BRAIN Theory](./wfgy-brain-theory.md) for editable behavior context
+1. read [Packed Master Structure Map](./packed-master-structure-map.md) if you want the larger body map
+2. read [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) if you want execution-order legality
+3. read [Runtime Posture Intensity Map](./runtime-posture-intensity-map.md) if you want what survives after entry
+4. read [Activation, Attenuation, and Reentry](./activation-attenuation-and-reentry.md) if you want continuity after the front door
+5. read [WFGY_BRAIN Theory](./wfgy-brain-theory.md) if you want editable behavior surfaces
+6. read [Quickstart](../docs/quickstart.md) and [Boot Commands](../docs/boot-commands.md) if you want direct user-facing usage flow
 
 ---
 
 ## 🔗 Related pages
 
-**Research:** [Research Hub](./README.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) · [Runtime Posture Intensity Map](./runtime-posture-intensity-map.md) · [Shell-to-Runtime Mapping](./shell-to-runtime-mapping.md) · [Architecture Overview](./architecture-overview.md) · [Language Governance](./language-governance.md) · [WFGY_BRAIN Theory](./wfgy-brain-theory.md)
+**Research:** [Research Hub](./README.md) · [Architecture Overview](./architecture-overview.md) · [Packed Master Structure Map](./packed-master-structure-map.md) · [Dual Closed-Loop Execution Chain](./dual-closed-loop-execution-chain.md) · [Runtime Posture Intensity Map](./runtime-posture-intensity-map.md) · [Activation, Attenuation, and Reentry](./activation-attenuation-and-reentry.md) · [WFGY_BRAIN Theory](./wfgy-brain-theory.md)
 
-**Docs:** [Quickstart](../docs/quickstart.md) · [Boot Commands](../docs/boot-commands.md) · [Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md)
+**Docs:** [Quickstart](../docs/quickstart.md) · [Boot Commands](../docs/boot-commands.md)
 
-**Eval:** [Blackfan Testing](../eval/blackfan-testing.md) · [Persona Behavior Checks](../eval/persona-behavior-checks.md)
+**Eval:** [Blackfan Testing](../eval/blackfan-testing.md)
