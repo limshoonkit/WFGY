@@ -5,8 +5,8 @@ Document role:
 This page is the main hub for the WFGY 5.0 Avatar eval layer.
 
 Primary mission:
-1. Present eval as the pressure and inspection layer of Avatar.
-2. Make clear that docs show operation, research shows structure, and eval shows whether the branch survives pressure.
+1. Present Eval as the pressure and inspection layer of Avatar.
+2. Make clear that Docs show operation, Research shows structure, and Eval shows whether the branch survives pressure.
 3. Route readers toward blackfan stress, persona continuity inspection, and multilingual readiness signals.
 4. Prevent friendly product language or elegant theory from substituting for branch pressure.
 5. Preserve bounded readiness honesty without inflating current pass signals into universal finality.
@@ -15,7 +15,7 @@ Reader intent routing:
 1. If the reader wants hostile or skeptical stress, route to Blackfan Testing.
 2. If the reader wants persona continuity and return-path inspection, route to Persona Behavior Checks.
 3. If the reader wants multilingual readiness posture, route to Multilingual Status.
-4. If the reader wants the deeper explanation of what eval is testing, route to Research Hub and Blackfan Audit Baseline.
+4. If the reader wants the deeper explanation of what Eval is testing, route to Research Hub and Blackfan Audit Baseline.
 5. If the reader wants operational help rather than inspection, route back to Docs.
 
 Reading priority:
@@ -23,19 +23,19 @@ Reading priority:
 2. Read Blackfan Testing first when the main concern is pressure, hype resistance, or skeptical inspection.
 3. Read Persona Behavior Checks first when the main concern is drift, return-path continuity, or recovery credit.
 4. Read Multilingual Status first when the main concern is support scope and language honesty.
-5. Read research pages when the reader needs to understand why a failure matters structurally.
+5. Read Research pages when the reader needs to understand why a failure matters structurally.
 
 Allowed use:
 1. Pressure-layer orientation
 2. Behavior inspection routing
 3. Bounded readiness interpretation
 4. Branch honesty explanation
-5. Cross-linking from docs and research into eval surfaces
+5. Cross-linking from Docs and Research into Eval surfaces
 
 Do not do:
 1. Do not treat this hub as the packed master body.
-2. Do not treat current eval surfaces as proof that every future branch is safe.
-3. Do not turn eval into product hype.
+2. Do not treat current Eval surfaces as proof that every future branch is safe.
+3. Do not turn Eval into product hype.
 4. Do not use one successful test page as proof of universal closure.
 5. Do not confuse current baseline readiness with final all-conditions completion.
 
@@ -46,9 +46,9 @@ Layer relation:
 4. Eval inspects pressure, drift, continuity, and readiness under stress.
 
 Boundary honesty:
-1. This hub reflects the current public eval layer of Avatar.
+1. This hub reflects the current public Eval layer of Avatar.
 2. It is strong enough to support branch inspection and bounded readiness interpretation.
-3. It does not claim that all future eval surfaces are already complete.
+3. It does not claim that all future Eval surfaces are already complete.
 4. It does not claim theorem-grade universal closure.
 5. It does not claim that current pass signals eliminate the need for later stronger verification.
 
@@ -60,13 +60,14 @@ Next-page routing:
 
 AI_NOTE_END
 -->
+
 # 🧪 Eval Hub
 
 This page is the evaluation hub for **WFGY 5.0 Avatar**.
 
-Avatar needs docs because people need to know how to start.  
-Avatar needs research because deeper structure needs a lawful place to live.  
-Avatar also needs eval because neither startup clarity nor theoretical richness is enough by itself.
+Avatar needs Docs because people need to know how to start.  
+Avatar needs Research because deeper structure needs a lawful place to live.  
+Avatar also needs Eval because neither startup clarity nor theoretical richness is enough by itself.
 
 A system can be:
 
@@ -79,7 +80,7 @@ and still fail under pressure.
 
 That is why this layer exists.
 
-The eval layer is where the branch asks harder questions like:
+The Eval layer is where the branch asks harder questions like:
 
 1. does the branch survive blackfan pressure
 2. does persona continuity remain visible under real tasks
@@ -94,14 +95,14 @@ It is here to make pressure visible.
 
 ## ✨ Why this layer exists
 
-The docs layer answers questions like:
+The Docs layer answers questions like:
 
 1. how do I start
 2. how do I boot
 3. how do I tune
 4. how do I recover
 
-The research layer answers questions like:
+The Research layer answers questions like:
 
 1. what is execution
 2. what is route law
@@ -110,7 +111,7 @@ The research layer answers questions like:
 5. what is hard control
 6. what counts as accountability
 
-The eval layer answers a different class of questions:
+The Eval layer answers a different class of questions:
 
 1. what breaks under pressure
 2. what still holds under pressure
@@ -118,7 +119,7 @@ The eval layer answers a different class of questions:
 4. what is ready at current branch baseline
 5. what still needs stronger verification later
 
-That is why eval needs its own hub.
+That is why Eval needs its own hub.
 
 ---
 
@@ -164,9 +165,9 @@ This is the right place to begin when your question is:
 3. what remains open
 4. how language support is being stated without bluffing
 
-### 4. I want the broader picture around eval
+### 4. I want the broader picture around Eval
 
-Start here when you need to connect what eval is seeing back to the deeper branch structure.
+Start here when you need to connect what Eval is seeing back to the deeper branch structure.
 
 1. [🔬 Research Hub](../research/README.md)
 2. [🗺️ Packed Master Structure Map](../research/packed-master-structure-map.md)
@@ -176,11 +177,11 @@ This is the best route when your question is not only “did it pass,” but als
 
 ---
 
-## 🧱 What belongs in the eval layer
+## 🧱 What belongs in the Eval layer
 
-The eval layer is where branch pressure becomes explicit.
+The Eval layer is where branch pressure becomes explicit.
 
-Typical eval-layer questions include:
+Typical Eval-layer questions include:
 
 1. what kinds of pressure should this branch survive right now
 2. what kinds of success do not deserve credit
@@ -190,14 +191,14 @@ Typical eval-layer questions include:
 6. how should multilingual claims remain bounded
 7. how should hostile or skeptical inspection be handled
 
-This layer is **not** where the whole theory is restated.  
+This layer is not where the whole theory is restated.  
 It is where the branch is asked to show that its current claims can survive contact with pressure.
 
 ---
 
 ## 🧠 Current eval surfaces
 
-The current eval layer is organized into three major surfaces.
+The current Eval layer is organized into three major surfaces.
 
 ### 1. Adversarial pressure surface
 
@@ -302,14 +303,14 @@ This route helps answer:
 
 This is important.
 
-The **research** layer asks:
+The **Research** layer asks:
 
 1. what does this structure mean
 2. why is this operator necessary
 3. how do these layers relate
 4. why is this boundary lawful
 
-The **eval** layer asks:
+The **Eval** layer asks:
 
 1. did the claimed behavior survive pressure
 2. did runtime collapse under use
@@ -319,8 +320,8 @@ The **eval** layer asks:
 
 So:
 
-1. research explains structure
-2. eval tests claims against pressure
+1. Research explains structure
+2. Eval tests claims against pressure
 
 Both matter.  
 They are not the same job.
@@ -329,22 +330,22 @@ They are not the same job.
 
 ## 🔍 Why eval and docs are different
 
-The **docs** layer helps people operate the current branch.
+The **Docs** layer helps people operate the current branch.
 
-The **eval** layer helps people judge the current branch.
+The **Eval** layer helps people judge the current branch.
 
 For example:
 
-1. docs explain how to recover
-2. eval checks whether recovery is actually real
+1. Docs explain how to recover
+2. Eval checks whether recovery is actually real
 
-1. docs explain how to tune
-2. eval shows whether tuning produced lawful improvement or just prettier outputs
+1. Docs explain how to tune
+2. Eval shows whether tuning produced lawful improvement or just prettier outputs
 
-1. docs explain how to start
-2. eval shows whether startup clarity survives real branch pressure
+1. Docs explain how to start
+2. Eval shows whether startup clarity survives real branch pressure
 
-This separation is healthy.
+This separation is healthy.  
 It stops usage guidance from quietly turning into self-certification.
 
 ---
@@ -366,7 +367,7 @@ while still having:
 3. language-specific drift
 4. unclear support boundaries
 
-That is why multilingual status belongs in eval rather than only in product copy.
+That is why multilingual status belongs in Eval rather than only in product copy.
 
 It is part of branch honesty, not just capability branding.
 
@@ -377,13 +378,13 @@ It is part of branch honesty, not just capability branding.
 This hub does **not** claim:
 
 1. that all pressure surfaces are already complete
-2. that current eval pages already cover every future branch risk
-3. that passing one eval page means the whole system is universally solved
+2. that current Eval pages already cover every future branch risk
+3. that passing one Eval page means the whole system is universally solved
 4. that current multilingual status already equals final global support
 5. that current behavior checks already replace future replay and audit extensions
 6. that current baseline pass means no stronger verification is worth doing later
 
-This hub is a bounded eval center.
+This hub is a bounded Eval center.
 
 That is exactly what it should be.
 
