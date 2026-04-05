@@ -56,7 +56,7 @@ PSBigBig x MiniPS: big big welcome, mini singularities.
 
 # ⭐️ WFGY 5.0 Avatar
 
-> A protocol layer for engineered language and human machine interaction.
+> A protocol layer for engineered language and human machine interaction. (now in beta only, will launch very soon)
 
 [![WFGY Avatar](https://github.com/user-attachments/assets/5f220659-8245-4cb0-8d13-6d287eacde70)](https://github.com/onestardao/WFGY/blob/main/Avatar/README.md)
 
