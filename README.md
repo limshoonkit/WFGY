@@ -58,7 +58,8 @@ PSBigBig x MiniPS: big big welcome, mini singularities.
 
 > A protocol layer for engineered language and human machine interaction.
 
-[![WFGY Avatar](https://github.com/user-attachments/assets/876c15a5-ceb3-4697-a019-719b6ab06133)](https://github.com/onestardao/WFGY/blob/main/Avatar/README.md)
+[![WFGY Avatar](https://github.com/user-attachments/assets/5f220659-8245-4cb0-8d13-6d287eacde70)](https://github.com/onestardao/WFGY/blob/main/Avatar/README.md)
+
 
 A governed runtime for building, tuning, multiplying, and carrying language selves across sessions, tasks, and worlds.
 
