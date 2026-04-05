@@ -2,424 +2,455 @@
 AI_NOTE_START
 
 Document role:
-This page is the evaluation hub for WFGY 5.0 Avatar.
+This page is the main hub for the WFGY 5.0 Avatar eval layer.
 
-What this page is for:
-1. Explain what the eval layer is for.
-2. Show how Avatar should be inspected beyond first impressions.
-3. Introduce the current public evaluation surfaces.
-4. Help readers understand that proof, drift checking, and route stability matter.
-5. Keep the current eval layer honest, modular, and easy to expand later.
+Primary mission:
+1. Present Eval as the pressure and inspection layer of Avatar.
+2. Make clear that Docs show operation, Research shows structure, and Eval shows whether the branch survives pressure.
+3. Route readers toward blackfan stress, persona continuity inspection, and multilingual readiness signals.
+4. Prevent friendly product language or elegant theory from substituting for branch pressure.
+5. Preserve bounded readiness honesty without inflating current pass signals into universal finality.
 
-What this page is not:
-1. Not the full research layer.
-2. Not the full multilingual report.
-3. Not the full blackfan attack log.
-4. Not a claim that all evaluation work is already complete.
-5. Not a replacement for demos, workflow, or architecture pages.
+Reader intent routing:
+1. If the reader wants hostile or skeptical stress, route to Blackfan Testing.
+2. If the reader wants persona continuity and return-path inspection, route to Persona Behavior Checks.
+3. If the reader wants multilingual readiness posture, route to Multilingual Status.
+4. If the reader wants the deeper explanation of what Eval is testing, route to Research Hub and Blackfan Audit Baseline.
+5. If the reader wants operational help rather than inspection, route back to Docs.
 
-How to use this page:
-1. Read this page as the map of the current eval layer.
-2. Use the linked pages to inspect specific evaluation surfaces.
-3. Treat this layer as a credibility and inspection layer, not as the first onboarding page.
-4. Return here when you want to verify route strength, drift, or current multilingual status.
-5. Expect this layer to grow over time.
+Reading priority:
+1. Read this hub as an inspection map, not as a theory page.
+2. Read Blackfan Testing first when the main concern is pressure, hype resistance, or skeptical inspection.
+3. Read Persona Behavior Checks first when the main concern is drift, return-path continuity, or recovery credit.
+4. Read Multilingual Status first when the main concern is support scope and language honesty.
+5. Read Research pages when the reader needs to understand why a failure matters structurally.
 
-Important boundary:
-The eval layer is meant to make Avatar more legible, more checkable, and more honest.
-It does not claim that every evaluation dimension is already fully closed today.
+Allowed use:
+1. Pressure-layer orientation
+2. Behavior inspection routing
+3. Bounded readiness interpretation
+4. Branch honesty explanation
+5. Cross-linking from Docs and Research into Eval surfaces
+
+Do not do:
+1. Do not treat this hub as the packed master body.
+2. Do not treat current Eval surfaces as proof that every future branch is safe.
+3. Do not turn Eval into product hype.
+4. Do not use one successful test page as proof of universal closure.
+5. Do not confuse current baseline readiness with final all-conditions completion.
+
+Layer relation:
+1. Product landing presents the flagship surface.
+2. Docs supports operation.
+3. Research explains structure and law.
+4. Eval inspects pressure, drift, continuity, and readiness under stress.
+
+Boundary honesty:
+1. This hub reflects the current public Eval layer of Avatar.
+2. It is strong enough to support branch inspection and bounded readiness interpretation.
+3. It does not claim that all future Eval surfaces are already complete.
+4. It does not claim theorem-grade universal closure.
+5. It does not claim that current pass signals eliminate the need for later stronger verification.
+
+Next-page routing:
+1. For hostile stress, go to Blackfan Testing.
+2. For behavior continuity, go to Persona Behavior Checks.
+3. For multilingual scope, go to Multilingual Status.
+4. For deeper structural explanation, go to Research Hub and Blackfan Audit Baseline.
 
 AI_NOTE_END
 -->
 
-# 📊 Eval Hub
+# 🧪 Eval Hub
 
-This page is the public evaluation hub for **WFGY 5.0 Avatar**.
+This page is the evaluation hub for **WFGY 5.0 Avatar**.
 
-Its purpose is simple:
+Avatar needs Docs because people need to know how to start.  
+Avatar needs Research because deeper structure needs a lawful place to live.  
+Avatar also needs Eval because neither startup clarity nor theoretical richness is enough by itself.
 
-**Avatar should not only feel interesting**
-  
-**it should also become easier to inspect**
+A system can be:
+
+1. easy to start
+2. elegant to describe
+3. dense in theory
+4. strong in local demos
+
+and still fail under pressure.
 
 That is why this layer exists.
 
-A lot of systems stop at:
+The Eval layer is where the branch asks harder questions like:
 
-- demos
-- vibe
-- screenshots
-- one good output
-- one impressive moment
+1. does the branch survive blackfan pressure
+2. does persona continuity remain visible under real tasks
+3. does the system stay honest about what is ready and what is still open
+4. does multilingual status remain bounded instead of overclaimed
+5. do return-path and behavior checks reflect real continuity instead of surface-only success
 
-That is not enough.
-
-Avatar is trying to grow into something more legible than that.
-
-This eval layer exists to help answer questions like:
-
-- does the route stay recognizable
-- does it drift too fast
-- does the build stay reusable
-- does the multilingual branch hold up
-- does the route collapse under blackfan pressure
-- is the behavior getting stronger or just getting louder
-
-Those are worth checking.
+This hub is not here to replace the body.  
+It is here to make pressure visible.
 
 ---
 
-## ✨ Why the Eval Layer Matters
+## ✨ Why this layer exists
 
-A product like Avatar makes large claims.
+The Docs layer answers questions like:
 
-It talks about things like:
+1. how do I start
+2. how do I boot
+3. how do I tune
+4. how do I recover
 
-- governed behavior
-- natural-language tuning
-- reusable builds
-- multilingual calibration
-- one runtime, many avatars
+The Research layer answers questions like:
 
-Those claims become much more trustworthy when the product also grows a real inspection layer.
+1. what is execution
+2. what is route law
+3. what is runtime carry
+4. why does structured imperfection matter
+5. what is hard control
+6. what counts as accountability
 
-That does not mean everything must become dry or joyless.
+The Eval layer answers a different class of questions:
 
-It means the system should have places where people can check:
+1. what breaks under pressure
+2. what still holds under pressure
+3. what looks successful but is actually counterfeit
+4. what is ready at current branch baseline
+5. what still needs stronger verification later
 
-- what works
-- what still drifts
-- what is promising
-- what is not ready
-- what is stable enough to keep
-- what still needs work
-
-That is healthy.
-
-Without an eval layer, a system can still feel exciting.
-
-With an eval layer, it becomes easier to take seriously.
+That is why Eval needs its own hub.
 
 ---
 
-## 🧠 What This Layer Is Trying to Evaluate
+## 🧭 How to use this hub
 
-The eval layer is not only about “good or bad output.”
+Use this hub in one of four ways.
 
-It is trying to inspect things that matter more deeply for Avatar.
+### 1. I want stress and adversarial pressure
 
-Examples include:
+Start here when the main question is whether the branch survives harsh inspection instead of friendly reading.
 
-- route recognizability
-- behavior stability
-- editability without collapse
-- reusability across tasks
-- multilingual drift
-- strength under pressure
-- difference between real improvement and surface polish
-- whether a branch deserves to be kept
+1. [🧨 Blackfan Testing](./blackfan-testing.md)
 
-These are more interesting questions than:
+This is the right place to begin when your question is:
 
-- does it sound cool once
-- does it feel dramatic
-- does it produce one beautiful answer
+1. where does the branch crack
+2. what happens under hostile evaluation
+3. how should current branch strength be interpreted without hype
 
-Avatar is trying to move beyond momentary impressiveness.
+### 2. I want behavior continuity inspection
 
-This layer helps support that.
+Start here when the main question is whether active persona and behavior actually survive across turns, tasks, and returns.
+
+1. [🧭 Persona Behavior Checks](./persona-behavior-checks.md)
+
+This is the right place to begin when your question is:
+
+1. did the persona stay alive
+2. did return-path recovery actually work
+3. did the output become generic after pressure
+4. did visible behavior stay lawful instead of merely recognizable
+
+### 3. I want multilingual readiness signals
+
+Start here when the main question is what the current branch is honestly claiming across language scope.
+
+1. [🌍 Multilingual Status](./multilingual-status.md)
+
+This is the right place to begin when your question is:
+
+1. what is already tested
+2. what is only partial
+3. what remains open
+4. how language support is being stated without bluffing
+
+### 4. I want the broader picture around Eval
+
+Start here when you need to connect what Eval is seeing back to the deeper branch structure.
+
+1. [🔬 Research Hub](../research/README.md)
+2. [🗺️ Packed Master Structure Map](../research/packed-master-structure-map.md)
+3. [🧪 Blackfan Audit Baseline](../research/blackfan-audit-baseline.md)
+
+This is the best route when your question is not only “did it pass,” but also “what exactly was being tested and why.”
 
 ---
 
-## 🪜 How to Read This Layer
+## 🧱 What belongs in the Eval layer
 
-The eval layer is best read as a set of focused surfaces.
+The Eval layer is where branch pressure becomes explicit.
 
-It is not one giant final score.
+Typical Eval-layer questions include:
 
-Different pages look at different kinds of questions.
+1. what kinds of pressure should this branch survive right now
+2. what kinds of success do not deserve credit
+3. what kinds of drift are already detectable
+4. what counts as baseline-ready versus still-open
+5. how should visible behavior be checked across modes
+6. how should multilingual claims remain bounded
+7. how should hostile or skeptical inspection be handled
+
+This layer is not where the whole theory is restated.  
+It is where the branch is asked to show that its current claims can survive contact with pressure.
+
+---
+
+## 🧠 Current eval surfaces
+
+The current Eval layer is organized into three major surfaces.
+
+### 1. Adversarial pressure surface
+
+1. [🧨 Blackfan Testing](./blackfan-testing.md)
+
+This surface is about:
+
+1. hostile reading
+2. anti-hype pressure
+3. branch stress
+4. counterfeit-success detection
+5. bounded release honesty under attack
+
+### 2. Behavior continuity surface
+
+1. [🧭 Persona Behavior Checks](./persona-behavior-checks.md)
+
+This surface is about:
+
+1. persona continuity
+2. landing behavior
+3. return-path integrity
+4. drift after article, analysis, rewrite, search, or tool pressure
+5. whether recovery is real or only cosmetic
+
+### 3. Multilingual readiness surface
+
+1. [🌍 Multilingual Status](./multilingual-status.md)
+
+This surface is about:
+
+1. what language claims are actually supported
+2. what remains partial
+3. how language support is being described honestly
+4. how multilingual scope stays bounded instead of mythical
+
+---
+
+## 🪜 Suggested eval paths
+
+### Path A: skeptical reader path
+
+Use this path when the goal is to test whether the branch is only persuasive or actually pressure-bearing.
+
+1. [🧨 Blackfan Testing](./blackfan-testing.md)
+2. [🧪 Blackfan Audit Baseline](../research/blackfan-audit-baseline.md)
+3. [🗺️ Packed Master Structure Map](../research/packed-master-structure-map.md)
+
+This route helps answer:
+
+1. what was stressed
+2. what kind of baseline pass is being claimed
+3. what remains bounded instead of inflated
+
+### Path B: runtime continuity path
+
+Use this path when the concern is whether persona and carry survive real usage.
+
+1. [🧭 Persona Behavior Checks](./persona-behavior-checks.md)
+2. [🔄 Activation, Attenuation, and Reentry](../research/activation-attenuation-and-reentry.md)
+3. [🎛️ Runtime Posture Intensity Map](../research/runtime-posture-intensity-map.md)
+4. [🔧 Persona Recovery Operations](../docs/persona-recovery-operations.md)
+
+This route helps answer:
+
+1. what drift happened
+2. whether return-path behavior stayed lawful
+3. whether recovery should receive credit
+
+### Path C: multilingual honesty path
+
+Use this path when the concern is language scope and readiness posture.
+
+1. [🌍 Multilingual Status](./multilingual-status.md)
+2. [🧮 Matrix Accountability and Numeric Binding](../research/matrix-accountability-and-numeric-binding.md)
+3. [🧪 Blackfan Audit Baseline](../research/blackfan-audit-baseline.md)
+
+This route helps answer:
+
+1. how support is being bounded
+2. whether language claims are being overstated
+3. how readiness stays honest
+
+### Path D: branch readiness path
+
+Use this path when the concern is “is this branch publicly real enough right now.”
+
+1. [🧪 Blackfan Audit Baseline](../research/blackfan-audit-baseline.md)
+2. [🧨 Blackfan Testing](./blackfan-testing.md)
+3. [🧭 Persona Behavior Checks](./persona-behavior-checks.md)
+4. [🌍 Multilingual Status](./multilingual-status.md)
+
+This route helps answer:
+
+1. what is already solid
+2. what still needs stronger verification
+3. what is release-baseline reality versus future strengthening
+
+---
+
+## 🔍 Why eval and research are different
+
+This is important.
+
+The **Research** layer asks:
+
+1. what does this structure mean
+2. why is this operator necessary
+3. how do these layers relate
+4. why is this boundary lawful
+
+The **Eval** layer asks:
+
+1. did the claimed behavior survive pressure
+2. did runtime collapse under use
+3. did route integrity actually hold
+4. did the branch receive credit it should not receive
+5. is the current branch being described honestly
+
+So:
+
+1. Research explains structure
+2. Eval tests claims against pressure
+
+Both matter.  
+They are not the same job.
+
+---
+
+## 🔍 Why eval and docs are different
+
+The **Docs** layer helps people operate the current branch.
+
+The **Eval** layer helps people judge the current branch.
 
 For example:
 
-- one page may check route stability
-- one page may track multilingual status
-- one page may examine blackfan-style pressure and failure modes
+1. Docs explain how to recover
+2. Eval checks whether recovery is actually real
 
-That modular structure is intentional.
+1. Docs explain how to tune
+2. Eval shows whether tuning produced lawful improvement or just prettier outputs
 
-It makes the eval layer easier to grow without pretending everything has already been fully unified.
+1. Docs explain how to start
+2. Eval shows whether startup clarity survives real branch pressure
 
----
-
-## 📂 Current Evaluation Surfaces
-
-The current public eval layer is organized around a few main surfaces.
-
-### 1. Persona Behavior Checks
-This surface is for checking whether an avatar route still feels like itself.
-
-Typical questions include:
-
-- is the route still recognizable
-- is it getting more generic
-- is it over-polishing
-- is it losing its center
-- is it still reusable after tuning
-
-👉 See: [🧪 Persona Behavior Checks](./persona-behavior-checks.md)
+This separation is healthy.  
+It stops usage guidance from quietly turning into self-certification.
 
 ---
 
-### 2. Multilingual Status
-This surface is for tracking the current public state of multilingual work.
+## 🌍 Why multilingual status belongs here
 
-Typical questions include:
+Language support is easy to overclaim.
 
-- which multilingual directions are being surfaced publicly
-- what does the current status actually mean
-- what does it not mean yet
-- where is the line between direction and completion
+A project can say:
 
-👉 See: [🌍 Multilingual Status](./multilingual-status.md)
+1. works in many languages
+2. supports multilingual use
+3. behaves well cross-lingually
 
----
+while still having:
 
-### 3. Blackfan Testing
-This surface is for checking how routes behave under more aggressive scrutiny.
+1. patchy behavior
+2. uneven readiness
+3. language-specific drift
+4. unclear support boundaries
 
-Typical questions include:
+That is why multilingual status belongs in Eval rather than only in product copy.
 
-- does the route collapse under hostile reading
-- does it become louder instead of stronger
-- does it become fake, sugary, or over-polished
-- does it survive pressure without losing all shape
-
-👉 See: [🪓 Blackfan Testing](./blackfan-testing.md)
+It is part of branch honesty, not just capability branding.
 
 ---
 
-## 🧪 What This Layer Is Not Doing Yet
+## 🧪 What this hub does not claim
 
-This eval hub is real, but it is still growing.
+This hub does **not** claim:
 
-That means it is **not** yet pretending to provide:
+1. that all pressure surfaces are already complete
+2. that current Eval pages already cover every future branch risk
+3. that passing one Eval page means the whole system is universally solved
+4. that current multilingual status already equals final global support
+5. that current behavior checks already replace future replay and audit extensions
+6. that current baseline pass means no stronger verification is worth doing later
 
-- one universal scoreboard
-- one final benchmark for everything
-- one completed multilingual matrix
-- one finished blackfan audit across all future avatars
-- one fully closed public proof layer for every branch
+This hub is a bounded Eval center.
 
-That is intentional.
-
-It is better to grow the eval layer honestly than to fake total closure too early.
-
-Right now, the right stance is:
-
-- real
-- useful
-- growing
-- not pretending to be finished
-
-That is the correct tone.
+That is exactly what it should be.
 
 ---
 
-## ⚖️ Why Evaluation Should Stay Honest
+## 🚀 Where to go next
 
-A weak eval layer can actually make a product less trustworthy.
+### For public product entry
+Go to [✨ Avatar Home](../README.md)
 
-For example, it is easy to create something that looks like evaluation but is really only:
+### For startup and commands
+Go to [⚡ Quickstart](../docs/quickstart.md) and [⌨️ Boot Commands](../docs/boot-commands.md)
 
-- presentation
-- confidence theater
-- pretty labels
-- inflated claims with no good boundaries
+### For reading order and tuning
+Go to [📖 How to Read the Avatar Master File](../docs/how-to-read-the-avatar-master-file.md), [🍳 Parameter Tuning Cookbook](../docs/parameter-tuning-cookbook.md), and [🔧 Persona Recovery Operations](../docs/persona-recovery-operations.md)
 
-That is not the goal here.
+### For deep structural reading
+Go to [🔬 Research Hub](../research/README.md)
 
-The goal is something more grounded:
+### For skeptical pressure
+Go to [🧨 Blackfan Testing](./blackfan-testing.md)
 
-- clear surfaces
-- honest limits
-- visible checks
-- modular expansion
-- route-specific inspection
+### For continuity inspection
+Go to [🧭 Persona Behavior Checks](./persona-behavior-checks.md)
 
-That is much healthier.
-
-It also fits Avatar better.
-
-Because Avatar is not trying to become a fake certainty machine.
-
-It is trying to become a more legible behavior system.
-
----
-
-## 🔁 How Eval Connects to the Workflow
-
-The eval layer is not separate from the actual user workflow.
-
-It connects directly to the tuning loop.
-
-A practical user may:
-
-1. boot a route
-2. run a task
-3. tune `WFGY_BRAIN`
-4. rerun the same task
-5. compare the result
-6. ask whether the route became stronger or only changed
-7. decide whether the branch is worth keeping
-
-That is already a small form of evaluation.
-
-The eval layer simply helps that process become more explicit and more shareable.
-
-It gives names and structure to checks that good users are already doing informally.
-
----
-
-## 🌍 Why Multilingual Evaluation Deserves Its Own Surface
-
-Multilingual work is too important to bury inside generic evaluation notes.
-
-Why?
-
-Because language change introduces special risks:
-
-- route drift
-- identity loss
-- over-formality
-- false warmth
-- over-smoothing
-- different emotional balance
-- changed public-writing force
-
-Those are real problems.
-
-So multilingual status deserves its own evaluation surface.
-
-That does not mean the whole multilingual problem is solved.
-
-It means the product is honest enough to give that question its own room.
-
-That is a good sign.
-
----
-
-## 🪓 Why Blackfan Evaluation Deserves Its Own Surface
-
-Blackfan-style evaluation matters for a different reason.
-
-It does not only ask:
-
-- does this look good when things go right
-
-It also asks:
-
-- what happens when the route is read aggressively
-- what happens when someone tries to expose the weakness
-- what happens when the system is pushed toward collapse
-- what happens when surface charm is attacked
-
-That kind of pressure matters because strong routes should survive more than friendly demos.
-
-They do not need to be perfect.
-
-But they should be able to survive scrutiny better than random prompt theater.
-
-That is why blackfan testing belongs here.
-
----
-
-## 🧩 Why This Layer Matters for Community Later
-
-The eval layer will also matter more once community-submitted avatars begin to grow.
-
-Because later, the ecosystem will need better ways to judge things like:
-
-- is this branch distinct
-- is this route actually reusable
-- is the multilingual note believable
-- is this avatar strong enough to surface publicly
-- is this submission only aesthetic, or does it have route substance
-
-That is where the eval layer becomes even more valuable.
-
-It can help community growth stay healthier over time.
-
-Not by pretending to be absolute.
-
-But by making more things checkable.
-
----
-
-## ⚠️ What This Page Does Not Claim
-
-This hub exists to help people inspect Avatar more clearly.
-
-It does **not** claim:
-
-- that all evaluation work is already complete
-- that every current page is fully populated
-- that every route already has public proof attached
-- that current multilingual status means full maturity
-- that blackfan testing is already exhaustive
-- that one hub page can summarize the whole product perfectly
-
-This page is a map.
-
-Not a fake final verdict.
-
-That difference matters.
-
----
-
-## 🚀 Why This Layer Makes the Product Bigger
-
-Without an eval layer, Avatar could still be interesting.
-
-With an eval layer, the product becomes much more serious.
-
-It becomes easier to see Avatar as:
-
-- a tunable runtime
-- a route system
-- a branchable avatar workspace
-- a multilingual calibration surface
-- a future community ecosystem with stronger legibility
-
-That is a much bigger and healthier direction.
-
-This is why the eval hub deserves its own place.
-
----
-
-## 🧭 Where To Go Next
-
-### If you want route-level inspection
-Go to [🧪 Persona Behavior Checks](./persona-behavior-checks.md)
-
-### If you want multilingual status
+### For language readiness
 Go to [🌍 Multilingual Status](./multilingual-status.md)
 
-### If you want pressure testing
-Go to [🪓 Blackfan Testing](./blackfan-testing.md)
-
-### If you want the tuning workflow
-Go to [🧭 Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md)
-
-### If you want the highlights map
-Go to [✨ Highlights Index](../highlights/README.md)
+### For audit posture
+Go to [🧪 Blackfan Audit Baseline](../research/blackfan-audit-baseline.md)
 
 ---
 
-## 🔗 Quick Links
+## 🔗 Quick links
 
-- [🏠 Avatar Home](../README.md)
-- [🧭 Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md)
+### Eval core
+- [🧨 Blackfan Testing](./blackfan-testing.md)
+- [🧭 Persona Behavior Checks](./persona-behavior-checks.md)
 - [🌍 Multilingual Status](./multilingual-status.md)
-- [🪓 Blackfan Testing](./blackfan-testing.md)
-- [✨ Highlights Index](../highlights/README.md)
+
+### Docs
+- [✨ Avatar Home](../README.md)
+- [⚡ Quickstart](../docs/quickstart.md)
+- [⌨️ Boot Commands](../docs/boot-commands.md)
+- [📖 How to Read the Avatar Master File](../docs/how-to-read-the-avatar-master-file.md)
+- [🍳 Parameter Tuning Cookbook](../docs/parameter-tuning-cookbook.md)
+- [🔧 Persona Recovery Operations](../docs/persona-recovery-operations.md)
+- [🛠️ Avatar Tuning Workflow](../docs/avatar-tuning-workflow.md)
+
+### Research
+- [🔬 Research Hub](../research/README.md)
+- [🗺️ Packed Master Structure Map](../research/packed-master-structure-map.md)
+- [🔁 Dual Closed-Loop Execution Chain](../research/dual-closed-loop-execution-chain.md)
+- [🎛️ Runtime Posture Intensity Map](../research/runtime-posture-intensity-map.md)
+- [🧩 Shell-to-Runtime Mapping](../research/shell-to-runtime-mapping.md)
+- [🧭 Selector Execution Domain](../research/selector-execution-domain.md)
+- [🔄 Activation, Attenuation, and Reentry](../research/activation-attenuation-and-reentry.md)
+- [🧬 Structured Imperfection Theory](../research/structured-imperfection-theory.md)
+- [🚦 Pre-Emission Floor and Hard Control](../research/pre-emission-floor-and-hard-control.md)
+- [🧮 Matrix Accountability and Numeric Binding](../research/matrix-accountability-and-numeric-binding.md)
+- [🧪 Blackfan Audit Baseline](../research/blackfan-audit-baseline.md)
+- [✂️ Compression and Non-Duplication Law](../research/compression-and-non-duplication-law.md)
+- [🏗️ Architecture Overview](../research/architecture-overview.md)
+- [🧭 Language Governance](../research/language-governance.md)
+- [🧠 WFGY_BRAIN Theory](../research/wfgy-brain-theory.md)
+
+### Up
+- [⬆️ Back to Avatar Home](../README.md)
 - [⬆️ Back to WFGY Root](../../README.md)
